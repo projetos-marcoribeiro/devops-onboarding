@@ -24,22 +24,22 @@ Este repositório é sincronizado automaticamente com o portal de documentação
 
 Se você acabou de entrar no time, comece por aqui:
 
-- ➡️ **[Getting Started](getting-started/introduction)** — acessos, ferramentas e setup do ambiente
-- ➡️ **[Platform Overview](platform-overview/platform-architecture)** — arquitetura, AWS, EKS, CI/CD e GitOps
-- ➡️ **[Training Camp](training-camp/training-overview)** — trilha de aprendizado guiado e skill matrix
-- ➡️ **[Hands-On Project](hands-on/hands-on-overview)** — deploy completo supervisionado
-- ➡️ **[Operations](operations/jira-workflows)** — trabalho operacional do dia a dia
-- ➡️ **[Incident Management](incident-management/incident-process)** — resposta a incidentes e postmortem
-- ➡️ **[On-call Readiness](oncall-readiness/oncall-readiness-checklist)** — checklist de prontidão para o plantão
+- ➡️ **[Getting Started](#/getting-started/introduction)** — acessos, ferramentas e setup do ambiente
+- ➡️ **[Platform Overview](#/platform-overview/platform-architecture)** — arquitetura, AWS, EKS, CI/CD e GitOps
+- ➡️ **[Training Camp](#/training-camp/training-overview)** — trilha de aprendizado guiado e skill matrix
+- ➡️ **[Hands-On Project](#/hands-on/hands-on-overview)** — deploy completo supervisionado
+- ➡️ **[Operations](#/operations/jira-workflows)** — trabalho operacional do dia a dia
+- ➡️ **[Incident Management](#/incident-management/incident-process)** — resposta a incidentes e postmortem
+- ➡️ **[On-call Readiness](#/oncall-readiness/oncall-readiness-checklist)** — checklist de prontidão para o plantão
 
 ### Outros recursos úteis
 
-- 📖 **[DevOps Journey](devops-journey/devops-journey-map)** — plano 30-60-90 dias e expectativas trimestrais
-- 🔧 **[DevOps Tools](devops-tools/kubectl)** — kubectl, AWS CLI, hotctl, Docker
-- 👥 **[Team Resources](team-resources/teamguide)** — mentoria, comunicação e TeamGuide
-- 🏢 **[Product Units](product-units/overview)** — recursos específicos de cada PU
-- 📘 **[Glossário](glossary/devops-glossary)** — termos e siglas da plataforma
-- 📊 **[Diagramas](diagrams/devops-journey-map)** — arquitetura, deploy e resposta a incidentes em Mermaid
+- 📖 **[DevOps Journey](#/devops-journey/devops-journey-map)** — plano 30-60-90 dias e expectativas trimestrais
+- 🔧 **[DevOps Tools](#/devops-tools/kubectl)** — kubectl, AWS CLI, hotctl, Docker
+- 👥 **[Team Resources](#/team-resources/teamguide)** — mentoria, comunicação e TeamGuide
+- 🏢 **[Product Units](#/product-units/overview)** — recursos específicos de cada PU
+- 📘 **[Glossário](#/glossary/devops-glossary)** — termos e siglas da plataforma
+- 📊 **[Diagramas](#/diagrams/devops-journey-map)** — arquitetura, deploy e resposta a incidentes em Mermaid
 
 ---
 
@@ -138,7 +138,7 @@ O onboarding completo tem duração aproximada de **3 meses**. O ritmo é ajusta
 | Terceiro mês | Autonomia parcial nas operações, preparação para on-call e início de contribuição em projetos trimestrais |
 
 Para mais detalhes, consulte o plano completo:
-📄 [`devops-journey/30-60-90-days.md`](devops-journey/30-60-90-days)
+📄 [`devops-journey/30-60-90-days.md`](#/devops-journey/30-60-90-days)
 
 ---
 

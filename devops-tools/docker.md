@@ -218,4 +218,4 @@ O Docker no dia a dia do DevOps é mais usado para:
 - Rodar ferramentas containerizadas localmente
 - Entender o que está dentro de uma imagem que está causando problema em produção
 
-Para rodar Docker localmente, use o Rancher Desktop conforme descrito em [`devops-tools/rancher-desktop.md`](rancher-desktop).
+Para rodar Docker localmente, use o Rancher Desktop conforme descrito em [`devops-tools/rancher-desktop.md`](#/devops-tools/rancher-desktop).

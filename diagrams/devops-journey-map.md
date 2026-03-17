@@ -72,5 +72,5 @@ flowchart TD
 
 ## Referências
 
-📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map)
-📄 [`devops-journey/30-60-90-days.md`](../devops-journey/30-60-90-days)
+📄 [`devops-journey/devops-journey-map.md`](#/devops-journey/devops-journey-map)
+📄 [`devops-journey/30-60-90-days.md`](#/devops-journey/30-60-90-days)

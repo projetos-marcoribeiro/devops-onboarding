@@ -53,13 +53,13 @@ Não existe uma duração fixa — o ritmo é ajustado conforme o background do 
 
 O Base Module é o módulo Terraform central da plataforma. Entender como ele funciona é fundamental porque praticamente toda infraestrutura de aplicação na Hotmart é provisionada através dele. O estudo cobre a estrutura do módulo, o YAML declarativo, os recursos criados automaticamente e as variantes disponíveis.
 
-📄 [`platform-overview/base-module.md`](../platform-overview/base-module)
+📄 [`platform-overview/base-module.md`](#/platform-overview/base-module)
 
 ### Observabilidade
 
 Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Datadog para infraestrutura, Prometheus para métricas internas, Grafana para visualização e PagerDuty para alertas. O engenheiro aprende a navegar nas ferramentas e a interpretar o que está vendo.
 
-📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
+📄 [`platform-overview/observability-stack.md`](#/platform-overview/observability-stack)
 
 ### Secrets Management
 
@@ -73,14 +73,14 @@ Metodologias e ferramentas para investigar problemas em ambientes distribuídos.
 
 Conceitos práticos de Kubernetes aplicados à plataforma Hotmart: pods, deployments, services, ingress, namespaces, Karpenter, EKS Pod Identity e como tudo isso se conecta.
 
-📄 [`platform-overview/eks-clusters.md`](../platform-overview/eks-clusters)
+📄 [`platform-overview/eks-clusters.md`](#/platform-overview/eks-clusters)
 
 ### Workflows DevOps
 
 Como os pipelines de CI/CD funcionam, o modelo GitOps com ArgoCD, os workflows reutilizáveis da organização e o fluxo completo de um deploy do commit ao cluster.
 
-📄 [`platform-overview/ci-cd-pipelines.md`](../platform-overview/ci-cd-pipelines)
-📄 [`platform-overview/argocd-gitops.md`](../platform-overview/argocd-gitops)
+📄 [`platform-overview/ci-cd-pipelines.md`](#/platform-overview/ci-cd-pipelines)
+📄 [`platform-overview/argocd-gitops.md`](#/platform-overview/argocd-gitops)
 
 ---
 
@@ -92,6 +92,6 @@ Como os pipelines de CI/CD funcionam, o modelo GitOps com ArgoCD, os workflows r
 - Explore os repositórios reais da organização enquanto estuda. Ver código real é mais valioso do que exemplos genéricos.
 - Use a Skill Matrix para acompanhar seu próprio progresso e identificar onde focar mais.
 
-📄 [`training-camp/learning-path.md`](learning-path)
-📄 [`training-camp/skill-matrix.md`](skill-matrix)
-📄 [`training-camp/recommended-materials.md`](recommended-materials)
+📄 [`training-camp/learning-path.md`](#/training-camp/learning-path)
+📄 [`training-camp/skill-matrix.md`](#/training-camp/skill-matrix)
+📄 [`training-camp/recommended-materials.md`](#/training-camp/recommended-materials)

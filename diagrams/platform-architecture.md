@@ -102,6 +102,6 @@ flowchart TD
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture)
-📄 [`platform-overview/eks-clusters.md`](../platform-overview/eks-clusters)
-📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
+📄 [`platform-overview/platform-architecture.md`](#/platform-overview/platform-architecture)
+📄 [`platform-overview/eks-clusters.md`](#/platform-overview/eks-clusters)
+📄 [`platform-overview/observability-stack.md`](#/platform-overview/observability-stack)

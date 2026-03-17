@@ -130,13 +130,13 @@ Após resolver o problema, marque o incidente como **Resolved** no PagerDuty e a
 
 Antes de entrar na rotação de on-call, o engenheiro deve completar o checklist de prontidão. Entrar de plantão sem estar preparado é arriscado para você e para a plataforma.
 
-📄 [`oncall-readiness/oncall-readiness-checklist.md`](../oncall-readiness/oncall-readiness-checklist)
+📄 [`oncall-readiness/oncall-readiness-checklist.md`](#/oncall-readiness/oncall-readiness-checklist)
 
 ---
 
 ## Referências
 
-📄 [`incident-management/incident-process.md`](incident-process)
-📄 [`incident-management/alert-sources.md`](alert-sources)
-📄 [`oncall-readiness/escalation-policies.md`](../oncall-readiness/escalation-policies)
-📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
+📄 [`incident-management/incident-process.md`](#/incident-management/incident-process)
+📄 [`incident-management/alert-sources.md`](#/incident-management/alert-sources)
+📄 [`oncall-readiness/escalation-policies.md`](#/oncall-readiness/escalation-policies)
+📄 [`platform-overview/observability-stack.md`](#/platform-overview/observability-stack)

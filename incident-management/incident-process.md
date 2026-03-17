@@ -98,7 +98,7 @@ Uma comunicação de resolução é enviada para os stakeholders relevantes.
 
 Para incidentes de alta severidade (P1 e P2), um postmortem é conduzido nos dias seguintes. O objetivo é aprender com o incidente e evitar recorrência.
 
-📄 [`incident-management/postmortem-process.md`](postmortem-process)
+📄 [`incident-management/postmortem-process.md`](#/incident-management/postmortem-process)
 
 ---
 

@@ -21,7 +21,7 @@ Este guia é uma referência rápida para usar durante um plantão. Quando um al
 O objetivo é investigar com método, não com pânico.
 
 > Para o fluxo geral de troubleshooting (fora do contexto de plantão), consulte:
-> 📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
+> 📄 [`incident-management/troubleshooting-flow.md`](#/incident-management/troubleshooting-flow)
 
 ---
 
@@ -283,14 +283,14 @@ Escale para outro membro do time quando:
 
 Escalar não é fraqueza — é responsabilidade. Em incidentes críticos, dois engenheiros investigando juntos são muito mais eficientes do que um investigando sozinho.
 
-📄 [`oncall-readiness/escalation-policies.md`](escalation-policies)
+📄 [`oncall-readiness/escalation-policies.md`](#/oncall-readiness/escalation-policies)
 
 ---
 
 ## Referências
 
-📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
-📄 [`incident-management/incident-process.md`](../incident-management/incident-process)
-📄 [`incident-management/postmortem-process.md`](../incident-management/postmortem-process)
-📄 [`oncall-readiness/escalation-policies.md`](escalation-policies)
-📄 [`oncall-readiness/oncall-readiness-checklist.md`](oncall-readiness-checklist)
+📄 [`incident-management/troubleshooting-flow.md`](#/incident-management/troubleshooting-flow)
+📄 [`incident-management/incident-process.md`](#/incident-management/incident-process)
+📄 [`incident-management/postmortem-process.md`](#/incident-management/postmortem-process)
+📄 [`oncall-readiness/escalation-policies.md`](#/oncall-readiness/escalation-policies)
+📄 [`oncall-readiness/oncall-readiness-checklist.md`](#/oncall-readiness/oncall-readiness-checklist)

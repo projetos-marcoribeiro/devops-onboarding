@@ -100,6 +100,6 @@ flowchart LR
 
 ## Referências
 
-📄 [`platform-overview/ci-cd-pipelines.md`](../platform-overview/ci-cd-pipelines)
-📄 [`platform-overview/argocd-gitops.md`](../platform-overview/argocd-gitops)
-📄 [`hands-on/deployment-workflow.md`](../hands-on/deployment-workflow)
+📄 [`platform-overview/ci-cd-pipelines.md`](#/platform-overview/ci-cd-pipelines)
+📄 [`platform-overview/argocd-gitops.md`](#/platform-overview/argocd-gitops)
+📄 [`hands-on/deployment-workflow.md`](#/hands-on/deployment-workflow)

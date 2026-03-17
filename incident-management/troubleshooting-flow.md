@@ -14,7 +14,7 @@
 Este documento descreve o processo de investigação durante um incidente. Ter um fluxo estruturado é fundamental para investigar com eficiência sob pressão — sem um método, é fácil perder tempo testando hipóteses aleatórias enquanto o impacto em produção continua.
 
 > Se você está em plantão ativo e precisa de um guia mais detalhado com comandos prontos e padrões de comunicação, consulte também:
-> 📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide)
+> 📄 [`oncall-readiness/incident-investigation-guide.md`](#/oncall-readiness/incident-investigation-guide)
 
 ---
 
@@ -238,7 +238,7 @@ Comunicação clara durante um incidente reduz ansiedade do time e dos stakehold
 
 ## Referências
 
-📄 [`incident-management/incident-process.md`](incident-process)
-📄 [`incident-management/alert-sources.md`](alert-sources)
-📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide)
-📄 [`oncall-readiness/escalation-policies.md`](../oncall-readiness/escalation-policies)
+📄 [`incident-management/incident-process.md`](#/incident-management/incident-process)
+📄 [`incident-management/alert-sources.md`](#/incident-management/alert-sources)
+📄 [`oncall-readiness/incident-investigation-guide.md`](#/oncall-readiness/incident-investigation-guide)
+📄 [`oncall-readiness/escalation-policies.md`](#/oncall-readiness/escalation-policies)

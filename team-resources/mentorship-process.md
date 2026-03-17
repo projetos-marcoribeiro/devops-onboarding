@@ -77,7 +77,7 @@ Conforme o engenheiro ganha autonomia, o acompanhamento se torna menos intenso m
 
 As sessões de mentoria são registradas no TeamGuide com os tópicos discutidos e os próximos passos acordados. Isso garante continuidade entre as sessões e cria um histórico do desenvolvimento.
 
-📄 [`team-resources/teamguide.md`](teamguide)
+📄 [`team-resources/teamguide.md`](#/team-resources/teamguide)
 
 ---
 

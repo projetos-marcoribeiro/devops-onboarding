@@ -106,6 +106,6 @@ A partir daqui, você vai:
 
 O Hands-On não é o fim do aprendizado — é o começo do trabalho real. A plataforma tem muitas camadas e a profundidade vem com a prática. O importante é que agora você tem o contexto necessário para aprender fazendo.
 
-📄 [`operations/operational-tasks.md`](../operations/operational-tasks)
-📄 [`incident-management/incident-process.md`](../incident-management/incident-process)
-📄 [`oncall-readiness/oncall-readiness-checklist.md`](../oncall-readiness/oncall-readiness-checklist)
+📄 [`operations/operational-tasks.md`](#/operations/operational-tasks)
+📄 [`incident-management/incident-process.md`](#/incident-management/incident-process)
+📄 [`oncall-readiness/oncall-readiness-checklist.md`](#/oncall-readiness/oncall-readiness-checklist)
