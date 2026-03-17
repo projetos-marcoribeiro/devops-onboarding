@@ -238,7 +238,7 @@ Comunicação clara durante um incidente reduz ansiedade do time e dos stakehold
 
 ## Referências
 
-📄 [`incident-management/incident-process.md`](./incident-process)
-📄 [`incident-management/alert-sources.md`](./alert-sources)
+📄 [`incident-management/incident-process.md`](incident-process)
+📄 [`incident-management/alert-sources.md`](alert-sources)
 📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide)
 📄 [`oncall-readiness/escalation-policies.md`](../oncall-readiness/escalation-policies)
