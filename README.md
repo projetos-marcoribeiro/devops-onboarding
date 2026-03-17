@@ -1,4 +1,13 @@
 # DevOps Onboarding – Hotmart
+## Boas-vindas
+
+Seja bem-vindo ao time DevOps da Hotmart.
+
+A plataforma tem muitas camadas e leva tempo para entender tudo — isso é normal e esperado. Este material foi construído para tornar esse processo mais suave, mas o aprendizado real vem da prática e das conversas com o time.
+
+Não hesite em perguntar. Seu fellow está aqui para ajudar, e o time tem uma cultura de compartilhamento de conhecimento. Dúvidas não resolvidas viram gaps que aparecem na hora errada — traga-as à tona cedo.
+
+Esperamos que este material ajude você a entender melhor a plataforma e a se integrar rapidamente ao time. Caso tenha dúvidas, procure seu fellow ou qualquer outro membro do time. Estamos todos aqui para ajudar.
 
 ## 📑 Índice
 
@@ -188,14 +197,4 @@ A documentação é um produto do time — não de uma pessoa. Todo engenheiro D
 
 A documentação evolui junto com a plataforma. Manter esse repositório atualizado é uma responsabilidade coletiva do time.
 
----
 
-## Boas-vindas
-
-Seja bem-vindo ao time DevOps da Hotmart.
-
-A plataforma tem muitas camadas e leva tempo para entender tudo — isso é normal e esperado. Este material foi construído para tornar esse processo mais suave, mas o aprendizado real vem da prática e das conversas com o time.
-
-Não hesite em perguntar. Seu fellow está aqui para ajudar, e o time tem uma cultura de compartilhamento de conhecimento. Dúvidas não resolvidas viram gaps que aparecem na hora errada — traga-as à tona cedo.
-
-Esperamos que este material ajude você a entender melhor a plataforma e a se integrar rapidamente ao time. Caso tenha dúvidas, procure seu fellow ou qualquer outro membro do time. Estamos todos aqui para ajudar.
