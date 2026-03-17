@@ -138,6 +138,6 @@ Após o incidente, leia o postmortem e tente entender cada etapa da investigaç�
 
 ## Referências
 
-📄 [`operations/jira-workflows.md`](./jira-workflows.md)
-📄 [`operations/service-desk-tickets.md`](./service-desk-tickets.md)
-📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow.md)
+📄 [`operations/jira-workflows.md`](jira-workflows)
+📄 [`operations/service-desk-tickets.md`](service-desk-tickets)
+📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)

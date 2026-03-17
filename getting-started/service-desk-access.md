@@ -65,7 +65,7 @@ Este campo é obrigatório e importante. Uma boa justificativa acelera a aprova�
 - Para que você precisa do acesso
 - Referência a um colega cujo acesso pode ser espelhado (quando aplicável)
 
-Veja exemplos de justificativas no documento [`access-requests-examples.md`](./access-requests-examples.md).
+Veja exemplos de justificativas no documento [`access-requests-examples.md`](access-requests-examples).
 
 ---
 
@@ -97,5 +97,5 @@ Se o prazo passar sem resposta, você pode adicionar um comentário no ticket so
 ## Dicas
 
 - Solicite todos os acessos necessários de uma vez, logo no primeiro dia. Isso evita ficar bloqueado por falta de acesso durante o onboarding.
-- Consulte o documento [`access-requests-examples.md`](./access-requests-examples.md) para ver exemplos de solicitações já preenchidas.
+- Consulte o documento [`access-requests-examples.md`](access-requests-examples) para ver exemplos de solicitações já preenchidas.
 - Se tiver dúvida sobre qual perfil solicitar, pergunte ao seu mentor antes de submeter.

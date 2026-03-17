@@ -35,50 +35,50 @@ Acessos             Overview          + Learning Path     Operação
 
 Antes de qualquer coisa, leia o documento de jornada DevOps. Ele explica a progressão esperada desde o primeiro dia até a maturidade na plataforma, incluindo o plano de 30-60-90 dias e as expectativas trimestrais.
 
-📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map.md)
+📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map)
 
 ### Setup Inicial
 
 Configure seus acessos e ferramentas. Sem isso, nada funciona. Siga os guias de acesso ao Okta, Service Desk e instalação de ferramentas obrigatórias.
 
-📄 [`getting-started/okta-access.md`](./okta-access.md)
-📄 [`getting-started/required-tools.md`](./required-tools.md)
+📄 [`getting-started/okta-access.md`](okta-access)
+📄 [`getting-started/required-tools.md`](required-tools)
 
 ### Platform Overview
 
 Entenda como a plataforma Hotmart está estruturada: contas AWS, clusters EKS, pipelines de CI/CD, GitOps com ArgoCD, observabilidade e o base module.
 
-📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture.md)
+📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture)
 
 ### Training Camp
 
 Período de aprendizado guiado com learning path definido, skill matrix e exercícios práticos. Cobre Kubernetes, AWS, CI/CD, observabilidade e segurança.
 
-📄 [`training-camp/training-overview.md`](../training-camp/training-overview.md)
+📄 [`training-camp/training-overview.md`](../training-camp/training-overview)
 
 ### Hands-on Project
 
 Projeto prático supervisionado onde você aplica o que aprendeu em um cenário real: deploy de aplicação, configuração de pipeline e troubleshooting.
 
-📄 [`hands-on/hands-on-overview.md`](../hands-on/hands-on-overview.md)
+📄 [`hands-on/hands-on-overview.md`](../hands-on/hands-on-overview)
 
 ### Trabalho Operacional
 
 Participação no trabalho do dia a dia: tickets no Service Desk, deploys, manutenção e suporte a times de produto.
 
-📄 [`operations/operational-tasks.md`](../operations/operational-tasks.md)
+📄 [`operations/operational-tasks.md`](../operations/operational-tasks)
 
 ### Incident Response
 
 Participação em incidentes reais, inicialmente como observador e depois como participante ativo. Uso de ferramentas de monitoramento, investigação de causa raiz e colaboração na resolução.
 
-📄 [`incident-management/incident-process.md`](../incident-management/incident-process.md)
+📄 [`incident-management/incident-process.md`](../incident-management/incident-process)
 
 ### On-call Readiness
 
 Preparação para entrar na rotação de on-call: checklist de prontidão, runbooks, políticas de escalação e simulações.
 
-📄 [`oncall-readiness/oncall-readiness-checklist.md`](../oncall-readiness/oncall-readiness-checklist.md)
+📄 [`oncall-readiness/oncall-readiness-checklist.md`](../oncall-readiness/oncall-readiness-checklist)
 
 ---
 
@@ -97,9 +97,9 @@ Se tiver dúvidas em qualquer etapa, fale com seu mentor ou com o tech lead do t
 
 ## Referências
 
-📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map.md)
-📄 [`devops-journey/30-60-90-days.md`](../devops-journey/30-60-90-days.md)
-📄 [`getting-started/okta-access.md`](./okta-access.md)
-📄 [`getting-started/required-tools.md`](./required-tools.md)
-📄 [`getting-started/useful-links.md`](./useful-links.md)
-📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture.md)
+📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map)
+📄 [`devops-journey/30-60-90-days.md`](../devops-journey/30-60-90-days)
+📄 [`getting-started/okta-access.md`](okta-access)
+📄 [`getting-started/required-tools.md`](required-tools)
+📄 [`getting-started/useful-links.md`](useful-links)
+📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture)

@@ -129,5 +129,5 @@ Essa documentação é valiosa não só para a decisão imediata, mas como refer
 
 ## Referências
 
-📄 [`devops-journey/quarterly-expectations.md`](./quarterly-expectations.md)
-📄 [`devops-journey/devops-journey-map.md`](./devops-journey-map.md)
+📄 [`devops-journey/quarterly-expectations.md`](quarterly-expectations)
+📄 [`devops-journey/devops-journey-map.md`](devops-journey-map)

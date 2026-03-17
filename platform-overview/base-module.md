@@ -155,7 +155,7 @@ Mudanças no base-module afetam todas as aplicações que o utilizam, então o p
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](./platform-architecture.md)
-📄 [`platform-overview/ci-cd-pipelines.md`](./ci-cd-pipelines.md)
-📄 [`platform-overview/argocd-gitops.md`](./argocd-gitops.md)
-📄 [`training-camp/learning-path.md`](../training-camp/learning-path.md)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/ci-cd-pipelines.md`](ci-cd-pipelines)
+📄 [`platform-overview/argocd-gitops.md`](argocd-gitops)
+📄 [`training-camp/learning-path.md`](../training-camp/learning-path)

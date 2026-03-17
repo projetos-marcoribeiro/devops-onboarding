@@ -47,7 +47,7 @@ Para cada etapa:
 - Apresentação: Base Module
 - Apresentação: IAC + Base Module
 
-📄 [`platform-overview/base-module.md`](../platform-overview/base-module.md)
+📄 [`platform-overview/base-module.md`](../platform-overview/base-module)
 
 ---
 
@@ -72,7 +72,7 @@ Para cada etapa:
 - Apresentação: Monitoring Applications
 - Apresentação: KEDA
 
-📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack.md)
+📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
 
 ---
 
@@ -138,7 +138,7 @@ kubectl top pods -n <namespace>
 **Materiais internos:**
 - Apresentação: Troubleshooting guide
 
-📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow.md)
+📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
 
 ---
 

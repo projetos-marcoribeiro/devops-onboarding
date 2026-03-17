@@ -171,7 +171,7 @@ O ritmo de progressão varia por pessoa, mas o caminho é o mesmo para todos. O 
 
 ## Referências
 
-📄 [`devops-journey/30-60-90-days.md`](./30-60-90-days.md)
-📄 [`devops-journey/quarterly-expectations.md`](./quarterly-expectations.md)
-📄 [`devops-journey/poc-participation.md`](./poc-participation.md)
-📄 [`getting-started/introduction.md`](../getting-started/introduction.md)
+📄 [`devops-journey/30-60-90-days.md`](30-60-90-days)
+📄 [`devops-journey/quarterly-expectations.md`](quarterly-expectations)
+📄 [`devops-journey/poc-participation.md`](poc-participation)
+📄 [`getting-started/introduction.md`](../getting-started/introduction)

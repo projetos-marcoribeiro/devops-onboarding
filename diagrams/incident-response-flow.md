@@ -142,7 +142,7 @@ flowchart LR
 
 ## Referências
 
-📄 [`incident-management/incident-process.md`](../incident-management/incident-process.md)
-📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow.md)
-📄 [`incident-management/postmortem-process.md`](../incident-management/postmortem-process.md)
-📄 [`oncall-readiness/escalation-policies.md`](../oncall-readiness/escalation-policies.md)
+📄 [`incident-management/incident-process.md`](../incident-management/incident-process)
+📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
+📄 [`incident-management/postmortem-process.md`](../incident-management/postmortem-process)
+📄 [`oncall-readiness/escalation-policies.md`](../oncall-readiness/escalation-policies)

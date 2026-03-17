@@ -117,6 +117,6 @@ O time tem processos para proteger o tempo de foco necessário para projetos mai
 
 ## Referências
 
-📄 [`devops-journey/devops-journey-map.md`](./devops-journey-map.md)
-📄 [`devops-journey/poc-participation.md`](./poc-participation.md)
-📄 [`operations/jira-workflows.md`](../operations/jira-workflows.md)
+📄 [`devops-journey/devops-journey-map.md`](devops-journey-map)
+📄 [`devops-journey/poc-participation.md`](poc-participation)
+📄 [`operations/jira-workflows.md`](../operations/jira-workflows)

@@ -286,4 +286,4 @@ Versão padrão do MySQL sem as customizações e otimizações do Aurora. Geral
 
 Processo estruturado de investigação e resolução de problemas em sistemas distribuídos. Envolve coleta de evidências (logs, métricas, traces), formulação e teste de hipóteses, identificação de causa raiz e execução de ação corretiva.
 
-**Contexto na Hotmart:** habilidade central para qualquer engenheiro DevOps. O time segue um fluxo estruturado de troubleshooting durante incidentes, documentado em [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow.md). Bom troubleshooting combina conhecimento técnico com método — não com tentativa e erro aleatório.
+**Contexto na Hotmart:** habilidade central para qualquer engenheiro DevOps. O time segue um fluxo estruturado de troubleshooting durante incidentes, documentado em [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow). Bom troubleshooting combina conhecimento técnico com método — não com tentativa e erro aleatório.

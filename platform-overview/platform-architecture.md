@@ -103,10 +103,10 @@ O fluxo de deploy é totalmente automatizado do commit ao cluster. Intervenção
 
 ## Referências
 
-📄 [`platform-overview/aws-accounts.md`](./aws-accounts.md)
-📄 [`platform-overview/eks-clusters.md`](./eks-clusters.md)
-📄 [`platform-overview/ci-cd-pipelines.md`](./ci-cd-pipelines.md)
-📄 [`platform-overview/argocd-gitops.md`](./argocd-gitops.md)
-📄 [`platform-overview/base-module.md`](./base-module.md)
-📄 [`platform-overview/observability-stack.md`](./observability-stack.md)
-📄 [`platform-overview/networking-ingress.md`](./networking-ingress.md)
+📄 [`platform-overview/aws-accounts.md`](aws-accounts)
+📄 [`platform-overview/eks-clusters.md`](eks-clusters)
+📄 [`platform-overview/ci-cd-pipelines.md`](ci-cd-pipelines)
+📄 [`platform-overview/argocd-gitops.md`](argocd-gitops)
+📄 [`platform-overview/base-module.md`](base-module)
+📄 [`platform-overview/observability-stack.md`](observability-stack)
+📄 [`platform-overview/networking-ingress.md`](networking-ingress)

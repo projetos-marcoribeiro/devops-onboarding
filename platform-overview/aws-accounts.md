@@ -114,6 +114,6 @@ aws sts assume-role \
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](./platform-architecture.md)
-📄 [`platform-overview/eks-clusters.md`](./eks-clusters.md)
-📄 [`getting-started/okta-access.md`](../getting-started/okta-access.md)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/eks-clusters.md`](eks-clusters)
+📄 [`getting-started/okta-access.md`](../getting-started/okta-access)

@@ -145,12 +145,12 @@ Quando um alerta chega no PagerDuty, verifique se há um runbook associado antes
 
 Os runbooks estão disponíveis na documentação interna do time DevOps. Se você resolver um incidente e não encontrar um runbook para ele, considere criar um — é uma contribuição valiosa para o time.
 
-📄 [`incident-management/troubleshooting-flow.md`](./troubleshooting-flow.md)
+📄 [`incident-management/troubleshooting-flow.md`](troubleshooting-flow)
 
 ---
 
 ## Referências
 
-📄 [`incident-management/incident-process.md`](./incident-process.md)
-📄 [`incident-management/pagerduty-oncall.md`](./pagerduty-oncall.md)
-📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack.md)
+📄 [`incident-management/incident-process.md`](incident-process)
+📄 [`incident-management/pagerduty-oncall.md`](pagerduty-oncall)
+📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)

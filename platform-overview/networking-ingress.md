@@ -160,6 +160,6 @@ Para casos que exigem controle mais granular de tráfego interno (circuit breaki
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](./platform-architecture.md)
-📄 [`platform-overview/eks-clusters.md`](./eks-clusters.md)
-📄 [`platform-overview/aws-accounts.md`](./aws-accounts.md)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/eks-clusters.md`](eks-clusters)
+📄 [`platform-overview/aws-accounts.md`](aws-accounts)

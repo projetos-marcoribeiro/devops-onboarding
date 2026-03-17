@@ -157,7 +157,7 @@ Cada ferramenta tem seu papel. Saber qual usar em cada situação é uma habilid
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](./platform-architecture.md)
-📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow.md)
-📄 [`incident-management/alert-sources.md`](../incident-management/alert-sources.md)
-📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide.md)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
+📄 [`incident-management/alert-sources.md`](../incident-management/alert-sources)
+📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide)

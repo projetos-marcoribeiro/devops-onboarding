@@ -15,7 +15,7 @@
 
 Estes materiais foram produzidos internamente pelo time DevOps da Hotmart e servem como referência para entender como a infraestrutura da empresa funciona. São apresentações, guias e documentações criadas por engenheiros do próprio time, com foco nos padrões e ferramentas reais utilizados na plataforma.
 
-Consuma os materiais na ordem sugerida pelo [Learning Path](./learning-path.md), não aleatoriamente. O contexto acumulado em cada etapa torna os materiais seguintes mais fáceis de absorver.
+Consuma os materiais na ordem sugerida pelo [Learning Path](learning-path), não aleatoriamente. O contexto acumulado em cada etapa torna os materiais seguintes mais fáceis de absorver.
 
 ---
 

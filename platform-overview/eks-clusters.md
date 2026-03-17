@@ -202,7 +202,7 @@ kubectl top pods -n <namespace>
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](./platform-architecture.md)
-📄 [`platform-overview/argocd-gitops.md`](./argocd-gitops.md)
-📄 [`platform-overview/networking-ingress.md`](./networking-ingress.md)
-📄 [`devops-tools/kubectl.md`](../devops-tools/kubectl.md)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/argocd-gitops.md`](argocd-gitops)
+📄 [`platform-overview/networking-ingress.md`](networking-ingress)
+📄 [`devops-tools/kubectl.md`](../devops-tools/kubectl)

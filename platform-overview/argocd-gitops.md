@@ -193,6 +193,6 @@ argocd app sync minha-aplicacao --prune
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](./platform-architecture.md)
-📄 [`platform-overview/ci-cd-pipelines.md`](./ci-cd-pipelines.md)
-📄 [`platform-overview/eks-clusters.md`](./eks-clusters.md)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/ci-cd-pipelines.md`](ci-cd-pipelines)
+📄 [`platform-overview/eks-clusters.md`](eks-clusters)
