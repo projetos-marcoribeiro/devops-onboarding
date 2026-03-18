@@ -86,6 +86,6 @@ O repositório contém as instruções detalhadas, o código base da aplicação
 
 ## Próximos passos
 
-📄 [`hands-on/hands-on-project.md`](#/hands-on/hands-on-project) — detalhes do projeto
-📄 [`hands-on/deployment-workflow.md`](#/hands-on/deployment-workflow) — fluxo completo de deploy
-📄 [`hands-on/expected-results.md`](#/hands-on/expected-results) — o que é esperado ao final
+📄 [`hands-on/hands-on-project.md`](hands-on-project) — detalhes do projeto
+📄 [`hands-on/deployment-workflow.md`](deployment-workflow) — fluxo completo de deploy
+📄 [`hands-on/expected-results.md`](expected-results) — o que é esperado ao final

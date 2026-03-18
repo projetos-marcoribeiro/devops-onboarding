@@ -162,6 +162,6 @@ Para trabalhar com workloads de IA, consulte o time de AI Platform para entender
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](#/platform-overview/platform-architecture)
-📄 [`platform-overview/aws-accounts.md`](#/platform-overview/aws-accounts)
-📄 [`platform-overview/base-module.md`](#/platform-overview/base-module)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/aws-accounts.md`](aws-accounts)
+📄 [`platform-overview/base-module.md`](base-module)

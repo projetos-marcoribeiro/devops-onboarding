@@ -167,6 +167,6 @@ Nova versão da aplicação está em produção
 
 ## Referências
 
-📄 [`platform-overview/platform-architecture.md`](#/platform-overview/platform-architecture)
-📄 [`platform-overview/argocd-gitops.md`](#/platform-overview/argocd-gitops)
-📄 [`platform-overview/base-module.md`](#/platform-overview/base-module)
+📄 [`platform-overview/platform-architecture.md`](platform-architecture)
+📄 [`platform-overview/argocd-gitops.md`](argocd-gitops)
+📄 [`platform-overview/base-module.md`](base-module)

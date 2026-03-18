@@ -128,7 +128,7 @@ Prioridade: Alta
 
 Os tickets têm SLAs definidos conforme a prioridade. Consulte o Smart Contract do time para os SLAs atualizados.
 
-📄 [`operations/smart-contract.md`](#/operations/smart-contract)
+📄 [`operations/smart-contract.md`](smart-contract)
 
 Como regra geral:
 - Tickets de alta prioridade (impacto em produção) devem ser triados imediatamente

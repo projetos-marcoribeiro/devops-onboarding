@@ -167,6 +167,6 @@ Pergunte ao mentor onde encontrar os postmortems do time e reserve um tempo para
 
 ## Referências
 
-📄 [`incident-management/incident-process.md`](#/incident-management/incident-process)
-📄 [`incident-management/troubleshooting-flow.md`](#/incident-management/troubleshooting-flow)
-📄 [`oncall-readiness/incident-investigation-guide.md`](#/oncall-readiness/incident-investigation-guide)
+📄 [`incident-management/incident-process.md`](incident-process)
+📄 [`incident-management/troubleshooting-flow.md`](troubleshooting-flow)
+📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide)

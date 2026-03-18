@@ -98,6 +98,6 @@ Tickets no backlog têm estimativas de esforço, épicos associados e critérios
 
 ## Referências
 
-📄 [`operations/service-desk-tickets.md`](#/operations/service-desk-tickets)
-📄 [`operations/operational-tasks.md`](#/operations/operational-tasks)
-📄 [`operations/smart-contract.md`](#/operations/smart-contract)
+📄 [`operations/service-desk-tickets.md`](service-desk-tickets)
+📄 [`operations/operational-tasks.md`](operational-tasks)
+📄 [`operations/smart-contract.md`](smart-contract)

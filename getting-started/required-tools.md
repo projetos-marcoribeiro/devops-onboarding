@@ -124,4 +124,4 @@ docker run hello-world
 
 Após instalar todas as ferramentas, configure o acesso aos clusters EKS seguindo o guia disponível na documentação de plataforma:
 
-📄 [`platform-overview/eks-clusters.md`](#/platform-overview/eks-clusters)
+📄 [`platform-overview/eks-clusters.md`](../platform-overview/eks-clusters)
