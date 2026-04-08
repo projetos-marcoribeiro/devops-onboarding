@@ -18,29 +18,41 @@ O onboarding tem duração aproximada de 3 meses e é estruturado de forma progr
 ## O que esperar dos primeiros 3 meses
 
 ```
-Semana 1-2          Semana 3-4          Mês 2               Mês 3
-     │                   │                 │                   │
-     ▼                   ▼                 ▼                   ▼
-Setup &             Platform          Training Camp       Hands-on &
-Acessos             Overview          + Learning Path     Operação
-                    Arquitetura                           Incidentes
-                    AWS / EKS                             On-call Ready
+Dia 1               Semana 1            Semana 2-3          Mês 2-3
+  │                   │                   │                   │
+  ▼                   ▼                   ▼                   ▼
+Kickoff &           Training Camp       Hands On            Operacional
+Setup de            (~4 dias)           (1-2 semanas)       + Day by Day
+Acessos             Vídeos · Slides     Deploy real         Tickets · Incidentes
+                    Skill Matrix        Frontend+Backend    On-call Ready
 ```
 
 ---
 
 ## Etapas do Onboarding
 
+### Kickoff — Apresentação do Time
+
+No primeiro dia, você terá uma apresentação geral do time DevOps cobrindo:
+- Estrutura e hierarquia do time
+- Escopo de trabalho do DevOps na Hotmart
+- Apresentação da sua Product Unit (PU)
+
+📊 [Exemplo — DevOps Experience - PU Lead Solutions](https://docs.google.com/presentation/d/1OY9C5nSgSHQRzHNgOyXRl8rwey-7Xrdnua_rzQr5GXc/edit?usp=sharing)
+
 ### DevOps Journey
 
-Antes de qualquer coisa, leia o documento de jornada DevOps. Ele explica a progressão esperada desde o primeiro dia até a maturidade na plataforma, incluindo o plano de 30-60-90 dias e as expectativas trimestrais.
+Leia o documento de jornada DevOps. Ele explica a progressão esperada desde o primeiro dia até a maturidade na plataforma, incluindo o plano de 30-60-90 dias e as expectativas trimestrais.
 
 📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map)
 
-Configure seus acessos e ferramentas. Sem isso, nada funciona. Siga os guias de acesso ao Okta, Service Desk e instalação de ferramentas obrigatórias.
+### Setup Inicial
+
+Configure seus acessos e ferramentas. Sem isso, nada funciona. Siga os guias de acesso ao Okta, Service Desk e abra o pack completo de acessos no primeiro dia.
 
 📄 [`getting-started/okta-access.md`](okta-access)
 📄 [`getting-started/required-tools.md`](required-tools)
+📄 [`getting-started/access-requests-examples.md`](access-requests-examples) — pack completo de acessos
 
 ### Platform Overview
 

@@ -14,33 +14,34 @@ Este documento descreve o que é esperado ao final do projeto Hands-On. Use como
 
 ## Checklist de entrega
 
-### Infraestrutura
+### Repositório e código
 
-- [ ] Infraestrutura provisionada via Base Module (ECR, IAM Role, ALB, Security Groups)
-- [ ] Bucket S3 criado para o frontend
-- [ ] Distribuição CloudFront configurada e apontando para o S3
-- [ ] Certificado TLS provisionado via ACM
-- [ ] Registro DNS configurado via Route53
+- [ ] Branch `handson/{SEU_NOME}` criada no repositório [handson_devops](https://github.com/Hotmart-Org/handson_devops)
+- [ ] `backend/index.js` editado com seu login no path da API
+- [ ] `frontend/index.html` editado com seu login na chamada AJAX
 
-### Aplicação
+### CDN e Frontend
 
-- [ ] Frontend acessível via URL do CloudFront
-- [ ] Backend acessível via endpoint configurado (ALB + Ingress)
-- [ ] Health check do backend respondendo corretamente
-- [ ] Comunicação entre frontend e backend funcionando
+- [ ] PR aberto no repositório buildstaging-iac com behavior no `terraform/cdn/devops.tf`
+- [ ] Behavior configurado com path `/SEU_LOGIN/api*`
+- [ ] Arquivos estáticos do frontend enviados ao S3 (`handson-devops.buildstaging.com`)
+- [ ] Frontend acessível via CloudFront (`E2CJ6PTRE33WP2`)
 
-### Pipeline
+### Backend e Kubernetes
 
-- [ ] Pipeline de CI/CD configurado e executando sem erros
-- [ ] Build da imagem Docker funcionando
-- [ ] Push para ECR funcionando
-- [ ] Deploy automático disparado a cada push na branch principal
+- [ ] Dockerfile criado usando base image interna (`315120000506.dkr.ecr.us-east-1.amazonaws.com/...`)
+- [ ] Backend respondendo em `handson-devops.buildstaging.com/SEU_LOGIN/api`
+- [ ] Pod rodando no cluster EKS de staging
+- [ ] Helm values configurados no repositório [devops-helm-iac](https://github.com/Hotmart-Org/devops-helm-iac)
 
-### GitOps
+### Pipeline GitHub Actions
 
-- [ ] Deploy gerenciado pelo ArgoCD
-- [ ] Aplicação com status `Healthy` e `Synced` no ArgoCD
-- [ ] Helm values configurados corretamente no repositório devops-helm-iac
+- [ ] Pipeline criado usando os workflows reutilizáveis da organização
+- [ ] Base-Module Action (`Hotmart-Org/actions/base-module@master`) configurado
+- [ ] Docker Action (`Hotmart-Org/actions/docker@master`) configurado
+- [ ] Helm Action (`Hotmart-Org/actions/helm@master`) configurado
+- [ ] S3 Action (`Hotmart-Org/actions/s3@master`) configurado
+- [ ] Runner correto de staging utilizado (`buildstaging-iac`)
 
 ### Processo
 

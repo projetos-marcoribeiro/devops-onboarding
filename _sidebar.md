@@ -4,6 +4,7 @@
 
 ## DevOps Journey
 - [Journey Map](devops-journey/devops-journey-map)
+- [Onboarding Checklist](devops-journey/onboarding-checklist)
 - [30-60-90 Days](devops-journey/30-60-90-days)
 - [Quarterly Expectations](devops-journey/quarterly-expectations)
 - [POC Participation](devops-journey/poc-participation)
@@ -12,10 +13,11 @@
 - [Introduction](getting-started/introduction)
 - [Okta Access](getting-started/okta-access)
 - [Service Desk Access](getting-started/service-desk-access)
-- [Access Requests Examples](getting-started/access-requests-examples)
+- [Access Pack — Solicitações](getting-started/access-requests-examples)
 - [Required Tools](getting-started/required-tools)
 - [Kiro Setup](getting-started/kiro-setup)
 - [Useful Links](getting-started/useful-links)
+- [FAQ](getting-started/faq)
 
 ## Platform Overview
 - [Platform Architecture](platform-overview/platform-architecture)

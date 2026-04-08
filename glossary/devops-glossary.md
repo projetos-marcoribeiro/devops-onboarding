@@ -82,11 +82,11 @@ Mecanismo de autenticação que permite que pods Kubernetes assumam IAM Roles na
 
 ---
 
-### KIAM
+### KIAM ⚠️ Descontinuado
 
-Mecanismo anterior de autenticação IAM para pods Kubernetes, que funcionava interceptando chamadas de metadados EC2 para assumir roles. Foi amplamente utilizado antes do IRSA se tornar o padrão.
+Mecanismo anterior de autenticação IAM para pods Kubernetes, que funcionava interceptando chamadas de metadados EC2 para assumir roles.
 
-**Contexto na Hotmart:** atualmente descontinuado na plataforma. Substituído pelo IRSA/EKS Pod Identity. Referências ao KIAM em documentação ou código mais antigo indicam configurações legadas que podem precisar de atualização.
+**Contexto na Hotmart:** descontinuado. Substituído por **EKS Pod Identity**, que é o mecanismo atual para dar acesso a recursos AWS a pods no Kubernetes. Se você encontrar referências ao KIAM em código ou configuração, trata-se de configuração legada. Novos serviços devem usar exclusivamente EKS Pod Identity. Repositórios legados como `analytics-iac`, `auth-iac` e `buildstaging-iac` ainda contêm arquivos `kiam-roles.tf` que estão em processo de migração.
 
 ---
 

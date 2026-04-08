@@ -236,6 +236,28 @@ Comunicação clara durante um incidente reduz ansiedade do time e dos stakehold
 
 ---
 
+## Runbooks
+
+Runbooks são documentos passo a passo para resolver problemas recorrentes. Eles reduzem o tempo de resolução e permitem que qualquer engenheiro de plantão resolva o problema, mesmo sem conhecimento prévio do serviço.
+
+**Onde encontrar runbooks:**
+- Documentação interna do time DevOps no TechDeck
+- Repositório [devops-docs](https://github.com/Hotmart-Org/devops-docs)
+- Seção de runbooks no PagerDuty (vinculados aos alertas)
+
+**Quando criar um runbook:**
+Se você resolveu um incidente e não encontrou um runbook para ele, crie um. O formato é simples:
+
+1. Sintoma observado (o que o alerta diz, o que o usuário reporta)
+2. Causa provável
+3. Passos de investigação (comandos, dashboards, logs)
+4. Ação corretiva (passo a passo)
+5. Validação (como confirmar que o problema foi resolvido)
+
+Runbooks não precisam ser perfeitos na primeira versão. Um runbook incompleto é melhor do que nenhum runbook.
+
+---
+
 ## Referências
 
 📄 [`incident-management/incident-process.md`](incident-process)

@@ -1,4 +1,7 @@
 # DevOps Onboarding – Hotmart
+
+> 📅 Última atualização: Abril 2026
+
 ## Boas-vindas
 
 Seja bem-vindo ao time DevOps da Hotmart.

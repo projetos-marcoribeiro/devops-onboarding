@@ -1,5 +1,7 @@
 # Teachable
 
+> ⚠️ **Página em construção.** As informações específicas desta PU (repositórios, dashboards, pipelines, serviços) devem ser preenchidas pelo engenheiro responsável. Consulte o tech lead da unidade.
+
 ## 📑 Índice
 
 - [Domínio](#domínio)

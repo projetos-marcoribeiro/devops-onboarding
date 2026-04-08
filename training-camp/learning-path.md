@@ -44,8 +44,15 @@ Para cada etapa:
 - Discuta com seu mentor: "o que acontece quando eu mudo um valor nesse YAML?"
 
 **Materiais internos:**
-- Apresentação: Base Module
-- Apresentação: IAC + Base Module
+
+<details>
+<summary>▶️ IAC + Base Module — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
+
+</details>
+
+📊 [Slides — Base Module](https://docs.google.com/presentation/d/18XEz6UfkMBxUj09o7kuEjkhukR6BVtN7YEnEd49KtBs/edit#slide=id.g134822534b4_0_42)
 
 📄 [`platform-overview/base-module.md`](../platform-overview/base-module)
 
@@ -69,8 +76,22 @@ Para cada etapa:
 - Pergunte ao mentor: "qual dashboard você usa primeiro quando recebe um alerta?"
 
 **Materiais internos:**
-- Apresentação: Monitoring Applications
-- Apresentação: KEDA
+
+<details>
+<summary>▶️ Monitoring Applications — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
+
+</details>
+
+<details>
+<summary>▶️ KEDA — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
+
+</details>
+
+📊 [Slides — Monitoring](https://docs.google.com/presentation/d/10mv8d1JLiPlwqUc9GEqFLSgRsa6nBa_u2_ljLUkqccE/edit#slide=id.g134822534b4_0_42)
 
 📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
 
@@ -94,9 +115,29 @@ Para cada etapa:
 - Discuta com o mentor: "como eu rotaciono um secret sem causar downtime?"
 
 **Materiais internos:**
-- Apresentação: Vault
-- Apresentação: SIEM
-- Apresentação: Cloudflare
+
+<details>
+<summary>▶️ Vault — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
+
+</details>
+
+<details>
+<summary>▶️ SIEM — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
+
+</details>
+
+<details>
+<summary>▶️ Cloudflare — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
+
+</details>
+
+📊 [Slides — Secrets](https://docs.google.com/presentation/d/1X_lXlyi3Fm8Qsj1aCATIUxQPu2RBrE0SQfFxxrR2HU0/edit#slide=id.ge9493f02a1_0_2)
 
 ---
 
@@ -136,7 +177,15 @@ kubectl top pods -n <namespace>
 - Discuta com o mentor um incidente real que aconteceu recentemente e como foi investigado
 
 **Materiais internos:**
-- Apresentação: Troubleshooting guide
+
+<details>
+<summary>▶️ Troubleshooting — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
+
+</details>
+
+📊 [Slides — TroubleShooting & RDS](https://docs.google.com/presentation/d/1z7VtSBIesRg3tyAE5b_38waiDlcMXI5obGdrfU71akA/edit#slide=id.g20271aefe8d_0_191)
 
 📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
 
@@ -152,10 +201,34 @@ Após as quatro etapas principais, explore os tópicos complementares conforme s
 - **Integrações de comunicação:** WhatsApp e outros canais integrados à plataforma
 
 **Materiais internos:**
-- Apresentação: Criando uma aplicação via Backstage
-- Apresentação: DAS
-- Apresentação: Criando um banco de dados do zero
-- Apresentação: WhatsApp integrations
+
+<details>
+<summary>▶️ Criando uma app do zero (Backstage) — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
+
+</details>
+
+<details>
+<summary>▶️ DAS — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
+
+</details>
+
+<details>
+<summary>▶️ Criando um banco de dados do zero — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
+
+</details>
+
+<details>
+<summary>▶️ WhatsApp Integrations — Gravação</summary>
+
+[🎬 Abrir vídeo](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
+
+</details>
 
 ---
 

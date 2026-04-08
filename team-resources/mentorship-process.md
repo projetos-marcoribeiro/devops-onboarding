@@ -24,6 +24,19 @@ A relação com o fellow é de colaboração: você traz as dúvidas e o context
 
 ## Responsabilidades do fellow
 
+### Agendar e conduzir reuniões
+
+- Agendar as primeiras reuniões do onboarding (incluindo coordenadores quando necessário)
+- Organizar os checkpoints sugeridos no processo, engajando os coordenadores quando necessário
+- Durante a primeira semana (Training Camp) e provavelmente no início do Hands-On, a maior parte do tempo do fellow será dedicada ao novo membro — isso deve ser considerado no planejamento da PU
+
+### Apresentar o Training Camp
+
+- Apresentar o conteúdo principal do Training Camp
+- Usar a [Skill Matrix](https://docs.google.com/spreadsheets/d/15WV6mGLRjC6IKTDdeiatntHq4YVk9A-Cnu5cNvQBiYg/edit) para mapear (junto com o novo membro) os pontos que precisam ser desenvolvidos
+- Identificar as tecnologias onde o novo membro tem lacunas e recomendar os treinamentos específicos
+  - Ex: se o novo membro nunca trabalhou com as ferramentas de monitoramento da Hotmart, recomendar a gravação [Monitoring Applications](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
+
 ### Suporte técnico
 
 - Tirar dúvidas sobre a plataforma, ferramentas e processos
@@ -33,6 +46,7 @@ A relação com o fellow é de colaboração: você traz as dúvidas e o context
 
 ### Orientação sobre processos internos
 
+- Ajudar o novo membro nas solicitações de acesso no Service Desk
 - Explicar como o time trabalha no dia a dia
 - Orientar sobre o uso do Jira, Service Desk e outras ferramentas
 - Ajudar a entender o Smart Contract e as boas práticas do time
