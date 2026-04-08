@@ -1,5 +1,7 @@
 # Guia de Investigação de Incidentes
 
+> 📌 **Este documento é o guia prático de plantão** — comandos prontos e passos para seguir durante um incidente real. Para a metodologia geral de troubleshooting (estudo e referência), consulte o [Fluxo de Troubleshooting](../incident-management/troubleshooting-flow).
+
 ## 📑 Índice
 
 - [Fluxo de investigação](#fluxo-de-investigação)

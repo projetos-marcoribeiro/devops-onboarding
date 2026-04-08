@@ -1,5 +1,7 @@
 # Plataforma de IA
 
+> 📌 **Seção avançada.** Este conteúdo não faz parte do fluxo principal do onboarding. Consulte quando for trabalhar com serviços de IA ou quando for associado a projetos que usam a conta `hot-ai`. Termos como AgentCore e Dynamic Agents são específicos desta área e serão explicados abaixo.
+
 ## 📑 Índice
 
 - [Conta AWS dedicada — hot-ai](#conta-aws-dedicada--hot-ai)

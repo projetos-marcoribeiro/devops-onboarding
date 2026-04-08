@@ -18,6 +18,8 @@ Estes materiais foram produzidos internamente pelo time DevOps da Hotmart. São 
 
 Consuma os materiais na ordem sugerida pelo [Learning Path](learning-path), não aleatoriamente. O contexto acumulado em cada etapa torna os materiais seguintes mais fáceis de absorver.
 
+> ⚠️ **Sobre os links de vídeo:** os materiais estão hospedados no Google Drive corporativo. Se algum link não funcionar, verifique se você está logado com sua conta `@hotmart.com`. Se ainda assim não abrir, procure o material na pasta compartilhada abaixo ou peça ao fellow para solicitar acesso. Se um vídeo foi removido ou movido, atualize este documento com o novo link — é uma contribuição rápida e valiosa.
+
 ---
 
 ## Pasta compartilhada

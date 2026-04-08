@@ -1,5 +1,7 @@
 # Fluxo de Troubleshooting
 
+> 📌 **Este documento é o fluxo geral de troubleshooting** — a metodologia que o time segue para investigar problemas. Se você está de plantão e precisa de um guia prático com comandos prontos, use o [Guia de Investigação de Incidentes](../oncall-readiness/incident-investigation-guide).
+
 ## 📑 Índice
 
 - [Fluxo de investigação](#fluxo-de-investigação)

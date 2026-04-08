@@ -2,7 +2,12 @@
 
 ---
 
-Este checklist acompanha seu progresso ao longo do onboarding. No primeiro dia, abra uma **Issue** no repositório [devops-onboarding](https://github.com/projetos-marcoribeiro/devops-onboarding) com o conteúdo abaixo para acompanhar seu progresso de forma visível.
+> ℹ️ Este repositório será migrado futuramente para a organização Hotmart-Org. Quando isso acontecer, atualize o link da Issue abaixo.
+
+Este checklist acompanha seu progresso ao longo do onboarding. No primeiro dia, abra uma **Issue** no repositório do onboarding com o conteúdo abaixo para acompanhar seu progresso de forma visível.
+
+> Link atual: [devops-onboarding](https://github.com/projetos-marcoribeiro/devops-onboarding)
+> Link futuro (após migração): `https://github.com/Hotmart-Org/devops-onboarding`
 
 ---
 
