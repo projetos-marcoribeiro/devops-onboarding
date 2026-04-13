@@ -95,13 +95,14 @@ Preparação para entrar na rotação de on-call: checklist de prontidão, runbo
 ## Por onde começar agora
 
 1. Leia este documento até o fim
-2. Acesse o [Service Desk](https://hotmart.atlassian.net/servicedesk) e solicite os acessos necessários
-3. Configure o Okta e verifique seus acessos
-4. Instale as ferramentas obrigatórias
-5. Comece a leitura do Platform Overview
-6. Inicie o Training Camp
+2. Abra uma Issue de progresso no repositório — [ver template](../devops-journey/onboarding-checklist)
+3. Abra todos os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk) — [ver pack completo](access-requests-examples)
+4. Configure o Okta e verifique seus acessos
+5. Instale as ferramentas obrigatórias
+6. Comece a leitura do Platform Overview
+7. Inicie o Training Camp
 
-Se tiver dúvidas em qualquer etapa, fale com seu mentor ou com o tech lead do time. O time está aqui para ajudar.
+Dúvidas? Consulte o [FAQ](faq) ou fale com seu fellow.
 
 ---
 
@@ -109,7 +110,10 @@ Se tiver dúvidas em qualquer etapa, fale com seu mentor ou com o tech lead do t
 
 📄 [`devops-journey/devops-journey-map.md`](../devops-journey/devops-journey-map)
 📄 [`devops-journey/30-60-90-days.md`](../devops-journey/30-60-90-days)
+📄 [`devops-journey/onboarding-checklist.md`](../devops-journey/onboarding-checklist)
 📄 [`getting-started/okta-access.md`](okta-access)
 📄 [`getting-started/required-tools.md`](required-tools)
+📄 [`getting-started/access-requests-examples.md`](access-requests-examples)
+📄 [`getting-started/faq.md`](faq)
 📄 [`getting-started/useful-links.md`](useful-links)
 📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture)

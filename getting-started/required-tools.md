@@ -125,3 +125,11 @@ docker run hello-world
 Após instalar todas as ferramentas, configure o acesso aos clusters EKS seguindo o guia disponível na documentação de plataforma:
 
 📄 [`platform-overview/eks-clusters.md`](../platform-overview/eks-clusters)
+
+Para documentação detalhada de cada ferramenta (comandos, dicas, exemplos), consulte a seção DevOps Tools:
+
+📄 [`devops-tools/kubectl.md`](../devops-tools/kubectl)
+📄 [`devops-tools/aws-cli.md`](../devops-tools/aws-cli)
+📄 [`devops-tools/hotctl.md`](../devops-tools/hotctl)
+📄 [`devops-tools/rancher-desktop.md`](../devops-tools/rancher-desktop)
+📄 [`devops-tools/docker.md`](../devops-tools/docker)
