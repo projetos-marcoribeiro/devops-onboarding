@@ -1,32 +1,10 @@
 # DevOps Onboarding – Hotmart
 
-> 📅 Última atualização: Abril 2026
-
-## Boas-vindas
-
 Seja bem-vindo ao time DevOps da Hotmart.
 
 A plataforma tem muitas camadas e leva tempo para entender tudo — isso é normal e esperado. Este material foi construído para tornar esse processo mais suave, mas o aprendizado real vem da prática e das conversas com o time.
 
 Não hesite em perguntar. Seu fellow está aqui para ajudar, e o time tem uma cultura de compartilhamento de conhecimento. Dúvidas não resolvidas viram gaps que aparecem na hora errada — traga-as à tona cedo.
-
-Esperamos que este material ajude você a entender melhor a plataforma e a se integrar rapidamente ao time. Caso tenha dúvidas, procure seu fellow ou qualquer outro membro do time. Estamos todos aqui para ajudar.
-
-## 📑 Índice
-
-- [🚀 Começar agora](#-começar-agora)
-- [📚 Estrutura da Documentação](#-estrutura-da-documentação)
-- [Objetivo do Repositório](#objetivo-do-repositório)
-- [Jornada do Onboarding](#jornada-do-onboarding)
-- [Tempo Estimado do Onboarding](#tempo-estimado-do-onboarding)
-- [Principais Ferramentas Utilizadas](#principais-ferramentas-utilizadas)
-- [Links Importantes](#links-importantes)
-- [Contribuindo com a Documentação](#contribuindo-com-a-documentação)
-- [Boas-vindas](#boas-vindas)
-
----
-
-Bem-vindo ao repositório de onboarding do time DevOps da Hotmart. Aqui você encontra toda a documentação necessária para entender a plataforma, as ferramentas e os processos da empresa — do primeiro dia até a autonomia operacional completa.
 
 Este repositório é sincronizado automaticamente com o portal de documentação **TechDeck** e serve como fonte da verdade para o onboarding de novos engenheiros e como referência contínua para todo o time.
 
@@ -57,45 +35,29 @@ Se você acabou de entrar no time, comece por aqui:
 
 ## 📚 Estrutura da Documentação
 
-Cada pasta cobre uma parte específica da jornada de onboarding DevOps:
-
 ```
 devops-onboarding/
 │
-├── devops-journey/          # Jornada de evolução, plano 30-60-90 dias e expectativas trimestrais
-├── getting-started/         # Primeiros passos: acessos, ferramentas e links essenciais
-├── platform-overview/       # Arquitetura da plataforma: AWS, EKS, CI/CD, GitOps, observabilidade
-├── training-camp/           # Trilha de aprendizado guiado e skill matrix
-├── hands-on/                # Projeto prático supervisionado de deploy completo
-├── operations/              # Trabalho operacional: Jira, Service Desk, tarefas do dia a dia
-├── incident-management/     # Processo de incidentes, PagerDuty, troubleshooting e postmortem
-├── oncall-readiness/        # Checklist de prontidão, guia de investigação e escalation policies
-├── devops-tools/            # Documentação das ferramentas: kubectl, AWS CLI, hotctl, Docker
-├── team-resources/          # TeamGuide, processo de mentoria e comunicação do time
+├── devops-journey/          # Jornada, plano 30-60-90 dias, checklist de progresso
+├── getting-started/         # Acessos, ferramentas, FAQ e links essenciais
+├── platform-overview/       # Arquitetura: AWS, EKS, CI/CD, GitOps, observabilidade
+├── training-camp/           # Trilha de aprendizado, vídeos, skill matrix
+├── hands-on/                # Projeto prático: deploy frontend + backend
+├── operations/              # Jira, Service Desk, tarefas do dia a dia
+├── incident-management/     # Incidentes, PagerDuty, troubleshooting, postmortem
+├── oncall-readiness/        # Checklist de prontidão, investigação, escalation
+├── devops-tools/            # kubectl, AWS CLI, hotctl, Docker, Rancher Desktop
+├── team-resources/          # TeamGuide, mentoria, comunicação
 ├── product-units/           # Recursos específicos de cada Product Unit
-├── glossary/                # Glossário de termos e siglas da plataforma
-└── diagrams/                # Diagramas Mermaid da arquitetura, deploy e resposta a incidentes
+├── glossary/                # Glossário de termos e siglas
+└── diagrams/                # Diagramas Mermaid: arquitetura, deploy, incidentes
 ```
 
-A documentação segue a ordem natural do onboarding: cada pasta representa uma etapa da jornada, do setup inicial até a maturidade operacional. Você não precisa ler tudo de uma vez — siga o fluxo da jornada e consulte as seções conforme avança.
-
----
-
-## Objetivo do Repositório
-
-Este repositório existe para:
-
-- Acelerar o onboarding de novos engenheiros DevOps, reduzindo o tempo até a primeira contribuição real
-- Documentar a arquitetura da plataforma de forma clara e acessível
-- Explicar as ferramentas utilizadas pelo time e como elas se integram
-- Registrar processos operacionais, fluxos de incidente e boas práticas
-- Servir como referência contínua para o time DevOps, não apenas para quem está chegando
+Siga o fluxo da jornada e consulte as seções conforme avança. Não precisa ler tudo de uma vez.
 
 ---
 
 ## Jornada do Onboarding
-
-O onboarding DevOps na Hotmart é estruturado em etapas progressivas. Cada fase constrói a base para a próxima.
 
 ```
 👤 Novo Engenheiro DevOps
@@ -130,7 +92,7 @@ O onboarding DevOps na Hotmart é estruturado em etapas progressivas. Cada fase 
          │
          ▼
 📅 Quarter Projects / POCs
-   Iniciativas trimestrais · Novas tecnologias · Evolução da plataforma
+   Iniciativas trimestrais · Novas tecnologias
          │
          ▼
 🚀 Engenheiro Maduro na Plataforma
@@ -138,38 +100,39 @@ O onboarding DevOps na Hotmart é estruturado em etapas progressivas. Cada fase 
 
 ---
 
-## Tempo Estimado do Onboarding
+## Tempo Estimado
 
-O onboarding completo tem duração aproximada de **3 meses**. O ritmo é ajustado conforme o background de cada engenheiro, sempre com suporte do mentor (fellow).
+O onboarding completo dura aproximadamente **3 meses**, ajustado conforme o background de cada engenheiro.
 
 | Período | Foco |
 |---|---|
-| Primeiras semanas | Setup de ambiente, solicitação de acessos, leitura do Platform Overview e início do Training Camp |
-| Primeiro mês | Conclusão do Training Camp e execução do Hands-on Project supervisionado |
-| Segundo mês | Participação em tarefas operacionais reais, acompanhamento de incidentes e primeiros tickets no Service Desk |
-| Terceiro mês | Autonomia parcial nas operações, preparação para on-call e início de contribuição em projetos trimestrais |
+| Dia 1 | Kickoff, setup de acessos, abertura de tickets no Service Desk |
+| Semana 1 | Training Camp (~4 dias): vídeos, slides, Skill Matrix |
+| Semana 2-3 | Hands-On Project: deploy real de frontend + backend |
+| Mês 2 | Trabalho operacional: tickets, deploys, acompanhamento de incidentes |
+| Mês 3 | Autonomia parcial, preparação para on-call, projetos trimestrais |
 
-Para mais detalhes, consulte o plano completo:
-📄 [`devops-journey/30-60-90-days.md`](devops-journey/30-60-90-days)
+📄 [Plano detalhado — 30-60-90 dias](devops-journey/30-60-90-days)
+📄 [Checklist de progresso](devops-journey/onboarding-checklist)
 
 ---
 
-## Principais Ferramentas Utilizadas
+## Principais Ferramentas
 
 | Ferramenta | Papel na plataforma |
 |---|---|
-| GitHub | Repositório central de código e configuração. Fonte da verdade para o estado das aplicações |
-| GitHub Actions | CI/CD com workflows reutilizáveis e runners self-hosted via ARC no próprio cluster |
-| AWS | Infraestrutura cloud onde toda a plataforma roda. Múltiplas contas organizadas por domínio |
-| Kubernetes (EKS) | Orquestração de containers. Todos os workloads rodam em clusters EKS gerenciados |
-| ArgoCD | Deploy contínuo via GitOps. Sincroniza o estado dos clusters com o estado declarado no Git |
-| Terraform (Base Module) | Provisionamento declarativo de infraestrutura AWS via YAML. Componente central da plataforma |
-| NewRelic | APM e observabilidade de aplicação: traces distribuídos, taxa de erro e latência |
-| Datadog | Monitoramento de infraestrutura: nodes, containers e uso de recursos |
-| PagerDuty | Gerenciamento de alertas e rotação de on-call. Ponto central de notificação de incidentes |
-| hotctl | CLI interna para interagir com a infraestrutura da plataforma Hotmart |
-| Vault | Gerenciamento de secrets e credenciais sensíveis |
-| Cloudflare | Proteção DDoS, WAF, CDN e controle de tráfego externo |
+| GitHub | Repositório central de código e configuração |
+| GitHub Actions | CI/CD com workflows reutilizáveis e runners self-hosted via ARC |
+| AWS | Infraestrutura cloud. Múltiplas contas organizadas por domínio |
+| Kubernetes (EKS) | Orquestração de containers. Todos os workloads rodam em EKS |
+| ArgoCD | Deploy contínuo via GitOps |
+| Terraform (Base Module) | Provisionamento declarativo de infraestrutura AWS via YAML |
+| NewRelic | APM: traces distribuídos, taxa de erro e latência |
+| Datadog | Monitoramento de infraestrutura: nodes, containers, recursos |
+| PagerDuty | Alertas e rotação de on-call |
+| hotctl | CLI interna para interagir com a plataforma |
+| Vault | Gerenciamento de secrets |
+| Cloudflare | Proteção DDoS, WAF, CDN |
 
 ---
 
@@ -187,17 +150,13 @@ Para mais detalhes, consulte o plano completo:
 
 ---
 
-## Contribuindo com a Documentação
+## Contribuindo
 
-A documentação é um produto do time — não de uma pessoa. Todo engenheiro DevOps é encorajado a contribuir com melhorias.
+A documentação é um produto do time. Todo engenheiro DevOps é encorajado a contribuir:
 
-**Como contribuir:**
+- Abra um Pull Request com a melhoria ou correção
+- Atualize a documentação quando houver mudanças na plataforma
+- Se resolveu um problema que não estava documentado, documente
+- Se encontrar algo errado mas não tiver tempo de corrigir, abra uma Issue
 
-- Abra um Pull Request com a melhoria ou correção diretamente neste repositório
-- Atualize a documentação sempre que houver mudanças relevantes na plataforma — documentação desatualizada é pior do que documentação inexistente
-- Registre novos aprendizados: se você resolveu um problema que não estava documentado, documente. A próxima pessoa vai agradecer.
-- Se encontrar algo errado ou desatualizado mas não tiver tempo de corrigir agora, abra uma issue descrevendo o problema
-
-A documentação evolui junto com a plataforma. Manter esse repositório atualizado é uma responsabilidade coletiva do time.
-
-
+A documentação evolui junto com a plataforma. Manter esse repositório atualizado é responsabilidade coletiva.
