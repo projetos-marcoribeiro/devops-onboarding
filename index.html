@@ -200,20 +200,21 @@
           });
         },
         function(hook) {
-          var toggleInjected = false;
           hook.doneEach(function() {
             // Inject dark mode toggle next to sidebar title (once)
-            if (!toggleInjected) {
-              var appName = document.querySelector('.app-name-link');
-              if (appName) {
-                var btn = document.createElement('button');
-                btn.className = 'dark-toggle';
-                btn.title = 'Alternar tema claro/escuro';
-                btn.textContent = localStorage.getItem('theme') === 'dark' ? '☀️' : '🌙';
-                btn.onclick = function() { toggleDark(); };
-                appName.insertAdjacentElement('afterend', btn);
-                toggleInjected = true;
-              }
+            if (!document.querySelector('.dark-toggle')) {
+              var tryInject = setInterval(function() {
+                var appName = document.querySelector('.app-name-link');
+                if (appName) {
+                  clearInterval(tryInject);
+                  var btn = document.createElement('button');
+                  btn.className = 'dark-toggle';
+                  btn.title = 'Alternar tema claro/escuro';
+                  btn.textContent = localStorage.getItem('theme') === 'dark' ? '☀️' : '🌙';
+                  btn.onclick = function() { toggleDark(); };
+                  appName.insertAdjacentElement('afterend', btn);
+                }
+              }, 100);
             }
             // Sidebar progress widget (once)
             if (!document.querySelector('.sidebar-progress')) {
