@@ -20,7 +20,7 @@ Produção degrada
          │
          ▼
 Ferramentas de monitoramento detectam o problema
-(Pingdom, NewRelic, Datadog, CloudWatch)
+(Pingdom, NewRelic, Datadog/Teachable, Prometheus, CloudWatch)
          │
          ▼
 PagerDuty cria o incidente e notifica o on-call
@@ -74,7 +74,7 @@ A triagem deve ser rápida: o objetivo é entender o escopo do problema, não re
 
 ### 4. Investigação e resposta
 
-Com o escopo definido, começa a investigação. O on-call usa as ferramentas de observabilidade para identificar a causa raiz: dashboards no Grafana, traces no NewRelic, métricas no Datadog, logs no CloudWatch, estado dos pods via kubectl.
+Com o escopo definido, começa a investigação. O on-call usa as ferramentas de observabilidade para identificar a causa raiz: dashboards no Grafana, traces no NewRelic, métricas no Prometheus (ou Datadog para Teachable), logs no CloudWatch, estado dos pods via kubectl.
 
 Durante a investigação, toda ação tomada deve ser comunicada no canal de incidentes e registrada no ticket. Isso garante que outros membros do time que entrem para ajudar tenham contexto imediato.
 

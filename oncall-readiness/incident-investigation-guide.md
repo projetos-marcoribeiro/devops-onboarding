@@ -42,7 +42,7 @@ Ler o alerta com atenção
          │  há outros alertas relacionados?
          ▼
 Verificar dashboard de observabilidade
-         │  Grafana, NewRelic, Datadog
+         │  Grafana, NewRelic, Datadog (Teachable)
          │  confirmar o problema e entender o escopo
          ▼
 Verificar logs da aplicação
@@ -97,7 +97,7 @@ Acesse o dashboard do serviço afetado e verifique:
 
 Abra os traces do período do incidente para identificar qual operação está com problema.
 
-### Datadog
+### Datadog *(Teachable)*
 
 Verifique a saúde da infraestrutura:
 - Nodes com CPU ou memória elevada?

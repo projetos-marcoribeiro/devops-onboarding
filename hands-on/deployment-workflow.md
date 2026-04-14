@@ -12,6 +12,8 @@
 
 Este documento descreve o fluxo completo de deploy utilizado na plataforma Hotmart. Entender esse fluxo é fundamental para operar com autonomia: seja fazendo um deploy novo, investigando uma falha ou executando um rollback.
 
+> ⚠️ **Nota:** O fluxo via ArgoCD descrito neste documento representa o novo modelo de deploy sendo adotado na Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback. A migração está em andamento.
+
 ---
 
 ## Visão geral do fluxo
@@ -136,14 +138,15 @@ Os pipelines rodam em runners self-hosted gerenciados pelo Actions Runner Contro
 
 Cada runner é um pod efêmero: nasce quando o job começa e morre quando termina. Isso garante ambiente limpo para cada execução.
 
-### Modelo GitOps
+### Modelo GitOps (em adoção)
 
-O deploy segue o modelo GitOps: o Git é a única fonte da verdade para o estado das aplicações. Isso significa:
+O ArgoCD está sendo implementado como o novo modelo de deploy da Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback. O modelo GitOps define que o Git é a única fonte da verdade para o estado das aplicações. Os princípios do modelo:
 
 - **Nenhum deploy manual via kubectl em produção.** Toda mudança passa por um commit.
 - **Rastreabilidade total.** Cada deploy tem um commit associado com autor, data e mensagem.
 - **Rollback simples.** Reverter um deploy é reverter um commit.
-- **Self-healing.** Se alguém modificar algo diretamente no cluster, o ArgoCD reverte automaticamente para o estado declarado no Git.
+
+> ⚠️ A Hotmart não utiliza as opções de self-healing e prune no ArgoCD. Mudanças manuais no cluster não são revertidas automaticamente.
 
 ---
 

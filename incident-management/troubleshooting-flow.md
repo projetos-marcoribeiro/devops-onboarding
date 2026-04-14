@@ -30,7 +30,7 @@ Fazer acknowledge no PagerDuty
          │  sinaliza que você está ciente
          ▼
 Verificar dashboards de observabilidade
-         │  Grafana, NewRelic, Datadog
+         │  Grafana, NewRelic, Datadog (Teachable)
          │  qual serviço? qual métrica? desde quando?
          ▼
 Verificar logs da aplicação
@@ -79,7 +79,7 @@ Abra o Grafana e o NewRelic para ter uma visão geral do que está acontecendo.
 - Abra os traces do período do incidente
 - Identifique qual operação ou dependência está causando o problema
 
-**Datadog:**
+**Datadog** *(Teachable)*:
 - Verifique o uso de recursos dos nodes e pods
 - Confirme se há containers reiniciando
 
@@ -218,7 +218,7 @@ Quando o rollback não é viável (por exemplo, há migração de banco de dados
 |---|---|---|
 | kubectl | Terminal | Estado dos pods, logs, eventos |
 | NewRelic | Via Okta | APM, traces, logs de aplicação |
-| Datadog | Via Okta | Métricas de infraestrutura |
+| Datadog | Via Okta | Métricas de infraestrutura (Teachable) |
 | CloudWatch | Console AWS | Logs e métricas de serviços AWS |
 | ArgoCD | Interface web | Status de deploy, rollback |
 | Grafana | Via Okta | Dashboards operacionais |

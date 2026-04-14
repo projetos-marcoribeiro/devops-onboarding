@@ -57,7 +57,7 @@ O Base Module é o módulo Terraform central da plataforma. Entender como ele fu
 
 ### Observabilidade
 
-Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Datadog para infraestrutura, Prometheus para métricas internas, Grafana para visualização e PagerDuty para alertas. O engenheiro aprende a navegar nas ferramentas e a interpretar o que está vendo.
+Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Prometheus para métricas internas, Grafana para visualização, Sentry para error tracking, Kubecost para custos, Pingdom para uptime externo e PagerDuty para alertas. O Datadog é utilizado apenas pela PU Teachable. O engenheiro aprende a navegar nas ferramentas e a interpretar o que está vendo.
 
 📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
 
@@ -77,7 +77,7 @@ Conceitos práticos de Kubernetes aplicados à plataforma Hotmart: pods, deploym
 
 ### Workflows DevOps
 
-Como os pipelines de CI/CD funcionam, o modelo GitOps com ArgoCD, os workflows reutilizáveis da organização e o fluxo completo de um deploy do commit ao cluster.
+Como os pipelines de CI/CD funcionam, os workflows reutilizáveis da organização e o fluxo completo de um deploy do commit ao cluster. O ArgoCD está sendo adotado como o novo modelo de deploy via GitOps, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback.
 
 📄 [`platform-overview/ci-cd-pipelines.md`](../platform-overview/ci-cd-pipelines)
 📄 [`platform-overview/argocd-gitops.md`](../platform-overview/argocd-gitops)

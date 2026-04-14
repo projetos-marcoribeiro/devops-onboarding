@@ -44,7 +44,8 @@ Cloudflare → ALB → Ingress Controller → Pods
     │  tráfego externo roteado até a aplicação
     ▼
 Observability Stack
-       NewRelic / Datadog / Prometheus / Grafana / PagerDuty
+       NewRelic / Prometheus / Grafana / PagerDuty
+       Datadog (Teachable) · Sentry · Kubecost
 ```
 
 ---
@@ -63,9 +64,9 @@ Sistema de CI/CD baseado em workflows YAML. Na Hotmart, os workflows são padron
 
 O coração do provisionamento de infraestrutura. É um módulo Terraform que recebe um arquivo YAML declarativo e cria automaticamente todos os recursos AWS necessários para uma aplicação: ECR, IAM Roles, ALB, Security Groups, KMS, Secrets Manager e configurações de monitoramento. Os times de produto não precisam escrever Terraform: apenas declaram o que precisam.
 
-### ArgoCD
+### ArgoCD (em implementação)
 
-Responsável pelo deploy contínuo via GitOps. O ArgoCD monitora repositórios de configuração e sincroniza automaticamente o estado dos clusters Kubernetes com o estado declarado no Git. Qualquer mudança no repositório de configuração resulta em um deploy automático e rastreável.
+O ArgoCD está sendo implementado como o novo modelo de deploy contínuo via GitOps da Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback. Quando totalmente operacional, o ArgoCD monitorará repositórios de configuração e sincronizará automaticamente o estado dos clusters Kubernetes com o estado declarado no Git, tornando cada mudança no repositório de configuração um deploy automático e rastreável.
 
 ### EKS Clusters
 
@@ -77,7 +78,7 @@ O tráfego externo passa pelo Cloudflare (proteção DDoS, WAF, CDN), depois pel
 
 ### Observability Stack
 
-Toda aplicação deployada via base-module recebe monitoramento automático. A stack inclui NewRelic para APM, Datadog para infraestrutura, Prometheus para métricas internas, Grafana para visualização, Pingdom para uptime externo e PagerDuty para alertas e on-call.
+Toda aplicação deployada via base-module recebe monitoramento automático. A stack inclui NewRelic para APM, Prometheus para métricas internas, Grafana para visualização, Sentry para error tracking, Kubecost para monitoramento de custos, Pingdom para uptime externo e PagerDuty para alertas e on-call. O Datadog é utilizado exclusivamente pela PU Teachable e está sendo removido da plataforma principal.
 
 ---
 
@@ -89,7 +90,7 @@ Toda infraestrutura é definida em código (Terraform, Helm, YAML). Não existe 
 
 ### GitOps
 
-O Git é a fonte da verdade para o estado da infraestrutura e das aplicações. Qualquer mudança passa por um repositório Git, o que garante histórico completo, revisão por pares e rollback simples.
+O Git é a fonte da verdade para o estado da infraestrutura e das aplicações. Qualquer mudança passa por um repositório Git, o que garante histórico completo, revisão por pares e rollback simples. O ArgoCD está sendo implementado como a ferramenta que operacionaliza esse modelo na Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback.
 
 ### Observability by Default
 

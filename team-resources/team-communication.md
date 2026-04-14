@@ -17,7 +17,7 @@ O Google Chat é a principal ferramenta de comunicação em tempo real do time. 
 - Comunicação rápida entre membros do time
 - Canais temáticos por área (incidentes, deploys, alertas, geral)
 - Notificações automáticas de deploy via integração com GitHub Actions e ArgoCD
-- Alertas de monitoramento integrados (PagerDuty, NewRelic, Datadog)
+- Alertas de monitoramento integrados (PagerDuty, NewRelic, Prometheus/Grafana, Datadog/Teachable)
 - Comunicação com outros times da empresa
 
 **Boas práticas no Google Chat:**

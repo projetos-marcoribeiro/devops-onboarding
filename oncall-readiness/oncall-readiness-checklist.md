@@ -26,7 +26,7 @@ Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas ne
 
 - [ ] PagerDuty configurado com app mobile instalado e notificações ativas
 - [ ] NewRelic acessível via Okta
-- [ ] Datadog acessível via Okta
+- [ ] Datadog acessível via Okta *(específico para Teachable; para demais PUs, métricas de infra estão no Prometheus/Grafana)*
 - [ ] Grafana acessível
 - [ ] ArgoCD acessível
 - [ ] Console AWS com acesso às contas relevantes
@@ -58,11 +58,13 @@ Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas ne
 - [ ] Sei onde encontrar o YAML de configuração de uma aplicação
 - [ ] Consigo identificar os recursos AWS criados pelo Base Module para um serviço
 
-### ArgoCD
+### ArgoCD (em implementação)
 
 - [ ] Sei verificar o status de saúde de uma aplicação no ArgoCD
 - [ ] Consigo executar um sync manual quando necessário
 - [ ] Sei executar um rollback via ArgoCD para uma versão anterior
+
+> ⚠️ O ArgoCD está sendo implementado como o novo modelo de deploy da Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback. Familiarize-se com a ferramenta como parte da preparação para o novo fluxo.
 
 ---
 
@@ -76,11 +78,12 @@ Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas ne
 - [ ] Consigo filtrar logs por serviço e período de tempo
 - [ ] Sei interpretar o Apdex score e o que significa quando está baixo
 
-### Datadog
+### Datadog *(Teachable)*
 
-- [ ] Sei verificar uso de CPU e memória dos nodes EKS
+- [ ] Sei verificar uso de CPU e memória dos nodes EKS no Datadog *(contexto Teachable)*
 - [ ] Consigo identificar containers reiniciando com frequência
 - [ ] Sei navegar nos dashboards de infraestrutura do time
+- [ ] Entendo que para demais PUs, métricas de infra estão no Prometheus/Grafana
 
 ### Grafana
 
@@ -89,7 +92,7 @@ Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas ne
 
 ### Alertas
 
-- [ ] Entendo de onde cada tipo de alerta vem (Pingdom, NewRelic, Datadog, CloudWatch)
+- [ ] Entendo de onde cada tipo de alerta vem (Pingdom, NewRelic, Datadog/Teachable, Prometheus, CloudWatch)
 - [ ] Sei fazer acknowledge de um alerta no PagerDuty
 - [ ] Sei resolver um incidente no PagerDuty após a resolução
 

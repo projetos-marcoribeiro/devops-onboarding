@@ -54,7 +54,7 @@ Módulo Terraform padrão utilizado para provisionar a infraestrutura necessári
 
 Templates Helm customizados utilizados para o deploy de aplicações nos clusters EKS da Hotmart. Os charts definem como as aplicações são configuradas e deployadas no Kubernetes, com padrões e boas práticas da plataforma já incorporados.
 
-**Contexto na Hotmart:** os charts ficam no repositório [devops-helm-iac](https://github.com/Hotmart-Org/devops-helm-iac) e são gerenciados pelo time de Platform Engineering. Os values específicos de cada aplicação e ambiente são configurados pelos times de produto.
+**Contexto na Hotmart:** os charts ficam no repositório [devops-helm-iac](https://github.com/Hotmart-Org/devops-helm-iac) e são gerenciados pelo time DevOps. Os values específicos de cada aplicação e ambiente são configurados pelos times de produto. O ArgoCD está sendo implementado como o novo modelo de deploy, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback.
 
 ---
 
@@ -192,11 +192,27 @@ Plataforma de observabilidade de aplicações (APM). Fornece visibilidade sobre 
 
 ---
 
-### Datadog
+### Datadog ⚠️ Escopo limitado
 
 Plataforma de monitoramento de infraestrutura. Coleta métricas de nodes Kubernetes, containers, uso de recursos e rede.
 
-**Contexto na Hotmart:** utilizado para monitorar a saúde da infraestrutura: nodes EKS, containers, uso de CPU/memória e métricas de sistema. Complementa o New Relic, que foca na camada de aplicação.
+**Contexto na Hotmart:** utilizado exclusivamente pela Product Unit **Teachable**. O Datadog está sendo removido da plataforma principal (Pyhot / Monitoring / Base-Module) e não é mais a ferramenta padrão de monitoramento de infraestrutura para a Hotmart como um todo. Para métricas de infraestrutura e cluster, a plataforma utiliza **Prometheus + Grafana**. Para monitoramento de custos em Kubernetes, utiliza-se o **Kubecost**.
+
+---
+
+### Kubecost
+
+Ferramenta de monitoramento e otimização de custos em clusters Kubernetes. Fornece visibilidade sobre o custo real de namespaces, workloads e recursos, permitindo identificar desperdícios e otimizar a alocação.
+
+**Contexto na Hotmart:** utilizado para monitoramento de custos nos clusters EKS. Permite ao time DevOps acompanhar quanto cada namespace, deployment ou PU está consumindo em termos de recursos e custo de infraestrutura.
+
+---
+
+### Sentry
+
+Plataforma de monitoramento de erros e exceções em aplicações. Captura erros em tempo real com contexto completo: stack trace, breadcrumbs, informações do usuário e do ambiente.
+
+**Contexto na Hotmart:** utilizado para rastreamento de erros em aplicações da plataforma. Complementa o NewRelic na camada de error tracking, fornecendo detalhes granulares sobre exceções e crashes.
 
 ---
 
@@ -210,9 +226,9 @@ Sistema open source de coleta e armazenamento de métricas. Coleta métricas exp
 
 ### Grafana
 
-Plataforma open source de visualização de dados. Cria dashboards a partir de múltiplas fontes de dados como Prometheus, Datadog e CloudWatch.
+Plataforma open source de visualização de dados. Cria dashboards a partir de múltiplas fontes de dados como Prometheus e CloudWatch.
 
-**Contexto na Hotmart:** ferramenta central de visualização operacional. Dashboards do time DevOps e de aplicações específicas ficam no Grafana. Acessível via Okta.
+**Contexto na Hotmart:** ferramenta central de visualização operacional. Dashboards do time DevOps e de aplicações específicas ficam no Grafana. Inclui métricas de Karpenter, ARC e clusters EKS via Prometheus. Acessível via Okta.
 
 ---
 

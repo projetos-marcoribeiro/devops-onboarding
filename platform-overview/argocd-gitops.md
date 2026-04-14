@@ -7,14 +7,16 @@
 - [ApplicationSet](#applicationset)
 - [Deploy MultiCluster](#deploy-multicluster)
 - [Repositório central de values](#repositório-central-de-values)
-- [Sync Policy e Self-Heal](#sync-policy-e-self-heal)
+- [Sync Policy](#sync-policy)
 - [Acessando o ArgoCD](#acessando-o-argocd)
 - [Quando fazer sync manual](#quando-fazer-sync-manual)
 - [Referências](#referências)
 
 ---
 
-O ArgoCD é a ferramenta de deploy contínuo utilizada na Hotmart. Ele implementa o modelo GitOps, onde o Git é a fonte da verdade para o estado desejado das aplicações nos clusters Kubernetes.
+> ⚠️ **Nota:** O ArgoCD está sendo implementado como a nova ferramenta de deploy contínuo da Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback. A adoção está em andamento e nem todos os serviços foram migrados para esse modelo.
+
+O ArgoCD é a nova ferramenta de deploy contínuo sendo adotada na Hotmart. Ele implementa o modelo GitOps, onde o Git é a fonte da verdade para o estado desejado das aplicações nos clusters Kubernetes.
 
 ---
 
@@ -96,9 +98,11 @@ spec:
         namespace: minha-aplicacao
       syncPolicy:
         automated:
-          prune: true
-          selfHeal: true
+          prune: false
+          selfHeal: false
 ```
+
+> ⚠️ **Nota:** Na implementação da Hotmart, as opções `selfHeal` e `prune` **não são utilizadas**. O exemplo acima reflete a configuração real adotada.
 
 ---
 
@@ -150,18 +154,18 @@ Quando o pipeline de CI/CD faz o build de uma nova imagem, ele atualiza o `value
 
 ---
 
-## Sync Policy e Self-Heal
+## Sync Policy
 
-O ArgoCD pode ser configurado para sincronizar automaticamente quando detecta divergência entre o Git e o cluster:
+O ArgoCD pode ser configurado com diferentes políticas de sincronização. Na implementação da Hotmart, **não são utilizadas as opções `selfHeal` e `prune`**:
 
 ```yaml
 syncPolicy:
   automated:
-    prune: true      # remove recursos que não existem mais no Git
-    selfHeal: true   # reverte mudanças manuais feitas diretamente no cluster
+    prune: false      # não remove automaticamente recursos ausentes no Git
+    selfHeal: false   # não reverte automaticamente mudanças manuais no cluster
 ```
 
-O `selfHeal: true` é especialmente importante: se alguém fizer uma mudança manual no cluster (via kubectl), o ArgoCD vai reverter automaticamente para o estado declarado no Git. Isso reforça o modelo GitOps e evita drift de configuração.
+Essa decisão permite maior controle sobre o que é aplicado nos clusters durante o período de adoção da ferramenta. Mudanças manuais no cluster não são revertidas automaticamente pelo ArgoCD na configuração atual.
 
 ---
 

@@ -36,7 +36,7 @@ Para cada etapa:
 - Como o YAML declarativo funciona
 - Quais recursos AWS são criados automaticamente
 - As variantes: `base-module`, `base-module-lambda`, `base-module-agentcore`, `base-module-nomad`
-- Como o Base Module se integra com o pipeline de CI/CD e o ArgoCD
+- Como o Base Module se integra com o pipeline de CI/CD e o ArgoCD (novo modelo de deploy em implementação)
 
 **Atividades práticas:**
 - Leia o repositório [terraform-base-module](https://github.com/Hotmart-Org/terraform-base-module) e entenda a estrutura de arquivos
@@ -63,7 +63,8 @@ Para cada etapa:
 **Por que vem aqui:** depois de entender como a infraestrutura é criada, o próximo passo é entender como ela é observada. Monitoramento é a base para qualquer atividade operacional: sem ele, você opera no escuro.
 
 **O que estudar:**
-- O papel de cada ferramenta: NewRelic, Datadog, Prometheus, Grafana, Pingdom, PagerDuty, CloudWatch
+- O papel de cada ferramenta: NewRelic, Prometheus, Grafana, Pingdom, PagerDuty, CloudWatch, Sentry, Kubecost
+- Datadog: escopo limitado à PU Teachable (em remoção da plataforma principal)
 - Como o Base Module integra monitoramento automaticamente
 - Como navegar no Grafana e interpretar dashboards
 - Como ler traces no NewRelic e identificar gargalos

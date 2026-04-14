@@ -147,7 +147,8 @@ AgentCore Runtime + Amazon Bedrock
          │
          ▼
 Observability Stack
-       NewRelic / Datadog / Grafana / PagerDuty
+       NewRelic / Prometheus / Grafana / PagerDuty
+       Datadog (Teachable) · Sentry · Kubecost
 ```
 
 O fluxo é o mesmo da plataforma padrão. A diferença está nos recursos provisionados (AgentCore em vez de ALB+pods genéricos) e na arquitetura de compute (ARM64).

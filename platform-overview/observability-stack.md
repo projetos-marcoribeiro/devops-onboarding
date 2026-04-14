@@ -26,7 +26,12 @@ Aplicação em produção
          │
          ├── APM / Traces ──► NewRelic (performance de aplicação)
          │
-         ├── Infraestrutura ► Datadog (hosts, containers, rede)
+         ├── Error Tracking ► Sentry (erros e exceções)
+         │
+         ├── Infraestrutura ► Prometheus + Grafana (métricas de cluster)
+         │                  ► Datadog (apenas Teachable)
+         │
+         ├── Custos ────────► Kubecost (custos Kubernetes)
          │
          ├── Logs ──────────► CloudWatch (logs AWS)
          │                ──► NewRelic Logs (correlação com APM)
@@ -55,15 +60,16 @@ O agente NewRelic é injetado automaticamente nas aplicações deployadas via ba
 
 ---
 
-### Datadog: Infraestrutura e Containers
+### Datadog: Infraestrutura – Teachable ⚠️ Escopo limitado
 
-O Datadog é utilizado para monitoramento de infraestrutura: nodes Kubernetes, containers, uso de CPU/memória, rede e métricas de sistema.
+> ⚠️ O Datadog é utilizado exclusivamente pela Product Unit **Teachable**. Está sendo removido da plataforma principal (Pyhot / Monitoring / Base-Module). Para as demais PUs, métricas de infraestrutura são coletadas via Prometheus e visualizadas no Grafana.
 
-**Casos de uso:**
-- Monitorar saúde dos nodes EKS
+O Datadog monitora a camada de infraestrutura da Teachable: nodes Kubernetes, containers, uso de CPU/memória, rede e métricas de sistema.
+
+**Casos de uso (Teachable):**
+- Monitorar saúde dos nodes EKS da Teachable
 - Acompanhar uso de recursos dos pods
 - Investigar problemas de rede entre serviços
-- Monitorar métricas de sistema dos runners de CI/CD
 - Dashboards de capacidade e utilização de infraestrutura
 
 ---
@@ -82,13 +88,38 @@ O Prometheus coleta métricas expostas pelas aplicações e pelos componentes da
 
 ### Grafana: Visualização
 
-O Grafana é a ferramenta de visualização central. Ele agrega dados do Prometheus, Datadog e outras fontes em dashboards unificados.
+O Grafana é a ferramenta de visualização central. Ele agrega dados do Prometheus, CloudWatch e outras fontes em dashboards unificados.
 
 **Casos de uso:**
 - Dashboards operacionais do time DevOps
 - Visualização de métricas de aplicações
 - Acompanhamento de SLOs em tempo real
 - Dashboards de capacidade de infraestrutura
+- Métricas de Karpenter, ARC e clusters EKS
+
+---
+
+### Sentry: Error Tracking
+
+O Sentry captura erros e exceções em aplicações em tempo real, com contexto completo: stack trace, breadcrumbs, informações do ambiente e do usuário afetado.
+
+**Casos de uso:**
+- Rastreamento de erros e exceções em produção
+- Análise de stack traces com contexto completo
+- Monitoramento de regressões após deploys
+- Complementa o NewRelic na camada de error tracking
+
+---
+
+### Kubecost: Monitoramento de Custos
+
+O Kubecost fornece visibilidade sobre os custos reais de workloads em clusters Kubernetes, permitindo identificar desperdícios e otimizar a alocação de recursos.
+
+**Casos de uso:**
+- Monitorar custo por namespace, deployment e PU
+- Identificar workloads com recursos superprovisionados
+- Acompanhar tendências de custo ao longo do tempo
+- Gerar relatórios de custo por time ou produto
 
 ---
 
@@ -105,7 +136,7 @@ O Pingdom monitora a disponibilidade das aplicações a partir de múltiplas reg
 
 ### PagerDuty: Alertas e On-call
 
-O PagerDuty é a plataforma de gerenciamento de alertas e on-call. Alertas do Prometheus, NewRelic, Datadog e Pingdom são roteados para o PagerDuty, que gerencia a escalação e notificação das pessoas certas.
+O PagerDuty é a plataforma de gerenciamento de alertas e on-call. Alertas do Prometheus, NewRelic, Pingdom e Datadog (Teachable) são roteados para o PagerDuty, que gerencia a escalação e notificação das pessoas certas.
 
 **Casos de uso:**
 - Receber alertas de incidentes em produção
@@ -131,12 +162,13 @@ O que é provisionado automaticamente:
 Base-module detecta monitoring: enabled: true
          │
          ├── Configura injeção do agente NewRelic
-         ├── Registra a aplicação no Datadog
          ├── Cria ServiceMonitor para o Prometheus
          ├── Cria dashboard padrão no Grafana
          ├── Configura alertas básicos no PagerDuty
          └── Configura check no Pingdom (se ingress habilitado)
 ```
+
+> ⚠️ O registro automático no Datadog foi removido do Base Module. O Datadog é configurado separadamente apenas para aplicações da PU Teachable.
 
 ---
 
@@ -147,9 +179,10 @@ Durante o troubleshooting de um incidente, o fluxo típico é:
 1. **PagerDuty** dispara o alerta: você recebe a notificação
 2. **Grafana**: visão geral do que está acontecendo com métricas
 3. **NewRelic**: investigar o comportamento da aplicação, traces e erros
-4. **Datadog**: verificar saúde da infraestrutura (nodes, containers)
-5. **CloudWatch**: verificar logs e métricas de serviços AWS envolvidos
-6. **kubectl**: inspecionar pods, eventos e logs diretamente no cluster
+4. **Datadog** *(apenas Teachable)*: verificar saúde da infraestrutura (nodes, containers)
+5. **Kubecost**: verificar custos e alocação de recursos se relevante
+6. **CloudWatch**: verificar logs e métricas de serviços AWS envolvidos
+7. **kubectl**: inspecionar pods, eventos e logs diretamente no cluster
 
 Cada ferramenta tem seu papel. Saber qual usar em cada situação é uma habilidade que se desenvolve com a prática.
 

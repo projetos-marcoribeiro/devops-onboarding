@@ -114,7 +114,7 @@ Com esse YAML, o base-module cria automaticamente toda a infraestrutura necessá
 | Security Groups | Regras de rede para o ALB e os pods |
 | Route53 Record | Registro DNS apontando para o ALB |
 | ACM Certificate | Certificado TLS para o domínio da aplicação |
-| Monitoring Config | Integração com NewRelic, Datadog e alertas no PagerDuty |
+| Monitoring Config | Integração com NewRelic e alertas no PagerDuty |
 
 ---
 
@@ -142,12 +142,12 @@ Variante para workloads que rodam no HashiCorp Nomad, utilizada em casos especí
 
 ## Como contribuir com o base-module
 
-O base-module é mantido pelo time de Platform Engineering. Para propor mudanças:
+O base-module é mantido pelo time DevOps. Para propor mudanças:
 
 1. Abra uma issue no repositório descrevendo a necessidade
 2. Discuta a abordagem com o time antes de implementar
 3. Abra um PR com a implementação e testes
-4. Aguarde revisão do time de Platform Engineering
+4. A revisão é feita pelo time DevOps, e em alguns casos a proposta é compartilhada no grupo geral de DevOps para avaliação e aprovação
 
 Mudanças no base-module afetam todas as aplicações que o utilizam, então o processo de revisão é criterioso.
 

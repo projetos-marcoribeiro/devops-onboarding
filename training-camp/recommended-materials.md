@@ -74,7 +74,7 @@ Materiais sobre como as aplicações e a infraestrutura são monitoradas na Hotm
 
 ### Monitoring Applications
 
-Guia completo sobre a stack de observabilidade: NewRelic, Datadog, Prometheus, Grafana e PagerDuty. Explica como cada ferramenta é usada, como o monitoramento é configurado automaticamente pelo Base Module e como navegar nas ferramentas durante um incidente.
+Guia completo sobre a stack de observabilidade: NewRelic, Prometheus, Grafana, Sentry, Kubecost e PagerDuty. O Datadog é abordado no contexto da PU Teachable. Explica como cada ferramenta é usada, como o monitoramento é configurado automaticamente pelo Base Module e como navegar nas ferramentas durante um incidente.
 
 **Quando estudar:** etapa 2 do Learning Path.
 

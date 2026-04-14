@@ -80,7 +80,7 @@ Capacidade de monitorar, investigar e interpretar o comportamento de sistemas em
 
 Exemplos de tópicos avaliados:
 - NewRelic (APM, traces, alertas)
-- Datadog (infraestrutura, containers)
+- Datadog (infraestrutura – apenas Teachable)
 - Prometheus e Grafana
 - PagerDuty (alertas e on-call)
 - Definição e acompanhamento de SLOs

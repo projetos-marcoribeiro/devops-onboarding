@@ -24,7 +24,7 @@ flowchart TD
         B["Ferramentas detectam o problema"]
         B1["🔵 Pingdom\nUptime externo"]
         B2["🟢 NewRelic\nAPM · Taxa de erro · Latência"]
-        B3["🟣 Datadog\nInfraestrutura · Containers"]
+        B3["🟣 Datadog\nInfraestrutura (Teachable)"]
         B4["🟠 CloudWatch\nMétricas AWS"]
         B --> B1 & B2 & B3 & B4
     end
@@ -43,7 +43,7 @@ flowchart TD
 
     subgraph INV ["Ferramentas de Investigação"]
         F1["NewRelic\nTraces · Logs · APM"]
-        F2["Datadog\nMétricas de infra"]
+        F2["Datadog\nMétricas de infra (Teachable)"]
         F3["CloudWatch\nLogs AWS"]
         F4["kubectl\nPods · Logs · Eventos"]
         F5["ArgoCD\nDeploy recente?"]
@@ -95,10 +95,10 @@ flowchart TD
 
 | Etapa | Ferramentas utilizadas |
 |---|---|
-| Detecção | Pingdom, NewRelic, Datadog, CloudWatch, Statping |
+| Detecção | Pingdom, NewRelic, Datadog (Teachable), Prometheus, CloudWatch, Statping, Sentry |
 | Notificação | PagerDuty (push, SMS, ligação) |
 | Investigação: Aplicação | NewRelic (APM, traces, logs) |
-| Investigação: Infraestrutura | Datadog, CloudWatch, kubectl |
+| Investigação: Infraestrutura | Prometheus/Grafana, Datadog (Teachable), CloudWatch, kubectl |
 | Investigação: Deploy | ArgoCD, GitHub Actions |
 | Ação corretiva | ArgoCD, kubectl, GitHub Actions |
 | Documentação | Jira, Google Chat |

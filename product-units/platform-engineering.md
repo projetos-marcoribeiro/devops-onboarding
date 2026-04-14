@@ -14,6 +14,8 @@
 
 A equipe de **Platform Engineering** é responsável pela infraestrutura compartilhada, pelas ferramentas DevOps e pela experiência do desenvolvedor dentro da Hotmart. Enquanto outras PUs constroem produtos para usuários externos, o Platform Engineering constrói a plataforma que os times de engenharia usam para construir e operar seus produtos.
 
+> ⚠️ **Nota:** Platform Engineering como estrutura formal de time está sendo estabelecida. Atualmente, as responsabilidades descritas neste documento são desempenhadas pelo time DevOps.
+
 ---
 
 ## Missão
@@ -35,7 +37,7 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 
 - Desenvolvimento e manutenção do Base Module (terraform-base-module)
 - Manutenção dos workflows reutilizáveis de CI/CD (GitHub Actions)
-- Operação do ArgoCD e do modelo GitOps da plataforma
+- Operação do ArgoCD e do modelo GitOps da plataforma (em implementação, substituindo o fluxo anterior de Helm upgrade/install/rollback)
 - Gestão dos runners de CI/CD via Actions Runner Controller (ARC)
 
 ### Automações de deploy
@@ -47,7 +49,7 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 
 ### Observabilidade da plataforma
 
-- Operação da stack de observabilidade (NewRelic, Datadog, Prometheus, Grafana)
+- Operação da stack de observabilidade (NewRelic, Prometheus, Grafana, Sentry, Kubecost; Datadog apenas para Teachable)
 - Configuração de alertas e integração com PagerDuty
 - Dashboards operacionais para o time DevOps e para os times de produto
 - Definição de padrões de SLO e SLA
@@ -91,7 +93,7 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 
 | Ferramenta | Descrição | Acesso |
 |---|---|---|
-| ArgoCD | GitOps e deploy contínuo | Via Okta |
+| ArgoCD | GitOps e deploy contínuo (em implementação) | Via Okta |
 | Grafana | Dashboards de observabilidade | Via Okta |
 | Backstage | Portal de developer experience | Via Okta |
 | PagerDuty | Alertas e on-call | Via Okta |

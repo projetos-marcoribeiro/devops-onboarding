@@ -125,10 +125,12 @@ O onboarding completo dura aproximadamente **3 meses**, ajustado conforme o back
 | GitHub Actions | CI/CD com workflows reutilizáveis e runners self-hosted via ARC |
 | AWS | Infraestrutura cloud. Múltiplas contas organizadas por domínio |
 | Kubernetes (EKS) | Orquestração de containers. Todos os workloads rodam em EKS |
-| ArgoCD | Deploy contínuo via GitOps |
+| ArgoCD | Deploy contínuo via GitOps (em implementação) |
 | Terraform (Base Module) | Provisionamento declarativo de infraestrutura AWS via YAML |
 | NewRelic | APM: traces distribuídos, taxa de erro e latência |
-| Datadog | Monitoramento de infraestrutura: nodes, containers, recursos |
+| Datadog | Monitoramento de infraestrutura (Teachable) |
+| Kubecost | Monitoramento de custos em Kubernetes |
+| Sentry | Rastreamento de erros e exceções |
 | PagerDuty | Alertas e rotação de on-call |
 | hotctl | CLI interna para interagir com a plataforma |
 | Vault | Gerenciamento de secrets |

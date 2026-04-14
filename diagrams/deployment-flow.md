@@ -9,6 +9,8 @@
 
 ---
 
+> ⚠️ **Nota:** O fluxo via ArgoCD representa o novo modelo de deploy sendo implementado na Hotmart, substituindo o fluxo anterior baseado em Helm upgrade/install/rollback. A migração está em andamento e nem todos os serviços utilizam esse fluxo ainda.
+
 Este diagrama representa o fluxo completo de deploy de uma aplicação na plataforma Hotmart, desde o commit do desenvolvedor até a aplicação disponível para os usuários.
 
 ---
@@ -43,7 +45,7 @@ flowchart TD
 
     J --> K["✅ Aplicação disponível\nIngress → ALB → Cloudflare\nUsuários acessam normalmente"]
 
-    K --> L["📊 Observabilidade ativa\nNewRelic · Datadog · Prometheus\nGrafana · PagerDuty"]
+    K --> L["📊 Observabilidade ativa\nNewRelic · Prometheus · Grafana\nSentry · Kubecost · PagerDuty\nDatadog (Teachable)"]
 
     style A fill:#4A90D9,color:#fff,stroke:#2c6fad
     style B fill:#24292E,color:#fff,stroke:#000
@@ -76,7 +78,7 @@ flowchart TD
 | ArgoCD detecta mudança | O ArgoCD monitora o repositório de configuração e detecta a mudança automaticamente via polling ou webhook |
 | Deploy no EKS | O ArgoCD aplica as mudanças no cluster. O Kubernetes executa um rolling update: novos pods sobem, health checks passam, pods antigos são removidos |
 | Aplicação disponível | O tráfego é roteado para os novos pods via Ingress → ALB → Cloudflare. Zero downtime para o usuário final |
-| Observabilidade ativa | Métricas, logs e traces são coletados automaticamente. Qualquer anomalia gera alerta no PagerDuty |
+| Observabilidade ativa | Métricas, logs e traces são coletados automaticamente. Qualquer anomalia gera alerta no PagerDuty. Datadog é utilizado apenas para Teachable |
 
 ---
 

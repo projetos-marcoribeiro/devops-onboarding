@@ -38,7 +38,7 @@ flowchart TD
 
     subgraph OBS ["Observabilidade"]
         NR["NewRelic\nAPM · Traces"]
-        DD["Datadog\nInfraestrutura"]
+        DD["Datadog\nInfraestrutura (Teachable)"]
         PROM["Prometheus\nMétricas"]
         GRAF["Grafana\nDashboards"]
         PD["PagerDuty\nAlertas · On-call"]
@@ -93,7 +93,7 @@ flowchart TD
 | ALB | Application Load Balancer da AWS que recebe o tráfego do Cloudflare e distribui para os pods |
 | Ingress Controller | Gerencia o roteamento interno do cluster com base nos recursos Ingress do Kubernetes |
 | NewRelic | APM e observabilidade de aplicação: traces distribuídos, taxa de erro, latência e performance |
-| Datadog | Monitoramento de infraestrutura: nodes, containers, uso de recursos e rede |
+| Datadog | Monitoramento de infraestrutura: nodes, containers, uso de recursos e rede *(exclusivo Teachable; em remoção da plataforma principal)* |
 | Prometheus | Coleta métricas internas do cluster e das aplicações para alertas e dashboards |
 | Grafana | Visualização de métricas em dashboards operacionais |
 | PagerDuty | Recebe alertas de todas as ferramentas de monitoramento e gerencia notificações e rotação de on-call |

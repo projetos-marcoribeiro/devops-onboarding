@@ -6,7 +6,7 @@
 - [Pingdom: Monitoramento Externo de Uptime](#pingdom--monitoramento-externo-de-uptime)
 - [Statping: Monitoramento Interno](#statping--monitoramento-interno)
 - [NewRelic: APM e Performance de Aplicação](#newrelic--apm-e-performance-de-aplicação)
-- [Datadog: Infraestrutura e Containers](#datadog--infraestrutura-e-containers)
+- [Datadog: Infraestrutura – Teachable](#datadog--infraestrutura-e-containers)
 - [CloudWatch: Métricas AWS Nativas](#cloudwatch--métricas-aws-nativas)
 - [Runbooks associados a alertas](#runbooks-associados-a-alertas)
 - [Referências](#referências)
@@ -25,7 +25,9 @@ Plataforma Hotmart
          ├── Pingdom ──────────► uptime externo (usuário real)
          ├── Statping ─────────► uptime interno (endpoints internos)
          ├── NewRelic ─────────► APM, performance de aplicação
-         ├── Datadog ──────────► infraestrutura, containers, rede
+         ├── Sentry ───────────► error tracking, exceções
+         ├── Datadog ──────────► infraestrutura (apenas Teachable)
+         ├── Prometheus ───────► métricas internas, cluster, Karpenter
          └── CloudWatch ───────► serviços AWS nativos
                    │
                    ▼
@@ -91,11 +93,13 @@ O NewRelic é a principal fonte de alertas relacionados ao comportamento das apl
 
 ---
 
-## Datadog: Infraestrutura e Containers
+## Datadog: Infraestrutura e Containers *(Teachable)*
 
-O Datadog monitora a camada de infraestrutura: nodes Kubernetes, containers, uso de recursos e rede.
+> ⚠️ O Datadog é utilizado exclusivamente pela Product Unit **Teachable**. Para as demais PUs, métricas de infraestrutura são coletadas via **Prometheus** e visualizadas no **Grafana**. O Datadog está sendo removido da plataforma principal (Pyhot / Monitoring / Base-Module).
 
-**O que monitora:**
+O Datadog monitora a camada de infraestrutura da Teachable: nodes Kubernetes, containers, uso de recursos e rede.
+
+**O que monitora (escopo Teachable):**
 
 | Métrica | Descrição |
 |---|---|
@@ -111,7 +115,7 @@ O Datadog monitora a camada de infraestrutura: nodes Kubernetes, containers, uso
 - Disco acima de 80% de utilização
 - Métricas de rede fora do padrão
 
-**Dica de investigação:** alertas do Datadog geralmente indicam problema de capacidade ou de configuração de recursos. Verifique `kubectl top nodes` e `kubectl top pods` para confirmar o que o Datadog está reportando.
+**Dica de investigação:** para alertas de infraestrutura da Teachable vindos do Datadog, verifique `kubectl top nodes` e `kubectl top pods` para confirmar. Para demais PUs, utilize os dashboards do Grafana com métricas do Prometheus.
 
 ---
 

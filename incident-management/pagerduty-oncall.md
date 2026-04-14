@@ -19,7 +19,7 @@ O PagerDuty é a plataforma de gerenciamento de alertas e on-call utilizada na H
 
 ### Gerenciamento de alertas
 
-O PagerDuty recebe alertas de múltiplas fontes (Pingdom, NewRelic, Datadog, CloudWatch) e os consolida em um único lugar. Isso evita que o on-call precise monitorar múltiplas ferramentas simultaneamente: o PagerDuty agrega e notifica.
+O PagerDuty recebe alertas de múltiplas fontes (Pingdom, NewRelic, Prometheus, Datadog/Teachable, CloudWatch) e os consolida em um único lugar. Isso evita que o on-call precise monitorar múltiplas ferramentas simultaneamente: o PagerDuty agrega e notifica.
 
 Alertas podem ser agrupados em incidentes para evitar flood de notificações quando múltiplos alertas relacionados disparam ao mesmo tempo.
 
@@ -93,7 +93,8 @@ Incidentes no PagerDuty podem ser acionados por diferentes fontes de monitoramen
 
 ### Métricas de infraestrutura
 
-- **Datadog:** CPU ou memória de nodes acima do limite, containers reiniciando com frequência, disco cheio, problemas de rede
+- **Datadog** *(Teachable)*: CPU ou memória de nodes acima do limite, containers reiniciando com frequência, disco cheio, problemas de rede
+- **Prometheus/Grafana:** métricas de infraestrutura para demais PUs (Karpenter, ARC, cluster metrics)
 - **CloudWatch:** métricas de serviços AWS (RDS, SQS, Lambda, ALB) fora dos parâmetros normais
 
 ### Verificações de disponibilidade

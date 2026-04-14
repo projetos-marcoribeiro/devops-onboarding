@@ -106,7 +106,7 @@ Descrição: O pod da aplicação Z está sendo morto por falta de memória.
 Prioridade: Alta
 ```
 
-**Como atender:** verificar o uso real de memória no Grafana/Datadog, ajustar os limits no Helm values, abrir PR e fazer deploy.
+**Como atender:** verificar o uso real de memória no Grafana (Prometheus), ajustar os limits no Helm values, abrir PR e fazer deploy.
 
 ---
 
