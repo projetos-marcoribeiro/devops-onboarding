@@ -12,6 +12,8 @@ assignees: ''
 **Data de início:** [data]
 **PU:** [sua Product Unit]
 
+> Após criar esta Issue: atribua a si mesmo (Assignee) e adicione seu gestor como Assignee adicional para que ele acompanhe o progresso.
+
 ---
 
 ### Semana 1: Kickoff + Training Camp (~4 dias)

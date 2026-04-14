@@ -31,6 +31,8 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 **Data de início:** [data]
 **PU:** [sua Product Unit]
 
+> Após criar esta Issue: atribua a si mesmo (Assignee) e adicione seu gestor como Assignee adicional para que ele acompanhe o progresso.
+
 ---
 
 ### Semana 1: Kickoff + Training Camp (~4 dias)
@@ -121,12 +123,13 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 
 ## Gerando o relatório de conclusão
 
-Ao final do onboarding, a Issue do GitHub serve como relatório de conclusão. Para entregar ao gestor:
+Ao final do onboarding, a Issue do GitHub serve como relatório de conclusão. Não precisa exportar nada: o gestor acompanha diretamente pela Issue.
 
-1. Acesse sua Issue no repositório
-2. Verifique que todos os itens estão marcados
-3. Adicione um comentário final com a data de conclusão e observações
-4. Exporte a Issue como PDF pelo navegador (Ctrl+P / Cmd+P → Salvar como PDF)
-5. Entregue o PDF ao gestor como evidência de conclusão do onboarding
+**Como funciona:**
 
-A Issue fica registrada no GitHub com histórico completo: quem marcou cada item, quando foi marcado e os comentários do fellow ao longo do processo. Isso garante rastreabilidade total do progresso.
+1. Ao criar a Issue, atribua a si mesmo (Assignee) e adicione o gestor como acompanhante (mencionando com `@usuario` no corpo da Issue ou adicionando como Assignee adicional)
+2. Ao longo do onboarding, marque os itens conforme for completando
+3. Ao final, adicione um comentário com a data de conclusão e observações
+4. O gestor pode acompanhar o progresso a qualquer momento acessando a Issue
+
+A Issue fica registrada no GitHub com histórico completo: quem marcou cada item, quando foi marcado e os comentários do fellow ao longo do processo. Isso garante rastreabilidade total sem precisar gerar documentos separados.
