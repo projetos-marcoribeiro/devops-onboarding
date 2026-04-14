@@ -15,6 +15,7 @@ Este repositório é sincronizado automaticamente com o portal de documentação
 Se você acabou de entrar no time, comece por aqui:
 
 - ➡️ **[Getting Started](getting-started/introduction)**: acessos, ferramentas e setup do ambiente
+- ➡️ **[Dia 1: Passo a Passo](getting-started/dia-1-passo-a-passo)**: tudo que precisa fazer no primeiro dia, na ordem certa
 - ➡️ **[Platform Overview](platform-overview/platform-architecture)**: arquitetura, AWS, EKS, CI/CD e GitOps
 - ➡️ **[Training Camp](training-camp/training-overview)**: trilha de aprendizado guiado e skill matrix
 - ➡️ **[Hands-On Project](hands-on/hands-on-overview)**: deploy completo supervisionado
@@ -26,6 +27,7 @@ Se você acabou de entrar no time, comece por aqui:
 
 - 📖 **[DevOps Journey](devops-journey/devops-journey-map)**: plano 30-60-90 dias e expectativas trimestrais
 - 🔧 **[DevOps Tools](devops-tools/kubectl)**: kubectl, AWS CLI, hotctl, Docker
+- 📂 **[Mapa de Repositórios](getting-started/mapa-de-repositorios)**: repos essenciais da organização
 - 👥 **[Team Resources](team-resources/teamguide)**: mentoria, comunicação e TeamGuide
 - 🏢 **[Product Units](product-units/overview)**: recursos específicos de cada PU
 - 📘 **[Glossário](glossary/devops-glossary)**: termos e siglas da plataforma

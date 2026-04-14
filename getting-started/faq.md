@@ -68,4 +68,53 @@ Faça acknowledge no PagerDuty, comunique no canal de incidentes que está inves
 
 ---
 
+## Ferramentas e Ambiente
+
+**O que é o hotctl e por que preciso dele?**
+O hotctl é a CLI interna da Hotmart. Ele simplifica o login via SSO (Okta), a configuração de acesso às contas AWS e a conexão com os clusters EKS. Sem ele, você precisaria configurar tudo manualmente. Instale seguindo o [guia do repositório](https://github.com/Hotmart-Org/hotctl).
+
+**Preciso do Docker Desktop?**
+Não. A Hotmart usa o Rancher Desktop como alternativa ao Docker Desktop. Ele fornece o Docker engine e o containerd sem necessidade de licença comercial.
+
+**Qual é a diferença entre buildstaging e produção?**
+Buildstaging é o ambiente de staging onde testes e validações são feitos antes de ir para produção. Toda mudança passa por buildstaging primeiro. É onde você vai trabalhar durante o Hands-On.
+
+**O que é o Base Module?**
+É o módulo Terraform central da Hotmart. Ele recebe um YAML declarativo e cria automaticamente todos os recursos AWS necessários para uma aplicação (ECR, IAM, ALB, Security Groups, KMS, Secrets). Os times de produto não escrevem Terraform: apenas declaram o que precisam.
+
+---
+
+## Repositórios e Código
+
+**Quais repositórios devo acompanhar primeiro?**
+Comece pelo [devops-helm-iac](https://github.com/Hotmart-Org/devops-helm-iac) (onde os deploys são configurados) e pelo [terraform-base-module](https://github.com/Hotmart-Org/terraform-base-module) (como infraestrutura é provisionada). Veja o [Mapa de Repositórios](mapa-de-repositorios) para a lista completa.
+
+**Posso fazer push direto na main?**
+Não. Toda mudança passa por Pull Request com revisão. Para repos de IAC, siga o [checklist de revisão](https://github.com/Hotmart-Org/devops-docs/blob/master/docs/process/pastel/iacs-pr-review.md).
+
+---
+
+## Comunicação e Suporte
+
+**Onde peço ajuda quando travo?**
+Primeiro, pergunte ao seu fellow. Se ele não estiver disponível, use o grupo geral dos DevOps no Google Chat. Perguntar no grupo tem o benefício de que outros membros podem contribuir e a resposta fica registrada.
+
+**Os desenvolvedores me procuram direto no chat, o que faço?**
+Cada PU tem um grupo no Google Chat onde desenvolvedores pedem ajuda. Problemas rápidos podem ser resolvidos ali mesmo. Se exigir mais tempo ou investigação, peça para abrirem um ticket no Service Desk para manter rastreabilidade.
+
+**O que é o Smart Contract?**
+É um documento interno que detalha as boas práticas e processos do time DevOps no dia a dia. Seu fellow vai te apresentar durante a fase operacional.
+
+---
+
+## Monitoramento
+
+**Quais ferramentas de monitoramento a Hotmart usa?**
+NewRelic (APM), Prometheus + Grafana (métricas), Sentry (error tracking), Kubecost (custos Kubernetes), Pingdom (uptime externo), PagerDuty (alertas e on-call), CloudWatch (métricas AWS). O Datadog é usado exclusivamente pela PU Teachable.
+
+**Preciso de acesso ao Datadog?**
+Apenas se você for associado à PU Teachable. Para as demais PUs, métricas de infraestrutura são coletadas via Prometheus e visualizadas no Grafana.
+
+---
+
 > Se você resolveu uma dúvida que não estava aqui, adicione. O próximo engenheiro vai agradecer.

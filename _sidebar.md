@@ -11,10 +11,12 @@
 
 ## Getting Started
 - [Introduction](getting-started/introduction)
+- [Dia 1: Passo a Passo](getting-started/dia-1-passo-a-passo)
 - [Okta Access](getting-started/okta-access)
 - [Service Desk Access](getting-started/service-desk-access)
 - [Access Pack: Solicitações](getting-started/access-requests-examples)
 - [Required Tools](getting-started/required-tools)
+- [Mapa de Repositórios](getting-started/mapa-de-repositorios)
 - [Kiro Setup](getting-started/kiro-setup)
 - [Useful Links](getting-started/useful-links)
 - [FAQ](getting-started/faq)
@@ -71,6 +73,7 @@
 - [TeamGuide](team-resources/teamguide)
 - [Mentorship Process](team-resources/mentorship-process)
 - [Team Communication](team-resources/team-communication)
+- [Cultura do Time](team-resources/cultura-do-time)
 
 ## Product Units
 - [Overview](product-units/overview)

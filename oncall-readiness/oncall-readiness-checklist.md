@@ -14,6 +14,8 @@
 
 Entrar na rotação de on-call é uma responsabilidade significativa. Significa que, durante o seu período de plantão, você é a primeira linha de resposta para qualquer incidente em produção: a qualquer hora do dia ou da noite.
 
+> 🧑‍💻 **Para novos engenheiros:** o plantão de on-call ocorre nos finais de semana e é atribuído a engenheiros DevOps com mais experiência na plataforma. Durante o onboarding, você não participa da rotação de plantão. Use este checklist como guia de preparação para quando chegar a hora. O foco agora é acompanhar incidentes como observador e se preparar gradualmente.
+
 Este checklist existe para garantir que você tenha o conhecimento e as ferramentas necessárias antes de assumir essa responsabilidade. Não é uma formalidade: é uma proteção para você e para a plataforma.
 
 O mentor (fellow) e o coordenador do time avaliam em conjunto quando o engenheiro está pronto para entrar na rotação. Use este documento como guia de preparação e como base para essa conversa.

@@ -11,6 +11,8 @@
 
 Um incidente é qualquer evento que cause degradação ou indisponibilidade de um serviço em produção. O processo de gerenciamento de incidentes da Hotmart existe para minimizar o impacto no usuário final, garantir rastreabilidade de todas as ações tomadas e criar aprendizado contínuo a partir de cada evento.
 
+> 🧑‍💻 **Para novos engenheiros:** durante o onboarding, seu papel em incidentes é de observador. Você não será cobrado para resolver incidentes sozinho. Acompanhe a investigação, observe como engenheiros experientes usam as ferramentas, leia os postmortems depois. Esse aprendizado por observação é uma das formas mais eficientes de se preparar para o futuro. Se um incidente acontecer durante o horário de trabalho, peça ao seu fellow para acompanhar.
+
 ---
 
 ## Fluxo principal
@@ -55,7 +57,7 @@ Postmortem (para incidentes P1 e P2)
 
 O incidente começa quando uma ferramenta de monitoramento detecta uma condição anormal: queda de uptime, aumento de taxa de erro, latência elevada, pod em crash, métrica de infraestrutura fora do threshold, etc.
 
-A detecção pode ser automática (alerta disparado por ferramenta) ou manual (usuário reporta problema, engenheiro identifica durante trabalho operacional).
+A detecção pode ser automática (alerta disparado por ferramenta) ou manual (usuário reporta problema, engenheiro identifica durante trabalho operacional). Desenvolvedores também reportam problemas via Google Chat nos grupos das PUs, muitas vezes antes de um alerta formal ser disparado. Nesses casos, o DevOps avalia a situação e, se necessário, abre o incidente formalmente.
 
 ### 2. Notificação via PagerDuty
 
