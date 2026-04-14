@@ -39,6 +39,8 @@ Certifique-se de que você já passou pelo onboarding geral da Hotmart (normalme
 
 Abra TODOS os tickets de acesso de uma vez. Não espere um ser aprovado para abrir o próximo.
 
+> ⏱️ Os acessos levam em média 1-2 dias úteis para serem aprovados. Acessos com permissões elevadas (AdministratorAccess AWS) podem levar mais. Se passar de 2 dias sem resposta, adicione um comentário no ticket pedindo atualização.
+
 ### Passo 1: Configurar Okta e MFA
 
 O Okta é o portal de acesso a todas as ferramentas. Sem ele, nada funciona.

@@ -18,8 +18,7 @@
 - [Required Tools](getting-started/required-tools)
 - [Mapa de Repositórios](getting-started/mapa-de-repositorios)
 - [Kiro Setup](getting-started/kiro-setup)
-- [Useful Links](getting-started/useful-links)
-- [FAQ](getting-started/faq)
+- [Sugestões de Melhoria](getting-started/faq)
 
 ## Platform Overview
 - [Platform Architecture](platform-overview/platform-architecture)

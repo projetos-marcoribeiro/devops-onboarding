@@ -95,16 +95,11 @@ Preparação para entrar na rotação de on-call: checklist de prontidão, runbo
 ## Por onde começar agora
 
 1. Leia este documento até o fim
-2. Siga o [Dia 1: Passo a Passo](dia-1-passo-a-passo) para o guia completo do primeiro dia
-3. Abra uma Issue de progresso no repositório: [ver template](../devops-journey/onboarding-checklist)
-4. Abra todos os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk): [ver pack completo](access-requests-examples)
-5. Configure o Okta e verifique seus acessos
-6. Instale as ferramentas obrigatórias
-7. Explore o [Mapa de Repositórios](mapa-de-repositorios) para conhecer os repos da organização
-8. Comece a leitura do Platform Overview
-9. Inicie o Training Camp
+2. Siga o [Dia 1: Passo a Passo](dia-1-passo-a-passo): ele consolida tudo que precisa ser feito no primeiro dia na ordem certa (acessos, ferramentas, Issue de progresso, configuração do ambiente)
+3. Comece a leitura do [Platform Overview](../platform-overview/platform-architecture)
+4. Inicie o [Training Camp](../training-camp/training-overview)
 
-Dúvidas? Consulte o [FAQ](faq) ou fale com seu fellow.
+Dúvidas? Fale com seu fellow.
 
 ---
 
@@ -116,6 +111,5 @@ Dúvidas? Consulte o [FAQ](faq) ou fale com seu fellow.
 📄 [`getting-started/okta-access.md`](okta-access)
 📄 [`getting-started/required-tools.md`](required-tools)
 📄 [`getting-started/access-requests-examples.md`](access-requests-examples)
-📄 [`getting-started/faq.md`](faq)
-📄 [`getting-started/useful-links.md`](useful-links)
+📄 [`getting-started/mapa-de-repositorios.md`](mapa-de-repositorios)
 📄 [`platform-overview/platform-architecture.md`](../platform-overview/platform-architecture)

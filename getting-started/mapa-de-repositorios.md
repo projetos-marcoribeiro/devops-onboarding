@@ -98,3 +98,17 @@ Módulos Terraform reutilizáveis para recursos AWS específicos:
 - Ler PRs recentes é uma das melhores formas de entender como o time trabalha
 
 > Explore os repositórios reais enquanto estuda. Ver código real é mais valioso do que exemplos genéricos.
+
+---
+
+## Portais e ferramentas internas
+
+| Recurso | Link | Descrição |
+|---|---|---|
+| Service Desk | [hotmart.atlassian.net/servicedesk](https://hotmart.atlassian.net/servicedesk) | Solicitações de acesso e tickets de suporte |
+| Hotmart AI | [chat.hotmart.ai](https://chat.hotmart.ai) | Assistente de IA interno (prefira ao ChatGPT para dados corporativos) |
+| TeamGuide | [login.teamguide.app](https://login.teamguide.app/) | Acompanhamento de desenvolvimento, mentorias e PDI |
+| PagerDuty | [hotmart.pagerduty.com](https://hotmart.pagerduty.com/) | Alertas, escalação e rotação de on-call |
+| Skill Matrix | [Google Sheets](https://docs.google.com/spreadsheets/d/15WV6mGLRjC6IKTDdeiatntHq4YVk9A-Cnu5cNvQBiYg/edit) | Mapeamento de conhecimento técnico do time |
+| Smart Contract | [Google Slides](https://docs.google.com/presentation/d/1SdSBnz-yxGYtGLgD18UdjWT4Pr2WCFMPlwbsW4m8p8I/edit) | Diretrizes e acordos do time DevOps |
+| Treinamentos | [Google Drive](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6) | Pasta com gravações de treinamentos internos |
