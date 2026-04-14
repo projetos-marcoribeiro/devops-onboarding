@@ -99,7 +99,7 @@ Além de contribuir diretamente com a evolução da plataforma, participar de PO
 
 **Influência na plataforma**: as decisões que saem de uma POC moldam a plataforma pelos próximos meses ou anos. Participar significa ter voz nessas decisões.
 
-**Desenvolvimento de pensamento crítico**: avaliar uma tecnologia de forma estruturada: identificando prós, contras, riscos e limitações: é uma habilidade valiosa que vai além de qualquer ferramenta específica.
+**Desenvolvimento de pensamento crítico**: avaliar uma tecnologia de forma estruturada, identificando prós, contras, riscos e limitações, é uma habilidade valiosa que vai além de qualquer ferramenta específica.
 
 ---
 

@@ -20,7 +20,7 @@ Este documento descreve os tipos de tarefas que aparecem no dia a dia e como nov
 
 ### Atualização de versões de EKS
 
-Os clusters EKS precisam ser atualizados periodicamente para manter suporte da AWS, receber correções de segurança e ter acesso a novos recursos do Kubernetes.
+Os clusters EKS precisam ser atualizados periodicamente para manter suporte da AWS, receber correções de segurança e ter acesso a novos recursos do Kubernetes. Essa demanda geralmente vem como uma tarefa atribuída pelo gestor do time.
 
 O processo envolve:
 1. Verificar a versão atual dos clusters e o calendário de fim de suporte da AWS
@@ -39,7 +39,7 @@ aws eks describe-addon-versions --kubernetes-version 1.30
 
 ### Atualização de Helm Charts
 
-Os Helm Charts utilizados na plataforma precisam ser atualizados para incorporar melhorias, correções de segurança e novos padrões. Isso inclui tanto os charts de infraestrutura mantidos pelo time DevOps quanto os charts de terceiros (cert-manager, external-dns, karpenter, etc.).
+Os Helm Charts utilizados na plataforma precisam ser atualizados para incorporar melhorias, correções de segurança e novos padrões. Isso inclui tanto os charts de infraestrutura mantidos pelo time DevOps quanto os charts de terceiros (cert-manager, external-dns, karpenter, etc.). Assim como a atualização de EKS, essa demanda geralmente é atribuída pelo gestor do time.
 
 O processo envolve:
 1. Verificar novas versões disponíveis
@@ -50,7 +50,7 @@ O processo envolve:
 
 ### Otimização de custos AWS
 
-A otimização de custos é uma responsabilidade contínua do time DevOps. Isso inclui:
+A otimização de custos é uma responsabilidade contínua do time DevOps. Essa demanda pode vir como uma tarefa atribuída pelo gestor do time ou como um alerta geral de que há problemas de custo em alguma conta ou serviço. Isso inclui:
 
 - Identificar recursos ociosos ou superprovisionados (instâncias EC2, RDS, etc.)
 - Ajustar requests e limits de pods para refletir o uso real
@@ -80,7 +80,11 @@ Exemplos comuns:
 
 Times de produto frequentemente precisam de ajuda com infraestrutura: configurar um novo pipeline, entender por que um deploy falhou, ajustar recursos de um workload, criar um novo ambiente, etc.
 
-Esse suporte chega principalmente via Service Desk, mas também via canais de comunicação do time.
+Esse suporte chega por dois canais principais:
+- **Service Desk**: solicitações formais com rastreabilidade via ticket
+- **Google Chat**: cada PU tem um grupo no Google Chat onde desenvolvedores pedem ajuda diretamente. Problemas que exigem mais tempo de investigação ou ação são convertidos em tickets no Jira
+
+Todas essas demandas podem surgir tanto via ticket no Jira quanto pelo chat. O importante é que o trabalho realizado seja registrado para manter rastreabilidade.
 
 ---
 
@@ -114,7 +118,11 @@ Acompanhe os PRs abertos e recentemente mergeados nos repositórios de infraestr
 
 ### Acompanhar troubleshooting de incidentes
 
-Quando um incidente acontecer, peça para acompanhar a investigação mesmo que você não esteja de plantão. Observar como engenheiros experientes investigam e resolvem problemas em produção é insubstituível.
+Quando um incidente acontecer durante o horário de trabalho, peça para acompanhar a investigação. Observar como engenheiros experientes investigam e resolvem problemas em produção é insubstituível.
+
+Os plantões de on-call ocorrem nos finais de semana e são atribuídos a engenheiros DevOps com mais experiência na plataforma. Durante o onboarding, o foco é acompanhar incidentes que acontecem no dia a dia, não participar da rotação de plantão.
+
+Além de acompanhar incidentes formais, observar o atendimento de chamados no Google Chat pelos DevOps mais experientes também é uma forma valiosa de aprender como o time investiga e resolve problemas na prática.
 
 Após o incidente, leia o postmortem e tente entender cada etapa da investigação.
 

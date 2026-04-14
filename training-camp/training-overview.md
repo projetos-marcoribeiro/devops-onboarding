@@ -63,7 +63,7 @@ Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Prometheus 
 
 ### Secrets Management
 
-Como credenciais e dados sensíveis são gerenciados na plataforma: Vault, Secrets Manager e as integrações com o base-module. Entender o ciclo de vida de um secret: criação, rotação, acesso e revogação: é essencial para operar com segurança.
+Como credenciais e dados sensíveis são gerenciados na plataforma: Vault, Secrets Manager e as integrações com o base-module. Entender o ciclo de vida de um secret (criação, rotação, acesso e revogação) é essencial para operar com segurança.
 
 ### Troubleshooting
 

@@ -124,4 +124,4 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 
 ---
 
-> O Platform Engineering é o time que constrói e mantém a plataforma que você usa todos os dias. Se você identificar algo que pode ser melhorado: uma ferramenta que poderia ser mais simples, um processo que poderia ser automatizado, uma documentação que está desatualizada: traga para o time. Melhorias na plataforma beneficiam toda a organização de engenharia.
+> O Platform Engineering é o time que constrói e mantém a plataforma que você usa todos os dias. Se você identificar algo que pode ser melhorado (uma ferramenta que poderia ser mais simples, um processo que poderia ser automatizado, uma documentação que está desatualizada), traga para o time. Melhorias na plataforma beneficiam toda a organização de engenharia.

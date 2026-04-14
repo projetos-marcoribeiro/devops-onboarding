@@ -10,7 +10,7 @@
 
 ---
 
-O Jira é a ferramenta central de gestão de trabalho do time DevOps da Hotmart. Todo trabalho: seja uma solicitação de suporte, uma melhoria de infraestrutura ou um projeto técnico: é rastreado no Jira. Entender como navegar nos boards e acompanhar tickets é parte essencial do trabalho operacional.
+O Jira é a ferramenta central de gestão de trabalho do time DevOps da Hotmart. Todo trabalho, seja uma solicitação de suporte, uma melhoria de infraestrutura ou um projeto técnico, é rastreado no Jira. Entender como navegar nos boards e acompanhar tickets é parte essencial do trabalho operacional.
 
 ---
 

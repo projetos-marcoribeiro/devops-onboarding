@@ -41,6 +41,8 @@ Subir um frontend (S3 + CloudFront) e um backend (EKS) usando:
 
 ## Documentos desta seção
 
-📄 [`hands-on/hands-on-project.md`](hands-on-project): instruções passo a passo do projeto (5 partes)
-📄 [`hands-on/deployment-workflow.md`](deployment-workflow): fluxo completo de deploy na plataforma
-📄 [`hands-on/expected-results.md`](expected-results): checklist de entrega e o que demonstrar ao mentor
+| Documento | Descrição |
+|---|---|
+| [Hands-On Project](hands-on-project) | Instruções passo a passo do projeto (5 partes) |
+| [Deployment Workflow](deployment-workflow) | Fluxo completo de deploy na plataforma |
+| [Expected Results](expected-results) | Checklist de entrega e o que demonstrar ao mentor |

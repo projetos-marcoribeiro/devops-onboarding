@@ -107,7 +107,7 @@ Uma mensagem com contexto claro resolve em uma troca o que poderia levar cinco.
 
 ### Compartilhe informações relevantes proativamente
 
-Se você descobriu algo que pode ser útil para o time: um bug, uma limitação de ferramenta, uma mudança de comportamento de um serviço: compartilhe no canal apropriado sem esperar que alguém pergunte. Informação retida é informação perdida.
+Se você descobriu algo que pode ser útil para o time (um bug, uma limitação de ferramenta, uma mudança de comportamento de um serviço), compartilhe no canal apropriado sem esperar que alguém pergunte. Informação retida é informação perdida.
 
 ### Documente decisões importantes
 

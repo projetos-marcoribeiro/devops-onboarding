@@ -48,7 +48,7 @@ Para cada etapa:
 <details>
 <summary>▶️ IAC + Base Module: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
 
 </details>
 
@@ -81,14 +81,14 @@ Para cada etapa:
 <details>
 <summary>▶️ Monitoring Applications: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
 
 </details>
 
 <details>
 <summary>▶️ KEDA: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
 
 </details>
 
@@ -120,21 +120,21 @@ Para cada etapa:
 <details>
 <summary>▶️ Vault: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
 
 </details>
 
 <details>
 <summary>▶️ SIEM: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
 
 </details>
 
 <details>
 <summary>▶️ Cloudflare: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
 
 </details>
 
@@ -182,7 +182,7 @@ kubectl top pods -n <namespace>
 <details>
 <summary>▶️ Troubleshooting: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
 
 </details>
 
@@ -206,28 +206,28 @@ Após as quatro etapas principais, explore os tópicos complementares conforme s
 <details>
 <summary>▶️ Criando uma app do zero (Backstage): Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
 
 </details>
 
 <details>
 <summary>▶️ DAS: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
 
 </details>
 
 <details>
 <summary>▶️ Criando um banco de dados do zero: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
 
 </details>
 
 <details>
 <summary>▶️ WhatsApp Integrations: Gravação</summary>
 
-[🎬 Abrir vídeo](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
 
 </details>
 

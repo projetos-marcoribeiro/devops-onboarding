@@ -2,7 +2,7 @@
 
 ---
 
-Perguntas que todo novo engenheiro DevOps faz nos primeiros dias. Se sua dúvida não está aqui, pergunte no canal do time: e depois adicione a resposta aqui para o próximo.
+Perguntas que todo novo engenheiro DevOps faz nos primeiros dias. Se sua dúvida não está aqui, pergunte no canal do time e depois adicione a resposta aqui para o próximo.
 
 ---
 

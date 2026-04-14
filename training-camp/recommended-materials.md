@@ -43,7 +43,7 @@ Gravação sobre Infrastructure as Code e o terraform-base-module: o que é, com
 <details>
 <summary>▶️ Assistir gravação: IAC + Base Module</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
 
 </details>
 
@@ -62,7 +62,7 @@ Gravação sobre os Helm Charts utilizados na plataforma. Explica a estrutura do
 <details>
 <summary>▶️ Assistir gravação: Hotmart Charts</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1dk5x_cXQl2h98fDGhou83CRb_NtjaMWp/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1dk5x_cXQl2h98fDGhou83CRb_NtjaMWp/view)
 
 </details>
 
@@ -81,7 +81,7 @@ Guia completo sobre a stack de observabilidade: NewRelic, Prometheus, Grafana, S
 <details>
 <summary>▶️ Assistir gravação: Monitoring Applications</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
 
 </details>
 
@@ -100,7 +100,7 @@ Apresentação sobre o Kubernetes Event-Driven Autoscaling (KEDA). Explica como 
 <details>
 <summary>▶️ Assistir gravação: KEDA</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
 
 </details>
 
@@ -119,7 +119,7 @@ Guia sobre o HashiCorp Vault: como ele é utilizado para gerenciar secrets na Ho
 <details>
 <summary>▶️ Assistir gravação: Vault</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
 
 </details>
 
@@ -136,7 +136,7 @@ Apresentação sobre o sistema de gerenciamento de eventos de segurança (SIEM) 
 <details>
 <summary>▶️ Assistir gravação: SIEM</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
 
 </details>
 
@@ -151,7 +151,7 @@ Documentação sobre o uso do Cloudflare na plataforma: proteção DDoS, WAF, re
 <details>
 <summary>▶️ Assistir gravação: Cloudflare</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
 
 </details>
 
@@ -168,7 +168,7 @@ Guia passo a passo para criar uma nova aplicação utilizando o portal Backstage
 <details>
 <summary>▶️ Assistir gravação: Criando uma app do zero (Backstage)</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
 
 </details>
 
@@ -183,7 +183,7 @@ Apresentação sobre o DAS (ferramenta interna de automação). Explica como o D
 <details>
 <summary>▶️ Assistir gravação: DAS</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
 
 </details>
 
@@ -200,7 +200,7 @@ Guia completo para provisionar e configurar um banco de dados na plataforma Hotm
 <details>
 <summary>▶️ Assistir gravação: Criando um banco de dados do zero</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
 
 </details>
 
@@ -217,7 +217,7 @@ Guia de investigação de problemas em ambientes distribuídos. Apresenta uma me
 <details>
 <summary>▶️ Assistir gravação: Troubleshooting</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
 
 </details>
 
@@ -236,7 +236,7 @@ Documentação sobre as integrações de comunicação via WhatsApp utilizadas n
 <details>
 <summary>▶️ Assistir gravação: WhatsApp Integrations</summary>
 
-[🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
+[🎬 Clique para assistir no Google Drive](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
 
 </details>
 
