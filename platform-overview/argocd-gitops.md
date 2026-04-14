@@ -102,7 +102,7 @@ spec:
           selfHeal: false
 ```
 
-> ⚠️ **Nota:** Na implementação da Hotmart, as opções `selfHeal` e `prune` **não são utilizadas**. O exemplo acima reflete a configuração real adotada.
+> ⚠️ **Nota:** Na implementação da Hotmart, as opções `selfHeal` e `prune` **não são utilizadas**. O `project` real depende da configuração da PU e segue a estrutura de AppProjects definida pelo time. O exemplo acima é simplificado para fins didáticos.
 
 ---
 

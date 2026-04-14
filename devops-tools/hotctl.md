@@ -44,10 +44,20 @@ hotctl version
 Após instalar, configure o hotctl com suas credenciais e preferências:
 
 ```bash
-hotctl configure
+# Configurar SSO
+hotctl sso init
+
+# Login via Okta
+hotctl sso login
+
+# Aplicar perfil de uma conta
+hotctl sso accounts apply -n <PROFILE>
+
+# Configurar contexto EKS
+hotctl eks context --profile <PROFILE>
 ```
 
-O comando vai guiar você pela configuração inicial, incluindo autenticação e seleção de ambiente padrão.
+Onde `<PROFILE>` é o alias da conta: `buildstaging`, `vulcano`, `devops`, `hotpay`, etc.
 
 ---
 

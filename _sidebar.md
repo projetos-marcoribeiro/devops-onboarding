@@ -18,7 +18,6 @@
 - [Required Tools](getting-started/required-tools)
 - [Mapa de Repositórios](getting-started/mapa-de-repositorios)
 - [Kiro Setup](getting-started/kiro-setup)
-- [Sugestões de Melhoria](getting-started/faq)
 
 ## Platform Overview
 - [Platform Architecture](platform-overview/platform-architecture)
@@ -90,3 +89,7 @@
 - [Platform Architecture](diagrams/platform-architecture)
 - [Deployment Flow](diagrams/deployment-flow)
 - [Incident Response Flow](diagrams/incident-response-flow)
+
+---
+
+- [📝 Sugestões de Melhoria](getting-started/sugestoes-de-melhoria)
