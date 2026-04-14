@@ -1,30 +1,11 @@
-# Checklist de Progresso do Onboarding
-
+---
+name: "📋 Onboarding Checklist"
+about: "Checklist de acompanhamento do onboarding DevOps"
+title: "Onboarding: [Seu Nome]"
+labels: onboarding
+assignees: ''
 ---
 
-> ℹ️ Este repositório será migrado futuramente para a organização Hotmart-Org. Quando isso acontecer, atualize o link da Issue abaixo.
-
-Este checklist acompanha seu progresso ao longo do onboarding. No primeiro dia, abra uma **Issue** no repositório do onboarding com o conteúdo abaixo para acompanhar seu progresso de forma visível.
-
-> Link atual: [devops-onboarding](https://github.com/projetos-marcoribeiro/devops-onboarding)
-> Link futuro (após migração): `https://github.com/Hotmart-Org/devops-onboarding`
-
----
-
-## Como usar
-
-1. Abra uma Issue no repositório com o título: `Onboarding: [Seu Nome]`
-2. Cole o checklist abaixo no corpo da Issue
-3. Marque os itens conforme for completando
-4. Seu fellow e coordenador podem acompanhar o progresso pela Issue
-
----
-
-## Template da Issue
-
-Copie e cole o conteúdo abaixo ao criar sua Issue:
-
-```markdown
 ## 📋 Onboarding Checklist: [Seu Nome]
 
 **Fellow:** [nome do fellow]
@@ -111,22 +92,3 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 - [ ] Skill Matrix revisada e atualizada
 - [ ] Fellow confirma prontidão para operação autônoma
 - [ ] Coordenador confirma prontidão para rotação de on-call
-```
-
----
-
-> Mantenha a Issue atualizada. Ela é a fonte da verdade do seu progresso e facilita a conversa com o fellow nos checkpoints.
-
----
-
-## Gerando o relatório de conclusão
-
-Ao final do onboarding, a Issue do GitHub serve como relatório de conclusão. Para entregar ao gestor:
-
-1. Acesse sua Issue no repositório
-2. Verifique que todos os itens estão marcados
-3. Adicione um comentário final com a data de conclusão e observações
-4. Exporte a Issue como PDF pelo navegador (Ctrl+P / Cmd+P → Salvar como PDF)
-5. Entregue o PDF ao gestor como evidência de conclusão do onboarding
-
-A Issue fica registrada no GitHub com histórico completo: quem marcou cada item, quando foi marcado e os comentários do fellow ao longo do processo. Isso garante rastreabilidade total do progresso.

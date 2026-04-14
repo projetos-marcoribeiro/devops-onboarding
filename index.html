@@ -7,6 +7,40 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     .sidebar-nav li > a { font-size: 14px; }
+    .onboarding-footer {
+      margin-top: 40px;
+      padding: 16px 20px;
+      background: #f0f7ff;
+      border-left: 4px solid #4A90D9;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #333;
+    }
+    .onboarding-footer a {
+      color: #4A90D9;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .onboarding-footer a:hover {
+      text-decoration: underline;
+    }
+    .sidebar-progress {
+      padding: 10px 15px;
+      margin: 10px 0;
+      background: #f0f7ff;
+      border-radius: 6px;
+      font-size: 12px;
+      text-align: center;
+      border: 1px solid #d0e3f7;
+    }
+    .sidebar-progress a {
+      color: #4A90D9;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .sidebar-progress a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -31,6 +65,29 @@
           hook.doneEach(function() {
             if (window.mermaid) {
               mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+            }
+          });
+        },
+        function(hook) {
+          var footer = '<div class="onboarding-footer">' +
+            '📋 <strong>Acompanhe seu progresso:</strong> ' +
+            'Abra uma <a href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Issue de Onboarding</a> ' +
+            'no repositório para registrar seu avanço. Seu fellow e coordenador podem acompanhar por lá. ' +
+            '<a href="#/devops-journey/onboarding-checklist" >Ver instruções</a>' +
+            '</div>';
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        },
+        function(hook) {
+          hook.ready(function() {
+            var sidebar = document.querySelector('.sidebar-nav');
+            if (sidebar) {
+              var progressDiv = document.createElement('div');
+              progressDiv.className = 'sidebar-progress';
+              progressDiv.innerHTML = '📋 <a href="#/devops-journey/onboarding-checklist">Checklist de Progresso</a><br>' +
+                '<small><a href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Abrir minha Issue</a></small>';
+              sidebar.parentNode.insertBefore(progressDiv, sidebar);
             }
           });
         }
