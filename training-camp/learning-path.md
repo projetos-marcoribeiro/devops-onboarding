@@ -63,12 +63,12 @@ Para cada etapa:
 **Por que vem aqui:** depois de entender como a infraestrutura é criada, o próximo passo é entender como ela é observada. Monitoramento é a base para qualquer atividade operacional: sem ele, você opera no escuro.
 
 **O que estudar:**
-- O papel de cada ferramenta: NewRelic, Prometheus, Grafana, Pingdom, PagerDuty, CloudWatch, Sentry, Kubecost
+- O papel de cada ferramenta: NewRelic, Prometheus, Grafana, Pingdom, JiraOps, CloudWatch, Sentry, Kubecost
 - Datadog: escopo limitado à PU Teachable (em remoção da plataforma principal)
 - Como o Base Module integra monitoramento automaticamente
 - Como navegar no Grafana e interpretar dashboards
 - Como ler traces no NewRelic e identificar gargalos
-- Como os alertas chegam no PagerDuty e como responder a eles
+- Como os alertas são roteados via Grafana para o JiraOps e como responder a eles
 
 **Atividades práticas:**
 - Acesse o Grafana e explore os dashboards existentes de uma aplicação real

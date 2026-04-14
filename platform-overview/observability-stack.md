@@ -38,7 +38,8 @@ Aplicação em produção
          │
          ├── Uptime ────────► Pingdom (monitoramento externo)
          │
-         └── Alertas / On-call ► PagerDuty (notificações e escalação)
+         └── Alertas / On-call ► JiraOps (incidentes via Jira Service Management)
+                              ► PagerDuty (legado, em migração)
 ```
 
 ---
@@ -134,15 +135,17 @@ O Pingdom monitora a disponibilidade das aplicações a partir de múltiplas reg
 
 ---
 
-### PagerDuty: Alertas e On-call
+### PagerDuty / JiraOps: Alertas e On-call
 
-O PagerDuty é a plataforma de gerenciamento de alertas e on-call. Alertas do Prometheus, NewRelic, Pingdom e Datadog (Teachable) são roteados para o PagerDuty, que gerencia a escalação e notificação das pessoas certas.
+> ⚠️ O PagerDuty está sendo substituído pelo JiraOps (Jira Service Management Operations). Os alertas agora são roteados via Grafana para o JiraOps, que abre incidentes automaticamente no Jira.
+
+O JiraOps é a plataforma de gerenciamento de alertas e on-call que está substituindo o PagerDuty na Hotmart. Alertas do Prometheus (via Grafana), NewRelic, Pingdom e Datadog (Teachable) são roteados para o JiraOps, que gerencia a abertura de incidentes e a notificação das pessoas certas.
 
 **Casos de uso:**
-- Receber alertas de incidentes em produção
+- Receber alertas de incidentes em produção via Jira Service Management
 - Gerenciar a rotação de on-call do time
 - Escalar incidentes para o nível correto
-- Registrar e acompanhar o histórico de incidentes
+- Registrar e acompanhar o histórico de incidentes com rastreabilidade completa no Jira
 
 ---
 
@@ -176,7 +179,7 @@ Base-module detecta monitoring: enabled: true
 
 Durante o troubleshooting de um incidente, o fluxo típico é:
 
-1. **PagerDuty** dispara o alerta: você recebe a notificação
+1. **JiraOps** dispara o alerta: você recebe a notificação via Jira Service Management
 2. **Grafana**: visão geral do que está acontecendo com métricas
 3. **NewRelic**: investigar o comportamento da aplicação, traces e erros
 4. **Datadog** *(apenas Teachable)*: verificar saúde da infraestrutura (nodes, containers)

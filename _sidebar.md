@@ -51,7 +51,7 @@
 ## Incident Management
 - [Incident Process](incident-management/incident-process)
 - [Troubleshooting Flow](incident-management/troubleshooting-flow)
-- [PagerDuty & On-Call](incident-management/pagerduty-oncall)
+- [Alertas & On-Call](incident-management/pagerduty-oncall)
 - [Alert Sources](incident-management/alert-sources)
 - [Postmortem Process](incident-management/postmortem-process)
 

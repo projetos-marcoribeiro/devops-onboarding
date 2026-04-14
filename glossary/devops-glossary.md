@@ -236,7 +236,7 @@ Plataforma open source de visualização de dados. Cria dashboards a partir de m
 
 Serviço de monitoramento de uptime externo. Verifica a disponibilidade de endpoints públicos a partir de múltiplas regiões geográficas, simulando o comportamento de um usuário real.
 
-**Contexto na Hotmart:** detecta indisponibilidade do ponto de vista do usuário final. Alertas do Pingdom são roteados para o PagerDuty e indicam que um serviço está inacessível externamente.
+**Contexto na Hotmart:** detecta indisponibilidade do ponto de vista do usuário final. Alertas do Pingdom são roteados para o JiraOps (via Grafana) e indicam que um serviço está inacessível externamente.
 
 ---
 
@@ -248,19 +248,25 @@ Ferramenta de monitoramento de uptime para endpoints internos. Complementa o Pin
 
 ---
 
-### PagerDuty
+### PagerDuty ⚠️ Em substituição por JiraOps
 
-Plataforma de gerenciamento de alertas e on-call. Recebe alertas de múltiplas ferramentas de monitoramento, gerencia a rotação de plantão e automatiza a escalação de incidentes.
+Plataforma de gerenciamento de alertas e on-call que foi utilizada na Hotmart. O PagerDuty está sendo substituído pelo JiraOps (Jira Service Management Operations), que integra a gestão de incidentes diretamente com o Jira e o Grafana.
 
-**Contexto na Hotmart:** ponto central de convergência de todos os alertas de produção. Todo engenheiro DevOps usa o PagerDuty para receber notificações de incidentes durante o plantão. Acessível via Okta.
+**Contexto na Hotmart:** a migração do PagerDuty para o JiraOps está em andamento. Os módulos base (terraform-base-module, monitoring, pyhot) já foram atualizados para remover a integração com o PagerDuty. Os alertas agora são roteados via Grafana para o JiraOps, que abre incidentes automaticamente no Jira Service Management. O repositório [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac) ainda existe como legado durante a transição.
+
+### JiraOps (Jira Service Management Operations)
+
+Solução de gestão de incidentes integrada ao Jira Service Management que está substituindo o PagerDuty na Hotmart. O JiraOps recebe alertas do Grafana e abre incidentes automaticamente, centralizando a gestão de alertas, escalação e on-call dentro do ecossistema Atlassian.
+
+**Contexto na Hotmart:** os alertas de monitoramento (Grafana, NewRelic, Prometheus) são roteados para o JiraOps via contact points configurados no Grafana. Por padrão, alertas enviados para o JiraOps recebem prioridade P3. O canal `devops-jiraops` no Grafana é o contact point principal para abertura de incidentes, e o canal `devops-notification` envia alertas para o Google Chat do time.
 
 ---
 
 ### AlertManager
 
-Componente do ecossistema Prometheus responsável por gerenciar alertas: deduplicação, agrupamento, silenciamento e roteamento para os destinos corretos (PagerDuty, Google Chat, e-mail, etc.).
+Componente do ecossistema Prometheus responsável por gerenciar alertas: deduplicação, agrupamento, silenciamento e roteamento para os destinos corretos (JiraOps, Google Chat, e-mail, etc.).
 
-**Contexto na Hotmart:** processa os alertas gerados pelas regras do Prometheus e os encaminha para o PagerDuty ou outros canais conforme a configuração de roteamento.
+**Contexto na Hotmart:** processa os alertas gerados pelas regras do Prometheus e os encaminha para o JiraOps (via Grafana) ou outros canais conforme a configuração de roteamento.
 
 ---
 

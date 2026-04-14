@@ -55,8 +55,8 @@ Cada conta AWS ou domínio tem seu próprio repositório de infraestrutura como 
 |---|---|
 | [docker-images](https://github.com/Hotmart-Org/docker-images) | Imagens Docker base mantidas pelo time DevOps |
 | [hotmart-charts](https://github.com/Hotmart-Org/hotmart-charts) | Helm charts internos da Hotmart (incluindo ApplicationSet para ArgoCD) |
-| [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac) | Infraestrutura do PagerDuty como código: times, escalas, schedules, services |
-| [monitoring](https://github.com/Hotmart-Org/monitoring) | Módulo de monitoramento integrado ao base-module (NewRelic, PagerDuty, Pingdom) |
+| [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac) | Infraestrutura do PagerDuty como código (legado, em migração para JiraOps) |
+| [monitoring](https://github.com/Hotmart-Org/monitoring) | Módulo de monitoramento integrado ao base-module (NewRelic, JiraOps, Pingdom) |
 | [dynamic-agent](https://github.com/Hotmart-Org/dynamic-agent) | Agente dinâmico para automações internas |
 
 ---
@@ -108,7 +108,7 @@ Módulos Terraform reutilizáveis para recursos AWS específicos:
 | Service Desk | [hotmart.atlassian.net/servicedesk](https://hotmart.atlassian.net/servicedesk) | Solicitações de acesso e tickets de suporte |
 | Hotmart AI | [chat.hotmart.ai](https://chat.hotmart.ai) | Assistente de IA interno (prefira ao ChatGPT para dados corporativos) |
 | TeamGuide | [login.teamguide.app](https://login.teamguide.app/) | Acompanhamento de desenvolvimento, mentorias e PDI |
-| PagerDuty | [hotmart.pagerduty.com](https://hotmart.pagerduty.com/) | Alertas, escalação e rotação de on-call |
+| PagerDuty | [hotmart.pagerduty.com](https://hotmart.pagerduty.com/) | Alertas e on-call (legado, em migração para JiraOps) |
 | Skill Matrix | [Google Sheets](https://docs.google.com/spreadsheets/d/15WV6mGLRjC6IKTDdeiatntHq4YVk9A-Cnu5cNvQBiYg/edit) | Mapeamento de conhecimento técnico do time |
 | Smart Contract | [Google Slides](https://docs.google.com/presentation/d/1SdSBnz-yxGYtGLgD18UdjWT4Pr2WCFMPlwbsW4m8p8I/edit) | Diretrizes e acordos do time DevOps |
 | Treinamentos | [Google Drive](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6) | Pasta com gravações de treinamentos internos |

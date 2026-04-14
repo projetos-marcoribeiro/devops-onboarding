@@ -46,7 +46,7 @@ devops-onboarding/
 ├── training-camp/           # Trilha de aprendizado, vídeos, skill matrix
 ├── hands-on/                # Projeto prático: deploy frontend + backend
 ├── operations/              # Jira, Service Desk, tarefas do dia a dia
-├── incident-management/     # Incidentes, PagerDuty, troubleshooting, postmortem
+├── incident-management/     # Incidentes, alertas, troubleshooting, postmortem
 ├── oncall-readiness/        # Checklist de prontidão, investigação, escalation
 ├── devops-tools/            # kubectl, AWS CLI, hotctl, Docker, Rancher Desktop
 ├── team-resources/          # TeamGuide, mentoria, comunicação
@@ -133,7 +133,7 @@ O onboarding completo dura aproximadamente **3 meses**, ajustado conforme o back
 | Datadog | Monitoramento de infraestrutura (Teachable) |
 | Kubecost | Monitoramento de custos em Kubernetes |
 | Sentry | Rastreamento de erros e exceções |
-| PagerDuty | Alertas e rotação de on-call |
+| PagerDuty | Alertas e rotação de on-call (em substituição por JiraOps) |
 | hotctl | CLI interna para interagir com a plataforma |
 | Vault | Gerenciamento de secrets |
 | Cloudflare | Proteção DDoS, WAF, CDN |

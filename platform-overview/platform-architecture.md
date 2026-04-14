@@ -78,7 +78,7 @@ O tráfego externo passa pelo Cloudflare (proteção DDoS, WAF, CDN), depois pel
 
 ### Observability Stack
 
-Toda aplicação deployada via base-module recebe monitoramento automático. A stack inclui NewRelic para APM, Prometheus para métricas internas, Grafana para visualização, Sentry para error tracking, Kubecost para monitoramento de custos, Pingdom para uptime externo e PagerDuty para alertas e on-call. O Datadog é utilizado exclusivamente pela PU Teachable e está sendo removido da plataforma principal.
+Toda aplicação deployada via base-module recebe monitoramento automático. A stack inclui NewRelic para APM, Prometheus para métricas internas, Grafana para visualização, Sentry para error tracking, Kubecost para monitoramento de custos, Pingdom para uptime externo e JiraOps para alertas e gestão de incidentes (substituindo o PagerDuty). O Datadog é utilizado exclusivamente pela PU Teachable e está sendo removido da plataforma principal.
 
 ---
 

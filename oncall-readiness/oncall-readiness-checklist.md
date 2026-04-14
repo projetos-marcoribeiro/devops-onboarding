@@ -26,7 +26,7 @@ O mentor (fellow) e o coordenador do time avaliam em conjunto quando o engenheir
 
 Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas necessárias para responder a um incidente:
 
-- [ ] PagerDuty configurado com app mobile instalado e notificações ativas
+- [ ] JiraOps configurado (acesso ao Jira Service Management para gestão de incidentes)
 - [ ] NewRelic acessível via Okta
 - [ ] Datadog acessível via Okta *(específico para Teachable; para demais PUs, métricas de infra estão no Prometheus/Grafana)*
 - [ ] Grafana acessível

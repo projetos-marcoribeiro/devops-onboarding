@@ -138,7 +138,7 @@ Após o incidente, leia o postmortem e tente entender cada etapa da investigaç�
 | Grafana | Dashboards e métricas operacionais |
 | NewRelic | APM e investigação de performance |
 | Datadog | Monitoramento de infraestrutura (Teachable) |
-| PagerDuty | Alertas e gestão de on-call |
+| PagerDuty | Alertas e gestão de on-call (em substituição por JiraOps) |
 | ArgoCD | Acompanhar e gerenciar deploys |
 | Jira | Rastrear e gerenciar tarefas |
 

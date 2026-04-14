@@ -57,7 +57,7 @@ O Base Module é o módulo Terraform central da plataforma. Entender como ele fu
 
 ### Observabilidade
 
-Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Prometheus para métricas internas, Grafana para visualização, Sentry para error tracking, Kubecost para custos, Pingdom para uptime externo e PagerDuty para alertas. O Datadog é utilizado apenas pela PU Teachable. O engenheiro aprende a navegar nas ferramentas e a interpretar o que está vendo.
+Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Prometheus para métricas internas, Grafana para visualização, Sentry para error tracking, Kubecost para custos, Pingdom para uptime externo e JiraOps para alertas e gestão de incidentes (substituindo o PagerDuty). O Datadog é utilizado apenas pela PU Teachable. O engenheiro aprende a navegar nas ferramentas e a interpretar o que está vendo.
 
 📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
 

@@ -83,7 +83,7 @@ assignees: ''
 - [ ] Participar de pelo menos 1 incidente como observador
 - [ ] Ler pelo menos 3 postmortems recentes
 - [ ] Completar checklist de prontidão para on-call
-- [ ] Configurar PagerDuty (app, notificações, override de som)
+- [ ] Configurar alertas no JiraOps (Jira Service Management Operations)
 - [ ] Revisar Skill Matrix com fellow (progresso)
 - [ ] Reunião com coordenador sobre expectativas de on-call
 

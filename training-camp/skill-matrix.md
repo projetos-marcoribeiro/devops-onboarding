@@ -82,7 +82,7 @@ Exemplos de tópicos avaliados:
 - NewRelic (APM, traces, alertas)
 - Datadog (infraestrutura – apenas Teachable)
 - Prometheus e Grafana
-- PagerDuty (alertas e on-call)
+- PagerDuty / JiraOps (alertas e on-call)
 - Definição e acompanhamento de SLOs
 
 ### CI/CD

@@ -41,7 +41,7 @@ O Content Flow cuida da jornada do conteúdo dentro da plataforma: desde o uploa
 |---|---|---|
 | - | - | - |
 
-**Alertas críticos:** consulte o PagerDuty para ver os alertas configurados para os serviços desta PU.
+**Alertas críticos:** consulte o JiraOps (Jira Service Management) para ver os alertas configurados para os serviços desta PU.
 
 ---
 
