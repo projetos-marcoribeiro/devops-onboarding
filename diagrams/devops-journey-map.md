@@ -8,36 +8,27 @@ Este diagrama representa a jornada de evolução de um engenheiro DevOps dentro 
 
 ```mermaid
 flowchart TD
-    A([👤 Engenheiro DevOps]) --> B
+    A(["Engenheiro DevOps"]) --> B
 
-    B["📋 Getting Started
-    Acessos · Ferramentas · Setup"]
+    B["Getting Started\nAcessos - Ferramentas - Setup"]
 
-    B --> C["🏗️ Platform Overview
-    Arquitetura · AWS · EKS · CI/CD · GitOps"]
+    B --> C["Platform Overview\nArquitetura - AWS - EKS - CI/CD - GitOps"]
 
-    C --> D["🎓 Training Camp
-    Base Module · Observabilidade · Secrets · Troubleshooting"]
+    C --> D["Training Camp\nBase Module - Observabilidade - Secrets - Troubleshooting"]
 
-    D --> E["🛠️ Hands-On Project
-    Deploy supervisionado · Frontend + Backend · Pipeline completo"]
+    D --> E["Hands-On Project\nDeploy supervisionado - Frontend + Backend - Pipeline completo"]
 
-    E --> F["⚙️ Operations
-    Tickets · Deploys · Service Desk · Tarefas operacionais"]
+    E --> F["Operations\nTickets - Deploys - Service Desk - Tarefas operacionais"]
 
-    F --> G["🚨 Incident Management
-    Resposta a incidentes · Investigação · Postmortem"]
+    F --> G["Incident Management\nResposta a incidentes - Investigacao - Postmortem"]
 
-    G --> H["📟 On-call Readiness
-    Checklist · Runbooks · Escalation policies · Plantão"]
+    G --> H["On-call Readiness\nChecklist - Runbooks - Escalation policies - Plantao"]
 
-    H --> I["📅 Quarter Projects
-    Iniciativas trimestrais · Melhorias de plataforma · IaC"]
+    H --> I["Quarter Projects\nIniciativas trimestrais - Melhorias de plataforma - IaC"]
 
-    I --> J["🔬 POCs e Evolução
-    Novas tecnologias · Avaliações · Contribuição com a plataforma"]
+    I --> J["POCs e Evolucao\nNovas tecnologias - Avaliacoes - Contribuicao com a plataforma"]
 
-    J --> K([🚀 Engenheiro Maduro na Plataforma])
+    J --> K(["Engenheiro Maduro na Plataforma"])
 
     style A fill:#4A90D9,color:#fff,stroke:#2c6fad
     style K fill:#27AE60,color:#fff,stroke:#1e8449

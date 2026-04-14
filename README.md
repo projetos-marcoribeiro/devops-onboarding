@@ -41,7 +41,7 @@ Se você acabou de entrar no time, comece por aqui:
 devops-onboarding/
 │
 ├── devops-journey/          # Jornada, plano 30-60-90 dias, checklist de progresso
-├── getting-started/         # Acessos, ferramentas, FAQ e links essenciais
+├── getting-started/         # Acessos, ferramentas e setup do ambiente
 ├── platform-overview/       # Arquitetura: AWS, EKS, CI/CD, GitOps, observabilidade
 ├── training-camp/           # Trilha de aprendizado, vídeos, skill matrix
 ├── hands-on/                # Projeto prático: deploy frontend + backend
@@ -142,15 +142,7 @@ O onboarding completo dura aproximadamente **3 meses**, ajustado conforme o back
 
 ## Links Importantes
 
-| Recurso | Link |
-|---|---|
-| Service Desk | [hotmart.atlassian.net/servicedesk](https://hotmart.atlassian.net/servicedesk) |
-| DevOps Documentation | [github.com/Hotmart-Org/devops-docs](https://github.com/Hotmart-Org/devops-docs) |
-| Terraform Base Module | [github.com/Hotmart-Org/terraform-base-module](https://github.com/Hotmart-Org/terraform-base-module) |
-| GitHub Actions | [github.com/Hotmart-Org/actions](https://github.com/Hotmart-Org/actions) |
-| Helm Infrastructure | [github.com/Hotmart-Org/devops-helm-iac](https://github.com/Hotmart-Org/devops-helm-iac) |
-| Hotmart AI | [chat.hotmart.ai](https://chat.hotmart.ai) |
-| TeamGuide | [login.teamguide.app](https://login.teamguide.app/) |
+📂 Todos os repositórios, portais e ferramentas internas estão consolidados no [Mapa de Repositórios](getting-started/mapa-de-repositorios).
 
 ---
 
