@@ -21,7 +21,7 @@ assignees: ''
 **Dia 1: Setup**
 - [ ] Participar da apresentação geral do time DevOps
 - [ ] Conhecer a Product Unit (PU)
-- [ ] Abrir TODOS os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk/customer/portal/4)
+- [ ] Abrir TODOS os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315)
 - [ ] Instalar ferramentas: kubectl, AWS CLI, hotctl, Rancher Desktop
 - [ ] Configurar Okta e MFA
 - [ ] Ler o README do onboarding

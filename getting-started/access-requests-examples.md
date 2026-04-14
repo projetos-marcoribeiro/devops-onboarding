@@ -10,7 +10,7 @@
 
 ---
 
-Este documento contém o pack completo de acessos que um engenheiro DevOps precisa solicitar no primeiro dia. Todos os tickets são abertos no [Service Desk: Portal 4](https://hotmart.atlassian.net/servicedesk/customer/portal/4) usando o formulário **"Concessão de acesso a sistema"**.
+Este documento contém o pack completo de acessos que um engenheiro DevOps precisa solicitar no primeiro dia. Todos os tickets são abertos no [Service Desk: Portal 4](https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315) usando o formulário **"Concessão de acesso a sistema"**.
 
 Abra todos de uma vez. Não espere um ser aprovado para abrir o próximo, isso vai te bloquear por dias.
 
@@ -26,7 +26,7 @@ Abra todos de uma vez. Não espere um ser aprovado para abrir o próximo, isso v
 4. Revise a justificativa (substitua `[email do fellow]` pelo email real)
 5. Submeta o ticket
 
-Se o botão não funcionar ou o formulário não preencher automaticamente, copie a justificativa manualmente e abra o ticket pelo [portal](https://hotmart.atlassian.net/servicedesk/customer/portal/4).
+Se o botão não funcionar ou o formulário não preencher automaticamente, copie a justificativa manualmente e abra o ticket pelo [portal](https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315).
 
 ---
 
@@ -45,7 +45,7 @@ Abra um ticket para cada item abaixo.
 | Perfil | Amazon Q Developer |
 
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20AWS%20-%20Amazon%20Q%20Developer%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20do%20acesso%20ao%20Amazon%20Q%20Developer%20para%20utilizar%20o%20assistente%20de%20IA%20durante%20o%20desenvolvimento%20e%20opera%C3%A7%C3%A3o%20de%20infraestrutura%20na%20AWS.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20AWS%20-%20Amazon%20Q%20Developer%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20do%20acesso%20ao%20Amazon%20Q%20Developer%20para%20utilizar%20o%20assistente%20de%20IA%20durante%20o%20desenvolvimento%20e%20opera%C3%A7%C3%A3o%20de%20infraestrutura%20na%20AWS.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -72,7 +72,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 > Comece com **Devops-ReadOnly**. O perfil **AdministratorAccess** será solicitado depois, quando necessário, por conta inteira.
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20AWS%20-%20Contas%20hotmart-org%2C%20usefedora%2C%20notas-org%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20%C3%A0s%20contas%20AWS%20hotmart-org%2C%20usefedora%20e%20notas-org%20com%20perfil%20Devops-ReadOnly%20para%20acompanhar%20a%20infraestrutura%2C%20clusters%20EKS%20e%20dar%20suporte%20operacional.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20AWS%20-%20Contas%20hotmart-org%2C%20usefedora%2C%20notas-org%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20%C3%A0s%20contas%20AWS%20hotmart-org%2C%20usefedora%20e%20notas-org%20com%20perfil%20Devops-ReadOnly%20para%20acompanhar%20a%20infraestrutura%2C%20clusters%20EKS%20e%20dar%20suporte%20operacional.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -99,7 +99,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 > Você precisa criar um usuário GitHub corporativo seguindo o padrão: `<email sem ponto>-hotmart` (ex: `marcoribeiro-hotmart`)
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20GitHub%20-%20Hotmart-Org%2C%20usefedora%2C%20notas-org%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20%C3%A0s%20organiza%C3%A7%C3%B5es%20Hotmart-Org%2C%20usefedora%20e%20notas-org%20no%20GitHub%20para%20contribuir%20com%20reposit%C3%B3rios%20de%20infraestrutura%2C%20pipelines%20e%20documenta%C3%A7%C3%A3o.%20Time%3A%20devops.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20GitHub%20-%20Hotmart-Org%2C%20usefedora%2C%20notas-org%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20%C3%A0s%20organiza%C3%A7%C3%B5es%20Hotmart-Org%2C%20usefedora%20e%20notas-org%20no%20GitHub%20para%20contribuir%20com%20reposit%C3%B3rios%20de%20infraestrutura%2C%20pipelines%20e%20documenta%C3%A7%C3%A3o.%20Time%3A%20devops.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -123,7 +123,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 | Sistema | JIRA |
 | Grupo | DevOps - Components |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20JIRA%20-%20DevOps%20Components%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20JIRA%20(grupo%20DevOps%20-%20Components)%20para%20acompanhar%20e%20executar%20tickets%20operacionais%2C%20participar%20de%20sprints%20e%20acompanhar%20o%20backlog%20de%20infraestrutura.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20JIRA%20-%20DevOps%20Components%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20JIRA%20(grupo%20DevOps%20-%20Components)%20para%20acompanhar%20e%20executar%20tickets%20operacionais%2C%20participar%20de%20sprints%20e%20acompanhar%20o%20backlog%20de%20infraestrutura.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -147,7 +147,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 | Sistema | 1Password |
 | Vault | DevOps Vault |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%201Password%20-%20DevOps%20Vault%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20vault%20%22DevOps%20Vault%22%20no%201Password%20para%20consultar%20credenciais%20compartilhadas%20do%20time%20durante%20atividades%20operacionais.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%201Password%20-%20DevOps%20Vault%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20vault%20%22DevOps%20Vault%22%20no%201Password%20para%20consultar%20credenciais%20compartilhadas%20do%20time%20durante%20atividades%20operacionais.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -171,7 +171,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 | Sistema | Vault |
 | Grupo | vault_admins |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20Vault%20-%20vault_admins%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20Vault%20(grupo%20vault_admins)%20para%20gerenciar%20secrets%20durante%20atividades%20de%20troubleshooting%20e%20suporte%20a%20pipelines%20de%20CI%2FCD.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20Vault%20-%20vault_admins%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20Vault%20(grupo%20vault_admins)%20para%20gerenciar%20secrets%20durante%20atividades%20de%20troubleshooting%20e%20suporte%20a%20pipelines%20de%20CI%2FCD.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -195,7 +195,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 | Sistema | SonarQube |
 | Grupo | sonar-administrators |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20SonarQube%20-%20sonar-administrators%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20SonarQube%20(grupo%20sonar-administrators)%20para%20acompanhar%20a%20qualidade%20de%20c%C3%B3digo%20nos%20projetos%20de%20infraestrutura%20e%20pipelines%20que%20o%20time%20mant%C3%A9m.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20SonarQube%20-%20sonar-administrators%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20SonarQube%20(grupo%20sonar-administrators)%20para%20acompanhar%20a%20qualidade%20de%20c%C3%B3digo%20nos%20projetos%20de%20infraestrutura%20e%20pipelines%20que%20o%20time%20mant%C3%A9m.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -219,7 +219,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 | Sistema | New Relic |
 | Perfil | DevOps |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20New%20Relic%20-%20DevOps%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20New%20Relic%20para%20monitoramento%20de%20aplica%C3%A7%C3%B5es%2C%20investiga%C3%A7%C3%A3o%20de%20incidentes%20e%20an%C3%A1lise%20de%20performance%20(APM%2C%20traces%2C%20logs).%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20New%20Relic%20-%20DevOps%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20New%20Relic%20para%20monitoramento%20de%20aplica%C3%A7%C3%B5es%2C%20investiga%C3%A7%C3%A3o%20de%20incidentes%20e%20an%C3%A1lise%20de%20performance%20(APM%2C%20traces%2C%20logs).%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -242,7 +242,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 |---|---|
 | Sistema | Spot |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Acesso%20Spot%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20Spot%20para%20acompanhar%20e%20otimizar%20custos%20de%20infraestrutura%20cloud.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Acesso%20Spot%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20de%20acesso%20ao%20Spot%20para%20acompanhar%20e%20otimizar%20custos%20de%20infraestrutura%20cloud.%0A%0AEm%20caso%20de%20d%C3%BAvidas%2C%20pode%20espelhar%20o%20usu%C3%A1rio%20do%20meu%20fellow%3A%20%5Bemail%20do%20fellow%5D" target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
@@ -264,7 +264,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 |---|---|
 | Grupo de email | devops-sre@hotmart.com |
 
-<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4?summary=Inclus%C3%A3o%20no%20grupo%20de%20email%20devops-sre%40hotmart.com%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20ser%20adicionado%20ao%20grupo%20de%20email%20devops-sre%40hotmart.com%20para%20receber%20comunica%C3%A7%C3%B5es%20do%20time." target="_blank">🎫 Abrir ticket no Service Desk</a>
+<a href="https://hotmart.atlassian.net/servicedesk/customer/portal/4/group/315?summary=Inclus%C3%A3o%20no%20grupo%20de%20email%20devops-sre%40hotmart.com%20-%20DevOps%20Onboarding&description=Sou%20novo%20no%20time%20de%20DevOps%20e%20preciso%20ser%20adicionado%20ao%20grupo%20de%20email%20devops-sre%40hotmart.com%20para%20receber%20comunica%C3%A7%C3%B5es%20do%20time." target="_blank">🎫 Abrir ticket no Service Desk</a>
 
 <details>
 <summary>📋 Ver justificativa completa</summary>
