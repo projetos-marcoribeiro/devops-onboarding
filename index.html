@@ -7,39 +7,88 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     .sidebar-nav li > a { font-size: 14px; }
-    .onboarding-footer {
-      margin-top: 40px;
-      padding: 16px 20px;
-      background: #f0f7ff;
-      border-left: 4px solid #4A90D9;
-      border-radius: 4px;
+    .onboarding-banner {
+      margin-bottom: 24px;
+      padding: 14px 20px;
+      background: linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%);
+      border: 1px solid #b8d8f8;
+      border-radius: 8px;
       font-size: 14px;
-      color: #333;
+      color: #1a3a5c;
+      display: flex;
+      align-items: center;
+      gap: 12px;
     }
-    .onboarding-footer a {
-      color: #4A90D9;
+    .onboarding-banner .banner-icon {
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+    .onboarding-banner a {
+      color: #2563eb;
       font-weight: 600;
       text-decoration: none;
     }
-    .onboarding-footer a:hover {
+    .onboarding-banner a:hover {
       text-decoration: underline;
     }
+    .onboarding-banner .banner-btn {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 6px 14px;
+      background: #2563eb;
+      color: #fff !important;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none !important;
+    }
+    .onboarding-banner .banner-btn:hover {
+      background: #1d4ed8;
+    }
     .sidebar-progress {
-      padding: 10px 15px;
+      padding: 12px 15px;
       margin: 10px 0;
-      background: #f0f7ff;
-      border-radius: 6px;
+      background: linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%);
+      border-radius: 8px;
       font-size: 12px;
       text-align: center;
-      border: 1px solid #d0e3f7;
+      border: 1px solid #b8d8f8;
     }
     .sidebar-progress a {
-      color: #4A90D9;
+      color: #2563eb;
       text-decoration: none;
       font-weight: 600;
     }
     .sidebar-progress a:hover {
       text-decoration: underline;
+    }
+    .sidebar-progress .sidebar-btn {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 4px 10px;
+      background: #2563eb;
+      color: #fff !important;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      text-decoration: none !important;
+    }
+    .sidebar-progress .sidebar-btn:hover {
+      background: #1d4ed8;
+    }
+    a[href*="servicedesk"][target="_blank"] {
+      display: inline-block;
+      margin: 8px 0;
+      padding: 8px 16px;
+      background: #0052CC;
+      color: #fff !important;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none !important;
+    }
+    a[href*="servicedesk"][target="_blank"]:hover {
+      background: #0747A6;
     }
   </style>
 </head>
@@ -69,14 +118,16 @@
           });
         },
         function(hook) {
-          var footer = '<div class="onboarding-footer">' +
-            '📋 <strong>Acompanhe seu progresso:</strong> ' +
-            'Abra uma <a href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Issue de Onboarding</a> ' +
-            'no repositório para registrar seu avanço. Seu fellow e coordenador podem acompanhar por lá. ' +
-            '<a href="#/devops-journey/onboarding-checklist" >Ver instruções</a>' +
-            '</div>';
+          var banner = '<div class="onboarding-banner">' +
+            '<span class="banner-icon">📋</span>' +
+            '<div>' +
+            '<strong>Acompanhe seu progresso no onboarding</strong><br>' +
+            'Registre seu avanço em uma Issue do GitHub. Seu fellow e coordenador acompanham por lá.<br>' +
+            '<a class="banner-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Abrir minha Issue</a> ' +
+            '<a href="#/devops-journey/onboarding-checklist" style="margin-left:10px;font-size:12px;">Ver instruções</a>' +
+            '</div></div>';
           hook.afterEach(function(html) {
-            return html + footer;
+            return banner + html;
           });
         },
         function(hook) {
@@ -86,7 +137,7 @@
               var progressDiv = document.createElement('div');
               progressDiv.className = 'sidebar-progress';
               progressDiv.innerHTML = '📋 <a href="#/devops-journey/onboarding-checklist">Checklist de Progresso</a><br>' +
-                '<small><a href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Abrir minha Issue</a></small>';
+                '<a class="sidebar-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Abrir minha Issue</a>';
               sidebar.parentNode.insertBefore(progressDiv, sidebar);
             }
           });
