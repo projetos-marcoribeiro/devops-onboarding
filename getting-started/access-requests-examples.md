@@ -1,4 +1,4 @@
-# Solicitações de Acesso — Pack Completo
+# Solicitações de Acesso: Pack Completo
 
 ## 📑 Índice
 
@@ -11,9 +11,9 @@
 
 ---
 
-Este documento contém o pack completo de acessos que um engenheiro DevOps precisa solicitar no primeiro dia. Todos os tickets são abertos no [Service Desk — Portal 4](https://hotmart.atlassian.net/servicedesk/customer/portal/4) usando o formulário **"Concessão de acesso a sistema"**.
+Este documento contém o pack completo de acessos que um engenheiro DevOps precisa solicitar no primeiro dia. Todos os tickets são abertos no [Service Desk: Portal 4](https://hotmart.atlassian.net/servicedesk/customer/portal/4) usando o formulário **"Concessão de acesso a sistema"**.
 
-Abra todos de uma vez. Não espere um ser aprovado para abrir o próximo — isso vai te bloquear por dias.
+Abra todos de uma vez. Não espere um ser aprovado para abrir o próximo: isso vai te bloquear por dias.
 
 ---
 
@@ -32,7 +32,7 @@ Abra um ticket para cada item abaixo. Use a justificativa modelo e adapte o sist
 
 ---
 
-### 1. AWS — Amazon Q Developer
+### 1. AWS: Amazon Q Developer
 
 | Campo | Valor |
 |---|---|
@@ -55,7 +55,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 ---
 
-### 2. AWS — Contas principais (Hotmart-Org, Usefedora, Notas-Org)
+### 2. AWS: Contas principais (Hotmart-Org, Usefedora, Notas-Org)
 
 | Campo | Valor |
 |---|---|
@@ -80,7 +80,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 ---
 
-### 3. GitHub — Organizações
+### 3. GitHub: Organizações
 
 | Campo | Valor |
 |---|---|
@@ -105,7 +105,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 ---
 
-### 4. JIRA — DevOps Components
+### 4. JIRA: DevOps Components
 
 | Campo | Valor |
 |---|---|
@@ -127,7 +127,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 ---
 
-### 5. 1Password — DevOps Vault
+### 5. 1Password: DevOps Vault
 
 | Campo | Valor |
 |---|---|
@@ -149,7 +149,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 ---
 
-### 6. Vault (HashiCorp) — vault_admins
+### 6. Vault (HashiCorp): vault_admins
 
 | Campo | Valor |
 |---|---|
@@ -171,7 +171,7 @@ Em caso de dúvidas, pode espelhar o usuário do meu fellow: [email do fellow]
 
 ---
 
-### 7. SonarQube — sonar-administrators
+### 7. SonarQube: sonar-administrators
 
 | Campo | Valor |
 |---|---|
@@ -283,16 +283,16 @@ atividades. Em caso de dúvidas, pode espelhar o usuário do meu fellow:
 
 Use este checklist para acompanhar o progresso das suas solicitações:
 
-- [ ] AWS — Amazon Q Developer
-- [ ] AWS — Contas principais (hotmart-org, usefedora, notas-org)
-- [ ] GitHub — Organizações (Hotmart-Org, usefedora, notas-org)
-- [ ] JIRA — DevOps Components
-- [ ] 1Password — DevOps Vault
-- [ ] Vault — vault_admins
-- [ ] SonarQube — sonar-administrators
+- [ ] AWS: Amazon Q Developer
+- [ ] AWS: Contas principais (hotmart-org, usefedora, notas-org)
+- [ ] GitHub: Organizações (Hotmart-Org, usefedora, notas-org)
+- [ ] JIRA: DevOps Components
+- [ ] 1Password: DevOps Vault
+- [ ] Vault: vault_admins
+- [ ] SonarQube: sonar-administrators
 - [ ] New Relic
 - [ ] Spot
-- [ ] Email group — devops-sre@hotmart.com
+- [ ] Email group: devops-sre@hotmart.com
 - [ ] VPN (se necessário)
 
 > Abra todos no primeiro dia. Acompanhe no Service Desk. Se passar de 2 dias úteis sem resposta, adicione um comentário pedindo atualização.

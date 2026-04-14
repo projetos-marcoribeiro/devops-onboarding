@@ -33,7 +33,7 @@ A Product Platform gerencia a camada de plataforma que outros times dependem par
 
 ## Por que esta PU é relevante para o DevOps
 
-Serviços da Product Platform tendem a ser críticos por natureza — quando um serviço compartilhado falha, o impacto pode se propagar para múltiplas PUs simultaneamente. Isso torna a observabilidade e a confiabilidade desta PU especialmente importantes.
+Serviços da Product Platform tendem a ser críticos por natureza: quando um serviço compartilhado falha, o impacto pode se propagar para múltiplas PUs simultaneamente. Isso torna a observabilidade e a confiabilidade desta PU especialmente importantes.
 
 Ao trabalhar em incidentes que afetam múltiplos serviços ao mesmo tempo, verifique se a causa raiz pode estar em um serviço da Product Platform.
 
@@ -45,7 +45,7 @@ Ao trabalhar em incidentes que afetam múltiplos serviços ao mesmo tempo, verif
 
 | Repositório | Descrição |
 |---|---|
-| — | — |
+| - | - |
 
 ---
 
@@ -55,7 +55,7 @@ Ao trabalhar em incidentes que afetam múltiplos serviços ao mesmo tempo, verif
 
 | Ferramenta | Descrição | Acesso |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -65,7 +65,7 @@ Ao trabalhar em incidentes que afetam múltiplos serviços ao mesmo tempo, verif
 
 | Componente | Descrição | Runbook |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -75,8 +75,8 @@ Ao trabalhar em incidentes que afetam múltiplos serviços ao mesmo tempo, verif
 
 | Papel | Contato |
 |---|---|
-| Tech Lead | — |
-| Canal no Google Chat | — |
+| Tech Lead | - |
+| Canal no Google Chat | - |
 
 ---
 

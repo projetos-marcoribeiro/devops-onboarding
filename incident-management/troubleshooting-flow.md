@@ -1,6 +1,6 @@
 # Fluxo de Troubleshooting
 
-> 📌 **Este documento é o fluxo geral de troubleshooting** — a metodologia que o time segue para investigar problemas. Se você está de plantão e precisa de um guia prático com comandos prontos, use o [Guia de Investigação de Incidentes](../oncall-readiness/incident-investigation-guide).
+> 📌 **Este documento é o fluxo geral de troubleshooting**: a metodologia que o time segue para investigar problemas. Se você está de plantão e precisa de um guia prático com comandos prontos, use o [Guia de Investigação de Incidentes](../oncall-readiness/incident-investigation-guide).
 
 ## 📑 Índice
 
@@ -13,7 +13,7 @@
 
 ---
 
-Este documento descreve o processo de investigação durante um incidente. Ter um fluxo estruturado é fundamental para investigar com eficiência sob pressão — sem um método, é fácil perder tempo testando hipóteses aleatórias enquanto o impacto em produção continua.
+Este documento descreve o processo de investigação durante um incidente. Ter um fluxo estruturado é fundamental para investigar com eficiência sob pressão: sem um método, é fácil perder tempo testando hipóteses aleatórias enquanto o impacto em produção continua.
 
 > Se você está em plantão ativo e precisa de um guia mais detalhado com comandos prontos e padrões de comunicação, consulte também:
 > 📄 [`oncall-readiness/incident-investigation-guide.md`](../oncall-readiness/incident-investigation-guide)
@@ -127,10 +127,10 @@ kubectl top nodes
 ```
 
 **Sinais de alerta comuns:**
-- `CrashLoopBackOff` — pod reiniciando repetidamente, geralmente erro na aplicação
-- `OOMKilled` — pod morto por falta de memória, aumentar limits ou investigar memory leak
-- `Pending` — pod não consegue ser agendado, verificar recursos disponíveis nos nodes
-- `ImagePullBackOff` — problema ao baixar a imagem Docker, verificar ECR e credenciais
+- `CrashLoopBackOff`: pod reiniciando repetidamente, geralmente erro na aplicação
+- `OOMKilled`: pod morto por falta de memória, aumentar limits ou investigar memory leak
+- `Pending`: pod não consegue ser agendado, verificar recursos disponíveis nos nodes
+- `ImagePullBackOff`: problema ao baixar a imagem Docker, verificar ECR e credenciais
 
 ### 5. Verificar deploy recente
 

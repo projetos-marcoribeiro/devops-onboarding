@@ -1,4 +1,4 @@
-# Diagrama — Fluxo de Deploy
+# Diagrama: Fluxo de Deploy
 
 ## 📑 Índice
 

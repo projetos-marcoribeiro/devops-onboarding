@@ -1,4 +1,4 @@
-# Kiro — Setup e Configuração
+# Kiro: Setup e Configuração
 
 ## 📑 Índice
 
@@ -21,7 +21,7 @@ No contexto do time DevOps da Hotmart, o Kiro é especialmente útil para:
 
 ## Instalação no macOS
 
-### Opção 1 — IDE (recomendado para uso completo)
+### Opção 1: IDE (recomendado para uso completo)
 
 O Kiro IDE é uma IDE completa baseada em VS Code com IA integrada. É a opção recomendada para quem quer usar o Kiro como ambiente principal de desenvolvimento.
 
@@ -31,7 +31,7 @@ O Kiro IDE é uma IDE completa baseada em VS Code com IA integrada. É a opção
 4. Arraste o Kiro para a pasta `Applications`
 5. Abra o Kiro e faça login com sua conta AWS Builder ID ou credenciais corporativas
 
-### Opção 2 — CLI
+### Opção 2: CLI
 
 Se preferir usar o Kiro apenas como assistente de linha de comando, sem abrir a IDE completa:
 

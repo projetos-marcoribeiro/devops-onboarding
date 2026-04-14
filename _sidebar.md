@@ -13,7 +13,7 @@
 - [Introduction](getting-started/introduction)
 - [Okta Access](getting-started/okta-access)
 - [Service Desk Access](getting-started/service-desk-access)
-- [Access Pack — Solicitações](getting-started/access-requests-examples)
+- [Access Pack: Solicitações](getting-started/access-requests-examples)
 - [Required Tools](getting-started/required-tools)
 - [Kiro Setup](getting-started/kiro-setup)
 - [Useful Links](getting-started/useful-links)

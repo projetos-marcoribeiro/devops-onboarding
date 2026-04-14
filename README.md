@@ -2,9 +2,9 @@
 
 Seja bem-vindo ao time DevOps da Hotmart.
 
-A plataforma tem muitas camadas e leva tempo para entender tudo — isso é normal e esperado. Este material foi construído para tornar esse processo mais suave, mas o aprendizado real vem da prática e das conversas com o time.
+A plataforma tem muitas camadas e leva tempo para entender tudo: isso é normal e esperado. Este material foi construído para tornar esse processo mais suave, mas o aprendizado real vem da prática e das conversas com o time.
 
-Não hesite em perguntar. Seu fellow está aqui para ajudar, e o time tem uma cultura de compartilhamento de conhecimento. Dúvidas não resolvidas viram gaps que aparecem na hora errada — traga-as à tona cedo.
+Não hesite em perguntar. Seu fellow está aqui para ajudar, e o time tem uma cultura de compartilhamento de conhecimento. Dúvidas não resolvidas viram gaps que aparecem na hora errada: traga-as à tona cedo.
 
 Este repositório é sincronizado automaticamente com o portal de documentação **TechDeck** e serve como fonte da verdade para o onboarding de novos engenheiros e como referência contínua para todo o time.
 
@@ -14,22 +14,22 @@ Este repositório é sincronizado automaticamente com o portal de documentação
 
 Se você acabou de entrar no time, comece por aqui:
 
-- ➡️ **[Getting Started](getting-started/introduction)** — acessos, ferramentas e setup do ambiente
-- ➡️ **[Platform Overview](platform-overview/platform-architecture)** — arquitetura, AWS, EKS, CI/CD e GitOps
-- ➡️ **[Training Camp](training-camp/training-overview)** — trilha de aprendizado guiado e skill matrix
-- ➡️ **[Hands-On Project](hands-on/hands-on-overview)** — deploy completo supervisionado
-- ➡️ **[Operations](operations/jira-workflows)** — trabalho operacional do dia a dia
-- ➡️ **[Incident Management](incident-management/incident-process)** — resposta a incidentes e postmortem
-- ➡️ **[On-call Readiness](oncall-readiness/oncall-readiness-checklist)** — checklist de prontidão para o plantão
+- ➡️ **[Getting Started](getting-started/introduction)**: acessos, ferramentas e setup do ambiente
+- ➡️ **[Platform Overview](platform-overview/platform-architecture)**: arquitetura, AWS, EKS, CI/CD e GitOps
+- ➡️ **[Training Camp](training-camp/training-overview)**: trilha de aprendizado guiado e skill matrix
+- ➡️ **[Hands-On Project](hands-on/hands-on-overview)**: deploy completo supervisionado
+- ➡️ **[Operations](operations/jira-workflows)**: trabalho operacional do dia a dia
+- ➡️ **[Incident Management](incident-management/incident-process)**: resposta a incidentes e postmortem
+- ➡️ **[On-call Readiness](oncall-readiness/oncall-readiness-checklist)**: checklist de prontidão para o plantão
 
 ### Outros recursos úteis
 
-- 📖 **[DevOps Journey](devops-journey/devops-journey-map)** — plano 30-60-90 dias e expectativas trimestrais
-- 🔧 **[DevOps Tools](devops-tools/kubectl)** — kubectl, AWS CLI, hotctl, Docker
-- 👥 **[Team Resources](team-resources/teamguide)** — mentoria, comunicação e TeamGuide
-- 🏢 **[Product Units](product-units/overview)** — recursos específicos de cada PU
-- 📘 **[Glossário](glossary/devops-glossary)** — termos e siglas da plataforma
-- 📊 **[Diagramas](diagrams/devops-journey-map)** — arquitetura, deploy e resposta a incidentes em Mermaid
+- 📖 **[DevOps Journey](devops-journey/devops-journey-map)**: plano 30-60-90 dias e expectativas trimestrais
+- 🔧 **[DevOps Tools](devops-tools/kubectl)**: kubectl, AWS CLI, hotctl, Docker
+- 👥 **[Team Resources](team-resources/teamguide)**: mentoria, comunicação e TeamGuide
+- 🏢 **[Product Units](product-units/overview)**: recursos específicos de cada PU
+- 📘 **[Glossário](glossary/devops-glossary)**: termos e siglas da plataforma
+- 📊 **[Diagramas](diagrams/devops-journey-map)**: arquitetura, deploy e resposta a incidentes em Mermaid
 
 ---
 
@@ -112,7 +112,7 @@ O onboarding completo dura aproximadamente **3 meses**, ajustado conforme o back
 | Mês 2 | Trabalho operacional: tickets, deploys, acompanhamento de incidentes |
 | Mês 3 | Autonomia parcial, preparação para on-call, projetos trimestrais |
 
-📄 [Plano detalhado — 30-60-90 dias](devops-journey/30-60-90-days)
+📄 [Plano detalhado: 30-60-90 dias](devops-journey/30-60-90-days)
 📄 [Checklist de progresso](devops-journey/onboarding-checklist)
 
 ---

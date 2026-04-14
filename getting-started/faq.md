@@ -1,8 +1,8 @@
-# FAQ — Perguntas Frequentes do Onboarding
+# FAQ: Perguntas Frequentes do Onboarding
 
 ---
 
-Perguntas que todo novo engenheiro DevOps faz nos primeiros dias. Se sua dúvida não está aqui, pergunte no canal do time — e depois adicione a resposta aqui para o próximo.
+Perguntas que todo novo engenheiro DevOps faz nos primeiros dias. Se sua dúvida não está aqui, pergunte no canal do time: e depois adicione a resposta aqui para o próximo.
 
 ---
 
@@ -44,7 +44,7 @@ O cluster de staging. Use `hotctl cluster use <cluster-staging>` para configurar
 Verifique os logs do GitHub Actions step a step. Os erros mais comuns são: runner incorreto, secrets não configurados, ou base image errada. Se não conseguir resolver em 30 minutos, peça ajuda ao fellow.
 
 **Posso usar uma linguagem diferente de Node.js no backend?**
-O repositório handson_devops vem com Node.js, mas o foco é o processo de deploy, não a linguagem. Mantenha o Node.js para simplificar — a complexidade está na infraestrutura, não no código.
+O repositório handson_devops vem com Node.js, mas o foco é o processo de deploy, não a linguagem. Mantenha o Node.js para simplificar: a complexidade está na infraestrutura, não no código.
 
 ---
 
@@ -64,7 +64,7 @@ Não. Toda mudança em produção passa pelo fluxo GitOps via ArgoCD. O kubectl 
 É subjetivo e depende do seu progresso. O fellow e o coordenador avaliam juntos quando você está pronto. Use o checklist de prontidão como guia de preparação.
 
 **E se eu receber um alerta e não souber o que fazer?**
-Faça acknowledge no PagerDuty, comunique no canal de incidentes que está investigando, e escale para o nível 2 se não conseguir resolver em 15-20 minutos. Escalar não é fraqueza — é responsabilidade.
+Faça acknowledge no PagerDuty, comunique no canal de incidentes que está investigando, e escale para o nível 2 se não conseguir resolver em 15-20 minutos. Escalar não é fraqueza: é responsabilidade.
 
 ---
 

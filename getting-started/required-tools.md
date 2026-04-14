@@ -5,7 +5,7 @@
 - [kubectl](#kubectl)
 - [AWS CLI](#aws-cli)
 - [hotctl](#hotctl)
-- [Docker — via Rancher Desktop](#docker--via-rancher-desktop)
+- [Docker: via Rancher Desktop](#docker--via-rancher-desktop)
 - [Resumo](#resumo)
 - [Próximos passos](#próximos-passos)
 
@@ -77,7 +77,7 @@ Com ele você consegue:
 **Instalação:**
 Consulte o repositório interno de documentação DevOps para as instruções atualizadas de instalação do `hotctl`, pois ele é distribuído internamente.
 
-📄 [DevOps Docs — GitHub](https://github.com/Hotmart-Org/devops-docs)
+📄 [DevOps Docs: GitHub](https://github.com/Hotmart-Org/devops-docs)
 
 **Verificar instalação:**
 ```bash
@@ -86,7 +86,7 @@ hotctl version
 
 ---
 
-## Docker — via Rancher Desktop
+## Docker: via Rancher Desktop
 
 O Docker é a plataforma de containerização mais usada no mercado. Na Hotmart, containers são a base de todos os workloads. Você vai precisar do Docker para buildar imagens localmente, testar aplicações containerizadas e interagir com o ECR (Elastic Container Registry da AWS).
 

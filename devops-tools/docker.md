@@ -19,7 +19,7 @@ O Docker é a plataforma de containerização utilizada na Hotmart para empacota
 
 ## Por que containers
 
-Antes dos containers, o problema clássico era: "funciona na minha máquina". Containers resolvem isso empacotando a aplicação junto com todas as suas dependências (runtime, bibliotecas, configurações) em uma imagem que roda de forma idêntica em qualquer ambiente — desenvolvimento, staging ou produção.
+Antes dos containers, o problema clássico era: "funciona na minha máquina". Containers resolvem isso empacotando a aplicação junto com todas as suas dependências (runtime, bibliotecas, configurações) em uma imagem que roda de forma idêntica em qualquer ambiente: desenvolvimento, staging ou produção.
 
 Na Hotmart, isso significa que a mesma imagem que você testa localmente é a que vai para o EKS em produção. O que você vê é o que roda.
 
@@ -53,7 +53,7 @@ ArgoCD → EKS
 
 O Dockerfile é o arquivo que define como a imagem Docker é construída. Cada instrução cria uma camada na imagem.
 
-### Exemplo básico — Node.js
+### Exemplo básico: Node.js
 
 ```dockerfile
 FROM node:18-alpine
@@ -202,9 +202,9 @@ node_modules
 README.md
 ```
 
-**Ordene as instruções do Dockerfile** do menos para o mais frequentemente alterado. O Docker usa cache de camadas — se uma camada não mudou, ela é reutilizada. Copiar o `package.json` antes do código fonte garante que o `npm install` só roda quando as dependências mudam.
+**Ordene as instruções do Dockerfile** do menos para o mais frequentemente alterado. O Docker usa cache de camadas: se uma camada não mudou, ela é reutilizada. Copiar o `package.json` antes do código fonte garante que o `npm install` só roda quando as dependências mudam.
 
-**Não coloque secrets no Dockerfile.** Nunca use `ENV` ou `ARG` para passar credenciais — elas ficam visíveis no histórico da imagem. Use Secrets Manager ou variáveis de ambiente injetadas em runtime.
+**Não coloque secrets no Dockerfile.** Nunca use `ENV` ou `ARG` para passar credenciais: elas ficam visíveis no histórico da imagem. Use Secrets Manager ou variáveis de ambiente injetadas em runtime.
 
 ---
 

@@ -31,14 +31,14 @@ Acessos             Vídeos · Slides     Deploy real         Tickets · Inciden
 
 ## Etapas do Onboarding
 
-### Kickoff — Apresentação do Time
+### Kickoff: Apresentação do Time
 
 No primeiro dia, você terá uma apresentação geral do time DevOps cobrindo:
 - Estrutura e hierarquia do time
 - Escopo de trabalho do DevOps na Hotmart
 - Apresentação da sua Product Unit (PU)
 
-📊 [Exemplo — DevOps Experience - PU Lead Solutions](https://docs.google.com/presentation/d/1OY9C5nSgSHQRzHNgOyXRl8rwey-7Xrdnua_rzQr5GXc/edit?usp=sharing)
+📊 [Exemplo: DevOps Experience - PU Lead Solutions](https://docs.google.com/presentation/d/1OY9C5nSgSHQRzHNgOyXRl8rwey-7Xrdnua_rzQr5GXc/edit?usp=sharing)
 
 ### DevOps Journey
 
@@ -52,7 +52,7 @@ Configure seus acessos e ferramentas. Sem isso, nada funciona. Siga os guias de 
 
 📄 [`getting-started/okta-access.md`](okta-access)
 📄 [`getting-started/required-tools.md`](required-tools)
-📄 [`getting-started/access-requests-examples.md`](access-requests-examples) — pack completo de acessos
+📄 [`getting-started/access-requests-examples.md`](access-requests-examples): pack completo de acessos
 
 ### Platform Overview
 
@@ -95,8 +95,8 @@ Preparação para entrar na rotação de on-call: checklist de prontidão, runbo
 ## Por onde começar agora
 
 1. Leia este documento até o fim
-2. Abra uma Issue de progresso no repositório — [ver template](../devops-journey/onboarding-checklist)
-3. Abra todos os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk) — [ver pack completo](access-requests-examples)
+2. Abra uma Issue de progresso no repositório: [ver template](../devops-journey/onboarding-checklist)
+3. Abra todos os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk): [ver pack completo](access-requests-examples)
 4. Configure o Okta e verifique seus acessos
 5. Instale as ferramentas obrigatórias
 6. Comece a leitura do Platform Overview

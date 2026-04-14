@@ -12,9 +12,9 @@
 
 ---
 
-Entrar na rotação de on-call é uma responsabilidade significativa. Significa que, durante o seu período de plantão, você é a primeira linha de resposta para qualquer incidente em produção — a qualquer hora do dia ou da noite.
+Entrar na rotação de on-call é uma responsabilidade significativa. Significa que, durante o seu período de plantão, você é a primeira linha de resposta para qualquer incidente em produção: a qualquer hora do dia ou da noite.
 
-Este checklist existe para garantir que você tenha o conhecimento e as ferramentas necessárias antes de assumir essa responsabilidade. Não é uma formalidade — é uma proteção para você e para a plataforma.
+Este checklist existe para garantir que você tenha o conhecimento e as ferramentas necessárias antes de assumir essa responsabilidade. Não é uma formalidade: é uma proteção para você e para a plataforma.
 
 O mentor (fellow) e o coordenador do time avaliam em conjunto quando o engenheiro está pronto para entrar na rotação. Use este documento como guia de preparação e como base para essa conversa.
 
@@ -196,6 +196,6 @@ kubectl get ingress -n <namespace>
 
 ## Avaliação de prontidão
 
-Quando você considerar que está pronto, agende uma conversa com seu mentor para revisar este checklist juntos. A avaliação não é uma prova — é uma conversa para garantir que você se sente confiante e que o time se sente confortável com você de plantão.
+Quando você considerar que está pronto, agende uma conversa com seu mentor para revisar este checklist juntos. A avaliação não é uma prova: é uma conversa para garantir que você se sente confiante e que o time se sente confortável com você de plantão.
 
-Itens que você ainda não domina completamente não são bloqueadores automáticos — o mentor vai ajudar a definir se o nível atual é suficiente ou se vale mais um tempo de preparação.
+Itens que você ainda não domina completamente não são bloqueadores automáticos: o mentor vai ajudar a definir se o nível atual é suficiente ou se vale mais um tempo de preparação.

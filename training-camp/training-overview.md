@@ -11,7 +11,7 @@
 
 O Training Camp é a fase estruturada de aprendizado do onboarding DevOps da Hotmart. Antes de começar a atuar em atividades operacionais reais, o engenheiro passa por um período dedicado a entender os principais conceitos, ferramentas e padrões utilizados na infraestrutura da empresa.
 
-O objetivo não é decorar documentação — é construir o entendimento necessário para operar com segurança e autonomia na plataforma.
+O objetivo não é decorar documentação: é construir o entendimento necessário para operar com segurança e autonomia na plataforma.
 
 ---
 
@@ -43,7 +43,7 @@ Trabalho Operacional
 
 O Training Camp normalmente ocorre nas primeiras semanas do onboarding, logo após o setup inicial de acessos e ferramentas e a leitura do Platform Overview.
 
-Não existe uma duração fixa — o ritmo é ajustado conforme o background do engenheiro e as dúvidas que surgem ao longo do estudo. O mentor (fellow) acompanha o progresso e ajuda a calibrar o ritmo.
+Não existe uma duração fixa: o ritmo é ajustado conforme o background do engenheiro e as dúvidas que surgem ao longo do estudo. O mentor (fellow) acompanha o progresso e ajuda a calibrar o ritmo.
 
 ---
 
@@ -63,7 +63,7 @@ Como as aplicações são monitoradas na Hotmart: NewRelic para APM, Datadog par
 
 ### Secrets Management
 
-Como credenciais e dados sensíveis são gerenciados na plataforma: Vault, Secrets Manager e as integrações com o base-module. Entender o ciclo de vida de um secret — criação, rotação, acesso e revogação — é essencial para operar com segurança.
+Como credenciais e dados sensíveis são gerenciados na plataforma: Vault, Secrets Manager e as integrações com o base-module. Entender o ciclo de vida de um secret: criação, rotação, acesso e revogação: é essencial para operar com segurança.
 
 ### Troubleshooting
 

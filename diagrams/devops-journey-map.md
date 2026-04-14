@@ -1,4 +1,4 @@
-# Diagrama — Jornada DevOps
+# Diagrama: Jornada DevOps
 
 Este diagrama representa a jornada de evolução de um engenheiro DevOps dentro da Hotmart, desde o primeiro dia até atingir maturidade plena na plataforma.
 

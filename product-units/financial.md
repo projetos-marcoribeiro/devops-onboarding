@@ -13,7 +13,7 @@
 
 ---
 
-A Product Unit **Financial** é responsável pelos sistemas financeiros da Hotmart — o coração da operação de negócio da empresa. Esta PU cuida de tudo relacionado a pagamentos, faturamento e integrações com o ecossistema financeiro.
+A Product Unit **Financial** é responsável pelos sistemas financeiros da Hotmart: o coração da operação de negócio da empresa. Esta PU cuida de tudo relacionado a pagamentos, faturamento e integrações com o ecossistema financeiro.
 
 ---
 
@@ -37,7 +37,7 @@ O Financial gerencia os fluxos de dinheiro dentro da plataforma: desde o momento
 Os serviços financeiros têm requisitos especialmente rigorosos de segurança, disponibilidade e conformidade. Ao trabalhar com infraestrutura desta PU, tenha em mente:
 
 - **Isolamento:** a conta AWS `hotpay` é dedicada a workloads financeiros, com políticas de segurança mais restritivas
-- **Disponibilidade:** qualquer degradação nos serviços de pagamento tem impacto direto na receita da empresa — incidentes aqui são sempre de alta prioridade
+- **Disponibilidade:** qualquer degradação nos serviços de pagamento tem impacto direto na receita da empresa: incidentes aqui são sempre de alta prioridade
 - **Auditoria:** mudanças em infraestrutura financeira podem exigir aprovações adicionais e devem ser documentadas com cuidado
 - **Conformidade:** alguns serviços têm requisitos de PCI-DSS que impactam como a infraestrutura pode ser configurada
 
@@ -51,7 +51,7 @@ Antes de fazer qualquer mudança em serviços desta PU, confirme com o tech lead
 
 | Repositório | Descrição |
 |---|---|
-| — | — |
+| - | - |
 
 ---
 
@@ -61,7 +61,7 @@ Antes de fazer qualquer mudança em serviços desta PU, confirme com o tech lead
 
 | Pipeline | Repositório | Trigger |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -71,7 +71,7 @@ Antes de fazer qualquer mudança em serviços desta PU, confirme com o tech lead
 
 | Serviço | Descrição | Runbook |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -81,8 +81,8 @@ Antes de fazer qualquer mudança em serviços desta PU, confirme com o tech lead
 
 | Papel | Contato |
 |---|---|
-| Tech Lead | — |
-| Canal no Google Chat | — |
+| Tech Lead | - |
+| Canal no Google Chat | - |
 
 ---
 

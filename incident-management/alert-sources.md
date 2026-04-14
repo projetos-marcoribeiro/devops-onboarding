@@ -3,11 +3,11 @@
 ## 📑 Índice
 
 - [Visão geral das fontes](#visão-geral-das-fontes)
-- [Pingdom — Monitoramento Externo de Uptime](#pingdom--monitoramento-externo-de-uptime)
-- [Statping — Monitoramento Interno](#statping--monitoramento-interno)
-- [NewRelic — APM e Performance de Aplicação](#newrelic--apm-e-performance-de-aplicação)
-- [Datadog — Infraestrutura e Containers](#datadog--infraestrutura-e-containers)
-- [CloudWatch — Métricas AWS Nativas](#cloudwatch--métricas-aws-nativas)
+- [Pingdom: Monitoramento Externo de Uptime](#pingdom--monitoramento-externo-de-uptime)
+- [Statping: Monitoramento Interno](#statping--monitoramento-interno)
+- [NewRelic: APM e Performance de Aplicação](#newrelic--apm-e-performance-de-aplicação)
+- [Datadog: Infraestrutura e Containers](#datadog--infraestrutura-e-containers)
+- [CloudWatch: Métricas AWS Nativas](#cloudwatch--métricas-aws-nativas)
 - [Runbooks associados a alertas](#runbooks-associados-a-alertas)
 - [Referências](#referências)
 
@@ -35,7 +35,7 @@ Plataforma Hotmart
 
 ---
 
-## Pingdom — Monitoramento Externo de Uptime
+## Pingdom: Monitoramento Externo de Uptime
 
 O Pingdom verifica a disponibilidade dos endpoints públicos da Hotmart a partir de múltiplas regiões geográficas, simulando o comportamento de um usuário real acessando o serviço.
 
@@ -49,11 +49,11 @@ O Pingdom verifica a disponibilidade dos endpoints públicos da Hotmart a partir
 - Tempo de resposta acima do threshold configurado
 - Conteúdo da resposta diferente do esperado
 
-**Por que é importante:** o Pingdom detecta problemas do ponto de vista do usuário final. Um serviço pode estar "funcionando" internamente mas inacessível externamente por problema de DNS, Cloudflare ou ALB — o Pingdom captura isso.
+**Por que é importante:** o Pingdom detecta problemas do ponto de vista do usuário final. Um serviço pode estar "funcionando" internamente mas inacessível externamente por problema de DNS, Cloudflare ou ALB: o Pingdom captura isso.
 
 ---
 
-## Statping — Monitoramento Interno
+## Statping: Monitoramento Interno
 
 O Statping realiza verificações de disponibilidade de endpoints internos da plataforma, complementando o Pingdom com visibilidade sobre serviços que não são expostos publicamente.
 
@@ -67,7 +67,7 @@ O Statping realiza verificações de disponibilidade de endpoints internos da pl
 
 ---
 
-## NewRelic — APM e Performance de Aplicação
+## NewRelic: APM e Performance de Aplicação
 
 O NewRelic é a principal fonte de alertas relacionados ao comportamento das aplicações em produção. Ele instrumenta as aplicações e coleta dados de performance em tempo real.
 
@@ -91,7 +91,7 @@ O NewRelic é a principal fonte de alertas relacionados ao comportamento das apl
 
 ---
 
-## Datadog — Infraestrutura e Containers
+## Datadog: Infraestrutura e Containers
 
 O Datadog monitora a camada de infraestrutura: nodes Kubernetes, containers, uso de recursos e rede.
 
@@ -115,7 +115,7 @@ O Datadog monitora a camada de infraestrutura: nodes Kubernetes, containers, uso
 
 ---
 
-## CloudWatch — Métricas AWS Nativas
+## CloudWatch: Métricas AWS Nativas
 
 O CloudWatch coleta métricas dos serviços AWS gerenciados. É a fonte de alertas para problemas em RDS, SQS, Lambda, ALB e outros serviços que não são diretamente instrumentados pelas outras ferramentas.
 
@@ -143,7 +143,7 @@ Muitos alertas possuem runbooks associados que descrevem o passo a passo de inve
 
 Quando um alerta chega no PagerDuty, verifique se há um runbook associado antes de começar a investigar do zero. O runbook pode economizar minutos preciosos durante um incidente.
 
-Os runbooks estão disponíveis na documentação interna do time DevOps. Se você resolver um incidente e não encontrar um runbook para ele, considere criar um — é uma contribuição valiosa para o time.
+Os runbooks estão disponíveis na documentação interna do time DevOps. Se você resolver um incidente e não encontrar um runbook para ele, considere criar um: é uma contribuição valiosa para o time.
 
 📄 [`incident-management/troubleshooting-flow.md`](troubleshooting-flow)
 

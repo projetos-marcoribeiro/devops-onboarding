@@ -4,7 +4,7 @@
 
 ## 📑 Índice
 
-- [Conta AWS dedicada — hot-ai](#conta-aws-dedicada--hot-ai)
+- [Conta AWS dedicada: hot-ai](#conta-aws-dedicada--hot-ai)
 - [Amazon Bedrock](#amazon-bedrock)
 - [AgentCore](#agentcore)
 - [Dynamic Agents](#dynamic-agents)
@@ -20,7 +20,7 @@ A Hotmart possui uma camada dedicada de infraestrutura para workloads de Intelig
 
 ---
 
-## Conta AWS dedicada — hot-ai
+## Conta AWS dedicada: hot-ai
 
 Todos os workloads de IA rodam na conta AWS `hot-ai`, separada das demais contas da organização. Essa separação existe por razões de:
 
@@ -125,7 +125,7 @@ Ao fazer deploy de workloads de IA, certifique-se de que as imagens Docker são 
 
 ## Integração com a plataforma DevOps
 
-A plataforma de IA não é um silo separado — ela se integra com os mesmos componentes da plataforma DevOps:
+A plataforma de IA não é um silo separado: ela se integra com os mesmos componentes da plataforma DevOps:
 
 ```
 Código do agente de IA

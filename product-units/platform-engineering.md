@@ -79,7 +79,7 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 
 | Repositório | Descrição |
 |---|---|
-| [terraform-base-module](https://github.com/Hotmart-Org/terraform-base-module) | Base Module — provisionamento de infraestrutura |
+| [terraform-base-module](https://github.com/Hotmart-Org/terraform-base-module) | Base Module: provisionamento de infraestrutura |
 | [actions](https://github.com/Hotmart-Org/actions) | Workflows reutilizáveis de GitHub Actions |
 | [devops-helm-iac](https://github.com/Hotmart-Org/devops-helm-iac) | Helm charts de infraestrutura |
 | [hotctl](https://github.com/Hotmart-Org/hotctl) | CLI interna da plataforma |
@@ -117,9 +117,9 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 
 | Papel | Contato |
 |---|---|
-| Tech Lead | — |
-| Canal no Google Chat | — |
+| Tech Lead | - |
+| Canal no Google Chat | - |
 
 ---
 
-> O Platform Engineering é o time que constrói e mantém a plataforma que você usa todos os dias. Se você identificar algo que pode ser melhorado — uma ferramenta que poderia ser mais simples, um processo que poderia ser automatizado, uma documentação que está desatualizada — traga para o time. Melhorias na plataforma beneficiam toda a organização de engenharia.
+> O Platform Engineering é o time que constrói e mantém a plataforma que você usa todos os dias. Se você identificar algo que pode ser melhorado: uma ferramenta que poderia ser mais simples, um processo que poderia ser automatizado, uma documentação que está desatualizada: traga para o time. Melhorias na plataforma beneficiam toda a organização de engenharia.

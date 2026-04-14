@@ -23,7 +23,7 @@ O Google Chat é a principal ferramenta de comunicação em tempo real do time. 
 **Boas práticas no Google Chat:**
 
 - Use o canal correto para cada tipo de mensagem. Mensagens no canal errado se perdem.
-- Para solicitações ao time DevOps, use o Service Desk — não mensagem direta. Isso garante rastreabilidade.
+- Para solicitações ao time DevOps, use o Service Desk: não mensagem direta. Isso garante rastreabilidade.
 - Em incidentes, use o canal de incidentes para comunicar status. Não fragmente a comunicação em DMs.
 - Reaja com emoji para confirmar que leu uma mensagem importante. Isso evita que o remetente fique sem saber se a mensagem chegou.
 
@@ -107,13 +107,13 @@ Uma mensagem com contexto claro resolve em uma troca o que poderia levar cinco.
 
 ### Compartilhe informações relevantes proativamente
 
-Se você descobriu algo que pode ser útil para o time — um bug, uma limitação de ferramenta, uma mudança de comportamento de um serviço — compartilhe no canal apropriado sem esperar que alguém pergunte. Informação retida é informação perdida.
+Se você descobriu algo que pode ser útil para o time: um bug, uma limitação de ferramenta, uma mudança de comportamento de um serviço: compartilhe no canal apropriado sem esperar que alguém pergunte. Informação retida é informação perdida.
 
 ### Documente decisões importantes
 
 Decisões técnicas relevantes não devem ficar apenas na memória de quem participou da conversa. Documente no ticket do Jira, no PR, no documento de arquitetura ou no canal do time, conforme o contexto.
 
-Perguntas do tipo "por que fizemos isso dessa forma?" devem ter uma resposta acessível — não depender de quem estava presente na reunião há seis meses.
+Perguntas do tipo "por que fizemos isso dessa forma?" devem ter uma resposta acessível: não depender de quem estava presente na reunião há seis meses.
 
 ### Prefira comunicação assíncrona para o que não é urgente
 
@@ -123,4 +123,4 @@ Reserve a comunicação síncrona (chamada, mensagem urgente) para situações q
 
 ### Durante o onboarding
 
-Nos primeiros meses, não hesite em perguntar. O time prefere responder dúvidas a ter um engenheiro travado em silêncio. Perguntar no canal do time (em vez de só para o mentor) também tem o benefício de que outros membros podem contribuir com perspectivas diferentes — e a resposta fica registrada para quem tiver a mesma dúvida no futuro.
+Nos primeiros meses, não hesite em perguntar. O time prefere responder dúvidas a ter um engenheiro travado em silêncio. Perguntar no canal do time (em vez de só para o mentor) também tem o benefício de que outros membros podem contribuir com perspectivas diferentes: e a resposta fica registrada para quem tiver a mesma dúvida no futuro.

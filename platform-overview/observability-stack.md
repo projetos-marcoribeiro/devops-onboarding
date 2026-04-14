@@ -10,7 +10,7 @@
 
 ---
 
-A observabilidade é um pilar fundamental da plataforma Hotmart. O objetivo é que qualquer problema em produção seja detectado, investigado e resolvido com base em dados — não em suposições.
+A observabilidade é um pilar fundamental da plataforma Hotmart. O objetivo é que qualquer problema em produção seja detectado, investigado e resolvido com base em dados: não em suposições.
 
 A stack de observabilidade da Hotmart cobre os três pilares clássicos: métricas, logs e traces. Cada ferramenta tem um papel específico e elas se complementam.
 
@@ -40,7 +40,7 @@ Aplicação em produção
 
 ## Ferramentas da stack
 
-### NewRelic — APM e Observabilidade de Aplicação
+### NewRelic: APM e Observabilidade de Aplicação
 
 O NewRelic é a principal ferramenta de APM (Application Performance Monitoring) da Hotmart. Ele fornece visibilidade sobre o comportamento interno das aplicações: tempo de resposta, taxa de erros, traces distribuídos, performance de queries de banco de dados e muito mais.
 
@@ -55,7 +55,7 @@ O agente NewRelic é injetado automaticamente nas aplicações deployadas via ba
 
 ---
 
-### Datadog — Infraestrutura e Containers
+### Datadog: Infraestrutura e Containers
 
 O Datadog é utilizado para monitoramento de infraestrutura: nodes Kubernetes, containers, uso de CPU/memória, rede e métricas de sistema.
 
@@ -68,7 +68,7 @@ O Datadog é utilizado para monitoramento de infraestrutura: nodes Kubernetes, c
 
 ---
 
-### Prometheus — Métricas Internas
+### Prometheus: Métricas Internas
 
 O Prometheus coleta métricas expostas pelas aplicações e pelos componentes da plataforma (Kubernetes, Karpenter, ArgoCD, etc.). É a base para alertas internos e dashboards operacionais no Grafana.
 
@@ -80,7 +80,7 @@ O Prometheus coleta métricas expostas pelas aplicações e pelos componentes da
 
 ---
 
-### Grafana — Visualização
+### Grafana: Visualização
 
 O Grafana é a ferramenta de visualização central. Ele agrega dados do Prometheus, Datadog e outras fontes em dashboards unificados.
 
@@ -92,7 +92,7 @@ O Grafana é a ferramenta de visualização central. Ele agrega dados do Prometh
 
 ---
 
-### Pingdom — Uptime Externo
+### Pingdom: Uptime Externo
 
 O Pingdom monitora a disponibilidade das aplicações a partir de múltiplas regiões geográficas, simulando o comportamento de um usuário real.
 
@@ -103,7 +103,7 @@ O Pingdom monitora a disponibilidade das aplicações a partir de múltiplas reg
 
 ---
 
-### PagerDuty — Alertas e On-call
+### PagerDuty: Alertas e On-call
 
 O PagerDuty é a plataforma de gerenciamento de alertas e on-call. Alertas do Prometheus, NewRelic, Datadog e Pingdom são roteados para o PagerDuty, que gerencia a escalação e notificação das pessoas certas.
 
@@ -115,7 +115,7 @@ O PagerDuty é a plataforma de gerenciamento de alertas e on-call. Alertas do Pr
 
 ---
 
-### CloudWatch — Métricas AWS
+### CloudWatch: Métricas AWS
 
 O CloudWatch é o serviço nativo de monitoramento da AWS. É utilizado principalmente para métricas de serviços AWS gerenciados (RDS, SQS, Lambda, ALB, etc.) e para logs de serviços que não têm integração direta com as outras ferramentas.
 
@@ -144,12 +144,12 @@ Base-module detecta monitoring: enabled: true
 
 Durante o troubleshooting de um incidente, o fluxo típico é:
 
-1. **PagerDuty** dispara o alerta — você recebe a notificação
-2. **Grafana** — visão geral do que está acontecendo com métricas
-3. **NewRelic** — investigar o comportamento da aplicação, traces e erros
-4. **Datadog** — verificar saúde da infraestrutura (nodes, containers)
-5. **CloudWatch** — verificar logs e métricas de serviços AWS envolvidos
-6. **kubectl** — inspecionar pods, eventos e logs diretamente no cluster
+1. **PagerDuty** dispara o alerta: você recebe a notificação
+2. **Grafana**: visão geral do que está acontecendo com métricas
+3. **NewRelic**: investigar o comportamento da aplicação, traces e erros
+4. **Datadog**: verificar saúde da infraestrutura (nodes, containers)
+5. **CloudWatch**: verificar logs e métricas de serviços AWS envolvidos
+6. **kubectl**: inspecionar pods, eventos e logs diretamente no cluster
 
 Cada ferramenta tem seu papel. Saber qual usar em cada situação é uma habilidade que se desenvolve com a prática.
 

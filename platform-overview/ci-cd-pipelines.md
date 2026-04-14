@@ -159,7 +159,7 @@ Nova versão da aplicação está em produção
 ## Boas práticas
 
 - Nunca coloque credenciais AWS hardcoded em workflows. Use sempre OIDC.
-- Use `secrets: inherit` com cuidado — passe apenas os secrets necessários para cada workflow reutilizável.
+- Use `secrets: inherit` com cuidado: passe apenas os secrets necessários para cada workflow reutilizável.
 - Mantenha os workflows dos repositórios de produto simples, delegando a lógica para os workflows reutilizáveis centrais.
 - Para adicionar um novo workflow reutilizável ou modificar um existente, abra um PR no repositório `Hotmart-Org/actions` e envolva o time DevOps na revisão.
 

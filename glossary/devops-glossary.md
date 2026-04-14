@@ -1,4 +1,4 @@
-# Glossário DevOps — Hotmart
+# Glossário DevOps: Hotmart
 
 ## 📑 Índice
 
@@ -12,7 +12,7 @@
 
 Este glossário serve como referência rápida para novos engenheiros DevOps entenderem os termos, siglas e ferramentas mais comuns utilizados na plataforma Hotmart. Os termos estão organizados por categoria para facilitar a consulta.
 
-Se você encontrar um termo que não está aqui, considere adicioná-lo — manter o glossário atualizado é uma contribuição valiosa para quem vem depois.
+Se você encontrar um termo que não está aqui, considere adicioná-lo: manter o glossário atualizado é uma contribuição valiosa para quem vem depois.
 
 ---
 
@@ -46,7 +46,7 @@ Prática de gerenciar e provisionar infraestrutura através de código, em vez d
 
 Módulo Terraform padrão utilizado para provisionar a infraestrutura necessária para uma aplicação na Hotmart. Ele recebe um arquivo YAML declarativo e cria automaticamente os recursos AWS necessários: ECR, IAM Roles, ALB, Security Groups, KMS, Secrets Manager e configurações de monitoramento.
 
-**Contexto na Hotmart:** é o componente central de provisionamento da plataforma. Times de produto não escrevem Terraform diretamente — apenas declaram o que precisam no YAML do Base Module. Variantes: `base-module`, `base-module-lambda`, `base-module-agentcore`, `base-module-nomad`.
+**Contexto na Hotmart:** é o componente central de provisionamento da plataforma. Times de produto não escrevem Terraform diretamente: apenas declaram o que precisam no YAML do Base Module. Variantes: `base-module`, `base-module-lambda`, `base-module-agentcore`, `base-module-nomad`.
 
 ---
 
@@ -112,7 +112,7 @@ Sistema de gerenciamento de secrets desenvolvido pela HashiCorp. Armazena, contr
 
 Plataforma de gerenciamento de identidades e Single Sign-On (SSO) utilizada pela Hotmart. Centraliza a autenticação de todos os colaboradores para os sistemas e ferramentas da empresa.
 
-**Contexto na Hotmart:** ponto de entrada para praticamente todas as ferramentas internas — AWS, Jira, Vault, SonarQube, Grafana, etc. Acessível em [hotmart.okta.com](https://hotmart.okta.com). Todos os acessos aprovados via Service Desk aparecem no painel do Okta.
+**Contexto na Hotmart:** ponto de entrada para praticamente todas as ferramentas internas: AWS, Jira, Vault, SonarQube, Grafana, etc. Acessível em [hotmart.okta.com](https://hotmart.okta.com). Todos os acessos aprovados via Service Desk aparecem no painel do Okta.
 
 ---
 
@@ -196,7 +196,7 @@ Plataforma de observabilidade de aplicações (APM). Fornece visibilidade sobre 
 
 Plataforma de monitoramento de infraestrutura. Coleta métricas de nodes Kubernetes, containers, uso de recursos e rede.
 
-**Contexto na Hotmart:** utilizado para monitorar a saúde da infraestrutura — nodes EKS, containers, uso de CPU/memória e métricas de sistema. Complementa o New Relic, que foca na camada de aplicação.
+**Contexto na Hotmart:** utilizado para monitorar a saúde da infraestrutura: nodes EKS, containers, uso de CPU/memória e métricas de sistema. Complementa o New Relic, que foca na camada de aplicação.
 
 ---
 
@@ -286,4 +286,4 @@ Versão padrão do MySQL sem as customizações e otimizações do Aurora. Geral
 
 Processo estruturado de investigação e resolução de problemas em sistemas distribuídos. Envolve coleta de evidências (logs, métricas, traces), formulação e teste de hipóteses, identificação de causa raiz e execução de ação corretiva.
 
-**Contexto na Hotmart:** habilidade central para qualquer engenheiro DevOps. O time segue um fluxo estruturado de troubleshooting durante incidentes, documentado em [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow). Bom troubleshooting combina conhecimento técnico com método — não com tentativa e erro aleatório.
+**Contexto na Hotmart:** habilidade central para qualquer engenheiro DevOps. O time segue um fluxo estruturado de troubleshooting durante incidentes, documentado em [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow). Bom troubleshooting combina conhecimento técnico com método: não com tentativa e erro aleatório.

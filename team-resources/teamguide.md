@@ -20,7 +20,7 @@ Metas de desenvolvimento técnico e comportamental são definidas e acompanhadas
 
 Ações concretas que você e seu mentor definem para acelerar o desenvolvimento. Podem ser materiais para estudar, projetos para participar, habilidades para praticar ou conversas para ter com outras pessoas do time.
 
-### PDI — Plano de Desenvolvimento Individual
+### PDI: Plano de Desenvolvimento Individual
 
 O PDI é o documento que consolida sua trajetória de desenvolvimento na empresa: onde você está hoje, onde quer chegar e quais são os passos para isso. Ele é construído em conjunto com seu mentor e revisado periodicamente.
 
@@ -35,7 +35,7 @@ Nos primeiros meses, o TeamGuide é usado principalmente para:
 - Acompanhar as metas definidas para os primeiros 90 dias
 - Registrar ações de desenvolvimento identificadas ao longo do processo
 
-Não espere que tudo seja preenchido automaticamente — parte da responsabilidade é sua. Registre suas dúvidas, seus aprendizados e seus próximos passos após cada sessão com o mentor.
+Não espere que tudo seja preenchido automaticamente: parte da responsabilidade é sua. Registre suas dúvidas, seus aprendizados e seus próximos passos após cada sessão com o mentor.
 
 ---
 

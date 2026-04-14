@@ -9,7 +9,7 @@
 
 ---
 
-A Hotmart organiza seus times de engenharia em **Product Units (PUs)** — unidades autônomas responsáveis por domínios específicos da plataforma. Cada PU tem ownership claro sobre seus serviços, pipelines e infraestrutura, o que permite que times trabalhem com autonomia e velocidade sem depender de um time central para cada mudança.
+A Hotmart organiza seus times de engenharia em **Product Units (PUs)**: unidades autônomas responsáveis por domínios específicos da plataforma. Cada PU tem ownership claro sobre seus serviços, pipelines e infraestrutura, o que permite que times trabalhem com autonomia e velocidade sem depender de um time central para cada mudança.
 
 ---
 
@@ -19,11 +19,11 @@ Uma Product Unit é um time multidisciplinar que cuida de uma parte específica 
 
 Cada PU possui:
 
-- **Serviços próprios** — aplicações e APIs sob sua responsabilidade
-- **Pipelines específicos** — workflows de CI/CD configurados para seus repositórios
-- **Dashboards e monitoramento** — observabilidade focada nos seus serviços
-- **Repositórios GitHub** — código, infraestrutura e configuração organizados na org Hotmart
-- **Workflows DevOps** — padrões de deploy e operação adaptados ao seu contexto
+- **Serviços próprios**: aplicações e APIs sob sua responsabilidade
+- **Pipelines específicos**: workflows de CI/CD configurados para seus repositórios
+- **Dashboards e monitoramento**: observabilidade focada nos seus serviços
+- **Repositórios GitHub**: código, infraestrutura e configuração organizados na org Hotmart
+- **Workflows DevOps**: padrões de deploy e operação adaptados ao seu contexto
 
 ---
 
@@ -41,7 +41,7 @@ Cada PU possui:
 
 ## DevOps e as Product Units
 
-O time DevOps atua de forma transversal — suporta todas as PUs com infraestrutura, pipelines e operação. Dependendo da estrutura do time, um engenheiro DevOps pode ser associado a uma ou mais PUs específicas, atuando como referência técnica de infraestrutura para aquele domínio.
+O time DevOps atua de forma transversal: suporta todas as PUs com infraestrutura, pipelines e operação. Dependendo da estrutura do time, um engenheiro DevOps pode ser associado a uma ou mais PUs específicas, atuando como referência técnica de infraestrutura para aquele domínio.
 
 Durante o onboarding, você provavelmente será associado a uma PU específica. Isso significa que parte do seu trabalho operacional e dos seus projetos trimestrais estará relacionado aos serviços dessa unidade.
 

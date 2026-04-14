@@ -1,16 +1,16 @@
 # Guia de Investigação de Incidentes
 
-> 📌 **Este documento é o guia prático de plantão** — comandos prontos e passos para seguir durante um incidente real. Para a metodologia geral de troubleshooting (estudo e referência), consulte o [Fluxo de Troubleshooting](../incident-management/troubleshooting-flow).
+> 📌 **Este documento é o guia prático de plantão**: comandos prontos e passos para seguir durante um incidente real. Para a metodologia geral de troubleshooting (estudo e referência), consulte o [Fluxo de Troubleshooting](../incident-management/troubleshooting-flow).
 
 ## 📑 Índice
 
 - [Fluxo de investigação](#fluxo-de-investigação)
-- [Passo 1 — Acknowledge e leitura do alerta](#passo-1--acknowledge-e-leitura-do-alerta)
-- [Passo 2 — Verificar dashboards de observabilidade](#passo-2--verificar-dashboards-de-observabilidade)
-- [Passo 3 — Verificar logs da aplicação](#passo-3--verificar-logs-da-aplicação)
-- [Passo 4 — Verificar estado do cluster Kubernetes](#passo-4--verificar-estado-do-cluster-kubernetes)
-- [Passo 5 — Verificar deploy recente](#passo-5--verificar-deploy-recente)
-- [Passo 6 — Identificar causa raiz](#passo-6--identificar-causa-raiz)
+- [Passo 1: Acknowledge e leitura do alerta](#passo-1--acknowledge-e-leitura-do-alerta)
+- [Passo 2: Verificar dashboards de observabilidade](#passo-2--verificar-dashboards-de-observabilidade)
+- [Passo 3: Verificar logs da aplicação](#passo-3--verificar-logs-da-aplicação)
+- [Passo 4: Verificar estado do cluster Kubernetes](#passo-4--verificar-estado-do-cluster-kubernetes)
+- [Passo 5: Verificar deploy recente](#passo-5--verificar-deploy-recente)
+- [Passo 6: Identificar causa raiz](#passo-6--identificar-causa-raiz)
 - [Ações corretivas](#ações-corretivas)
 - [Comunicação durante o incidente](#comunicação-durante-o-incidente)
 - [Quando escalar](#quando-escalar)
@@ -18,7 +18,7 @@
 
 ---
 
-Este guia é uma referência rápida para usar durante um plantão. Quando um alerta chega às 3 da manhã, você não quer ter que lembrar de cabeça qual é o próximo passo — você quer ter um fluxo claro para seguir.
+Este guia é uma referência rápida para usar durante um plantão. Quando um alerta chega às 3 da manhã, você não quer ter que lembrar de cabeça qual é o próximo passo: você quer ter um fluxo claro para seguir.
 
 O objetivo é investigar com método, não com pânico.
 
@@ -71,7 +71,7 @@ Confirmar resolução e comunicar
 
 ---
 
-## Passo 1 — Acknowledge e leitura do alerta
+## Passo 1: Acknowledge e leitura do alerta
 
 Faça o acknowledge no PagerDuty assim que receber a notificação. Isso para a escalação automática e sinaliza que você está ciente.
 
@@ -85,7 +85,7 @@ Múltiplos alertas simultâneos geralmente indicam um problema maior ou uma caus
 
 ---
 
-## Passo 2 — Verificar dashboards de observabilidade
+## Passo 2: Verificar dashboards de observabilidade
 
 ### NewRelic
 
@@ -110,7 +110,7 @@ Verifique os dashboards operacionais do time para ter uma visão geral da plataf
 
 ---
 
-## Passo 3 — Verificar logs da aplicação
+## Passo 3: Verificar logs da aplicação
 
 ```bash
 # Logs em tempo real
@@ -139,7 +139,7 @@ No CloudWatch, verifique os log groups do serviço afetado para erros de serviç
 
 ---
 
-## Passo 4 — Verificar estado do cluster Kubernetes
+## Passo 4: Verificar estado do cluster Kubernetes
 
 ```bash
 # Ver pods com problema
@@ -160,15 +160,15 @@ kubectl top nodes
 
 | Status | Possível causa |
 |---|---|
-| `CrashLoopBackOff` | Aplicação crashando na inicialização — verificar logs |
-| `OOMKilled` | Pod morto por falta de memória — aumentar limits ou investigar leak |
-| `Pending` | Pod não consegue ser agendado — verificar recursos dos nodes |
-| `ImagePullBackOff` | Problema ao baixar imagem — verificar ECR e credenciais |
-| `Error` | Erro genérico — verificar logs e eventos |
+| `CrashLoopBackOff` | Aplicação crashando na inicialização: verificar logs |
+| `OOMKilled` | Pod morto por falta de memória: aumentar limits ou investigar leak |
+| `Pending` | Pod não consegue ser agendado: verificar recursos dos nodes |
+| `ImagePullBackOff` | Problema ao baixar imagem: verificar ECR e credenciais |
+| `Error` | Erro genérico: verificar logs e eventos |
 
 ---
 
-## Passo 5 — Verificar deploy recente
+## Passo 5: Verificar deploy recente
 
 A maioria dos incidentes em produção está relacionada a uma mudança recente. Sempre verifique.
 
@@ -186,7 +186,7 @@ Verifique também a aba Actions do repositório no GitHub para ver se houve pipe
 
 ---
 
-## Passo 6 — Identificar causa raiz
+## Passo 6: Identificar causa raiz
 
 Com as evidências coletadas, correlacione as informações:
 
@@ -283,7 +283,7 @@ Escale para outro membro do time quando:
 - A causa raiz está em uma área que você não domina
 - Você precisa executar uma ação de alto risco e quer uma segunda opinião
 
-Escalar não é fraqueza — é responsabilidade. Em incidentes críticos, dois engenheiros investigando juntos são muito mais eficientes do que um investigando sozinho.
+Escalar não é fraqueza: é responsabilidade. Em incidentes críticos, dois engenheiros investigando juntos são muito mais eficientes do que um investigando sozinho.
 
 📄 [`oncall-readiness/escalation-policies.md`](escalation-policies)
 

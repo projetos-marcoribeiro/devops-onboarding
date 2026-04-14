@@ -57,7 +57,7 @@ Ao apresentar o projeto, o engenheiro deve ser capaz de demonstrar:
 
 ### Entendimento do fluxo de deploy
 
-Explicar o que acontece desde o `git push` até a aplicação estar rodando no cluster. Não apenas "funcionou" — mas por quê funcionou e o que cada peça faz.
+Explicar o que acontece desde o `git push` até a aplicação estar rodando no cluster. Não apenas "funcionou": mas por quê funcionou e o que cada peça faz.
 
 Perguntas que o mentor pode fazer:
 - "O que acontece se o health check do pod falhar?"
@@ -105,7 +105,7 @@ A partir daqui, você vai:
 - Gradualmente ganhar autonomia para executar tarefas sem supervisão constante
 - Avançar em direção à preparação para on-call
 
-O Hands-On não é o fim do aprendizado — é o começo do trabalho real. A plataforma tem muitas camadas e a profundidade vem com a prática. O importante é que agora você tem o contexto necessário para aprender fazendo.
+O Hands-On não é o fim do aprendizado: é o começo do trabalho real. A plataforma tem muitas camadas e a profundidade vem com a prática. O importante é que agora você tem o contexto necessário para aprender fazendo.
 
 📄 [`operations/operational-tasks.md`](../operations/operational-tasks)
 📄 [`incident-management/incident-process.md`](../incident-management/incident-process)

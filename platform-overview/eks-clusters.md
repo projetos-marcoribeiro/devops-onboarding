@@ -3,8 +3,8 @@
 ## 📑 Índice
 
 - [Por que EKS](#por-que-eks)
-- [Karpenter — Provisionamento Automático de Nodes](#karpenter--provisionamento-automático-de-nodes)
-- [EKS Pod Identity — Autenticação IAM para Pods](#eks-pod-identity--autenticação-iam-para-pods)
+- [Karpenter: Provisionamento Automático de Nodes](#karpenter--provisionamento-automático-de-nodes)
+- [EKS Pod Identity: Autenticação IAM para Pods](#eks-pod-identity--autenticação-iam-para-pods)
 - [Estrutura de Clusters](#estrutura-de-clusters)
 - [MultiCluster com ArgoCD](#multicluster-com-argocd)
 - [Interagindo com os clusters](#interagindo-com-os-clusters)
@@ -25,7 +25,7 @@ Usar EKS em vez de Kubernetes self-managed reduz a carga operacional do time: at
 
 ---
 
-## Karpenter — Provisionamento Automático de Nodes
+## Karpenter: Provisionamento Automático de Nodes
 
 O Karpenter é o provisionador de nodes utilizado na Hotmart. Ele substitui o Cluster Autoscaler tradicional com uma abordagem mais eficiente e flexível.
 
@@ -79,7 +79,7 @@ spec:
 
 ---
 
-## EKS Pod Identity — Autenticação IAM para Pods
+## EKS Pod Identity: Autenticação IAM para Pods
 
 O EKS Pod Identity é o mecanismo utilizado para que pods dentro do cluster possam assumir IAM Roles na AWS sem precisar de credenciais estáticas.
 

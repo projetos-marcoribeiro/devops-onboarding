@@ -70,7 +70,7 @@ O on-call recebe a notificação e faz a triagem inicial:
 - Qual é a severidade? (P1, P2, P3...)
 - É necessário acionar mais pessoas?
 
-A triagem deve ser rápida — o objetivo é entender o escopo do problema, não resolvê-lo ainda.
+A triagem deve ser rápida: o objetivo é entender o escopo do problema, não resolvê-lo ainda.
 
 ### 4. Investigação e resposta
 

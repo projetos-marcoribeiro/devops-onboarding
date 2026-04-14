@@ -47,7 +47,7 @@ Antes de usar o kubectl com eficiência, é importante entender os principais ob
 
 | Objeto | Descrição |
 |---|---|
-| Pod | Unidade mínima de execução — um ou mais containers rodando juntos |
+| Pod | Unidade mínima de execução: um ou mais containers rodando juntos |
 | Deployment | Gerencia réplicas de pods e estratégias de atualização |
 | Service | Expõe pods internamente ou externamente via DNS estável |
 | Namespace | Isolamento lógico de recursos dentro do cluster |

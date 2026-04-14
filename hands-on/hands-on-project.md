@@ -5,11 +5,11 @@
 - [Overview](#overview)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Setup](#setup)
-- [Parte 1 — Personalizar o backend](#parte-1--personalizar-o-backend)
-- [Parte 2 — Configurar o CDN (behavior)](#parte-2--configurar-o-cdn-behavior)
-- [Parte 3 — Dockerfile e Frontend](#parte-3--dockerfile-e-frontend)
-- [Parte 4 — Helm values (ambiente)](#parte-4--helm-values-ambiente)
-- [Parte 5 — Pipeline GitHub Actions](#parte-5--pipeline-github-actions)
+- [Parte 1: Personalizar o backend](#parte-1--personalizar-o-backend)
+- [Parte 2: Configurar o CDN (behavior)](#parte-2--configurar-o-cdn-behavior)
+- [Parte 3: Dockerfile e Frontend](#parte-3--dockerfile-e-frontend)
+- [Parte 4: Helm values (ambiente)](#parte-4--helm-values-ambiente)
+- [Parte 5: Pipeline GitHub Actions](#parte-5--pipeline-github-actions)
 - [Resultado esperado](#resultado-esperado)
 - [Dicas para não travar](#dicas-para-não-travar)
 
@@ -30,7 +30,7 @@ Info
 
 ## Overview
 
-Nesta prática você vai subir um frontend (em um CDN pré-existente via S3 + CloudFront) e um backend (em EKS). O código de ambos já está pronto no repositório — é algo simples com o objetivo de demonstrar o funcionamento de ambas as aplicações e como provisioná-las no ambiente AWS.
+Nesta prática você vai subir um frontend (em um CDN pré-existente via S3 + CloudFront) e um backend (em EKS). O código de ambos já está pronto no repositório: é algo simples com o objetivo de demonstrar o funcionamento de ambas as aplicações e como provisioná-las no ambiente AWS.
 
 ```
 Usuário
@@ -92,7 +92,7 @@ kubectl get namespaces
 
 ---
 
-## Parte 1 — Personalizar o backend
+## Parte 1: Personalizar o backend
 
 Edite o arquivo `backend/index.js` substituindo `<<YOUR_LOGIN>>` pelo seu login:
 
@@ -114,7 +114,7 @@ Faça o mesmo no `frontend/index.html`, substituindo `<<SEU_LOGIN>>` pelo seu lo
 
 ---
 
-## Parte 2 — Configurar o CDN (behavior)
+## Parte 2: Configurar o CDN (behavior)
 
 Abra um PR no repositório **buildstaging-iac**, incluindo seu behavior no arquivo `terraform/cdn/devops.tf`.
 
@@ -128,9 +128,9 @@ path: /SEU_LOGIN/api*
 
 ---
 
-## Parte 3 — Dockerfile e Frontend
+## Parte 3: Dockerfile e Frontend
 
-### Backend — Dockerfile
+### Backend: Dockerfile
 
 Crie o Dockerfile para o backend. Use as Internal Base-Images da Hotmart:
 
@@ -143,9 +143,9 @@ COPY backend/ $HOME
 > Repositório de base images: [docker-images](https://github.com/Hotmart-Org/docker-images)
 > Padrão: `315120000506.dkr.ecr.us-east-1.amazonaws.com/${NAME}`
 
-Dica: preste atenção nas **Container Ports** — o backend escuta na porta 3000.
+Dica: preste atenção nas **Container Ports**: o backend escuta na porta 3000.
 
-### Frontend — S3 + CloudFront
+### Frontend: S3 + CloudFront
 
 O pipeline do frontend envia os arquivos estáticos para o S3 e são acessados via CloudFront:
 
@@ -156,7 +156,7 @@ O pipeline do frontend envia os arquivos estáticos para o S3 e são acessados v
 
 ---
 
-## Parte 4 — Helm values (ambiente)
+## Parte 4: Helm values (ambiente)
 
 Crie o arquivo `[environments].yaml` para configurar o ambiente da aplicação no Kubernetes.
 
@@ -170,7 +170,7 @@ Escolha o DNS usando o padrão Hands On:
 
 ---
 
-## Parte 5 — Pipeline GitHub Actions
+## Parte 5: Pipeline GitHub Actions
 
 Crie o pipeline usando GitHub Actions. Use o runner correto de staging:
 
@@ -182,16 +182,16 @@ Crie o pipeline usando GitHub Actions. Use o runner correto de staging:
 Actions reutilizáveis que você deve usar:
 
 ```yaml
-# Base Module — provisionamento de infraestrutura
+# Base Module: provisionamento de infraestrutura
 - uses: Hotmart-Org/actions/base-module@master
 
-# Docker — build e push da imagem
+# Docker: build e push da imagem
 - uses: Hotmart-Org/actions/docker@master
 
-# Helm — deploy no Kubernetes
+# Helm: deploy no Kubernetes
 - uses: Hotmart-Org/actions/helm@master
 
-# S3 — deploy do frontend
+# S3: deploy do frontend
 - uses: Hotmart-Org/actions/s3@master
 ```
 

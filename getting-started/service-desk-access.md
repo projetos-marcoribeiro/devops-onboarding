@@ -10,7 +10,7 @@
 
 ---
 
-O Service Desk é o portal oficial para solicitação de acessos a sistemas e ferramentas na Hotmart. Todos os acessos devem ser solicitados por aqui — não existe provisionamento manual fora desse fluxo.
+O Service Desk é o portal oficial para solicitação de acessos a sistemas e ferramentas na Hotmart. Todos os acessos devem ser solicitados por aqui: não existe provisionamento manual fora desse fluxo.
 
 URL: [https://hotmart.atlassian.net/servicedesk](https://hotmart.atlassian.net/servicedesk)
 
@@ -53,9 +53,9 @@ Se o sistema que você precisa não aparecer na lista, procure por uma opção g
 Muitos sistemas têm diferentes níveis de acesso (perfis). Selecione o perfil adequado para sua função. Em caso de dúvida, consulte seu mentor ou tech lead antes de submeter a solicitação.
 
 Exemplos de perfis comuns:
-- `ReadOnly` — apenas leitura, sem permissão para modificar recursos
-- `Developer` — acesso padrão para desenvolvimento
-- `DevOps` — acesso operacional para times de infraestrutura
+- `ReadOnly`: apenas leitura, sem permissão para modificar recursos
+- `Developer`: acesso padrão para desenvolvimento
+- `DevOps`: acesso operacional para times de infraestrutura
 
 ### 5. Justificar o acesso
 

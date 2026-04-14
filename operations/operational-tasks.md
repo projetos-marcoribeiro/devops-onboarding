@@ -86,7 +86,7 @@ Esse suporte chega principalmente via Service Desk, mas também via canais de co
 
 ## Como novos engenheiros começam
 
-Engenheiros recém-chegados normalmente começam com tarefas menores para ganhar familiaridade com a plataforma antes de assumir responsabilidades maiores. Isso é intencional — operar com segurança exige contexto que só vem com a prática gradual.
+Engenheiros recém-chegados normalmente começam com tarefas menores para ganhar familiaridade com a plataforma antes de assumir responsabilidades maiores. Isso é intencional: operar com segurança exige contexto que só vem com a prática gradual.
 
 **Tarefas recomendadas para começar:**
 
@@ -106,7 +106,7 @@ Além de executar tarefas, existem atividades de aprendizado que aceleram muito 
 
 Leia tickets resolvidos no Service Desk e no backlog DevOps. Entender como problemas passados foram investigados e resolvidos é uma das formas mais eficientes de aprender sobre a plataforma.
 
-Foque em tickets de incidentes e bugs de infraestrutura — eles geralmente têm o raciocínio de troubleshooting documentado nos comentários.
+Foque em tickets de incidentes e bugs de infraestrutura: eles geralmente têm o raciocínio de troubleshooting documentado nos comentários.
 
 ### Revisar Pull Requests de infraestrutura
 

@@ -29,7 +29,7 @@ aws --version
 
 ## Autenticação via Okta (SSO)
 
-Na Hotmart, o acesso à AWS é feito via SSO através do Okta. Isso significa que você não usa access key + secret key estáticos — você autentica via SSO e recebe credenciais temporárias.
+Na Hotmart, o acesso à AWS é feito via SSO através do Okta. Isso significa que você não usa access key + secret key estáticos: você autentica via SSO e recebe credenciais temporárias.
 
 **Configuração inicial do SSO:**
 

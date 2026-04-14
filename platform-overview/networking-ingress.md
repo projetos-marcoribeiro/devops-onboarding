@@ -4,8 +4,8 @@
 
 - [Fluxo de tráfego](#fluxo-de-tráfego)
 - [Cloudflare](#cloudflare)
-- [AWS ALB — Application Load Balancer](#aws-alb--application-load-balancer)
-- [Certificados TLS — AWS ACM](#certificados-tls--aws-acm)
+- [AWS ALB: Application Load Balancer](#aws-alb--application-load-balancer)
+- [Certificados TLS: AWS ACM](#certificados-tls--aws-acm)
 - [Route53 e External DNS](#route53-e-external-dns)
 - [Security Groups](#security-groups)
 - [Ingress no Kubernetes](#ingress-no-kubernetes)
@@ -60,7 +60,7 @@ O Cloudflare aponta para os ALBs da AWS via registros DNS. A integração é ger
 
 ---
 
-## AWS ALB — Application Load Balancer
+## AWS ALB: Application Load Balancer
 
 O ALB é o load balancer da AWS que recebe o tráfego vindo do Cloudflare e distribui para os pods dentro do cluster EKS.
 
@@ -75,7 +75,7 @@ Na Hotmart, os ALBs são criados automaticamente pelo **AWS Load Balancer Contro
 
 ---
 
-## Certificados TLS — AWS ACM
+## Certificados TLS: AWS ACM
 
 Os certificados TLS utilizados nos ALBs são gerenciados pelo AWS Certificate Manager (ACM). O base-module provisiona automaticamente os certificados necessários para cada aplicação com base no domínio declarado no YAML de configuração.
 
@@ -102,7 +102,7 @@ External DNS cria/atualiza registro no Route53
 DNS resolve para o ALB correto
 ```
 
-Isso significa que, ao fazer deploy de uma nova aplicação via base-module, o DNS é configurado automaticamente — sem necessidade de criar registros manualmente.
+Isso significa que, ao fazer deploy de uma nova aplicação via base-module, o DNS é configurado automaticamente: sem necessidade de criar registros manualmente.
 
 ---
 

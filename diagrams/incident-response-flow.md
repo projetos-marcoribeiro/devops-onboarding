@@ -1,4 +1,4 @@
-# Diagrama — Fluxo de Resposta a Incidentes
+# Diagrama: Fluxo de Resposta a Incidentes
 
 ## 📑 Índice
 
@@ -97,9 +97,9 @@ flowchart TD
 |---|---|
 | Detecção | Pingdom, NewRelic, Datadog, CloudWatch, Statping |
 | Notificação | PagerDuty (push, SMS, ligação) |
-| Investigação — Aplicação | NewRelic (APM, traces, logs) |
-| Investigação — Infraestrutura | Datadog, CloudWatch, kubectl |
-| Investigação — Deploy | ArgoCD, GitHub Actions |
+| Investigação: Aplicação | NewRelic (APM, traces, logs) |
+| Investigação: Infraestrutura | Datadog, CloudWatch, kubectl |
+| Investigação: Deploy | ArgoCD, GitHub Actions |
 | Ação corretiva | ArgoCD, kubectl, GitHub Actions |
 | Documentação | Jira, Google Chat |
 

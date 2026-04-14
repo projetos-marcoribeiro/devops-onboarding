@@ -53,7 +53,7 @@ Observability Stack
 
 ### GitHub
 
-É onde todo o código vive — tanto o código das aplicações quanto o código de infraestrutura. A organização `Hotmart-Org` no GitHub centraliza todos os repositórios. Mudanças no código disparam automaticamente os pipelines de CI/CD.
+É onde todo o código vive: tanto o código das aplicações quanto o código de infraestrutura. A organização `Hotmart-Org` no GitHub centraliza todos os repositórios. Mudanças no código disparam automaticamente os pipelines de CI/CD.
 
 ### GitHub Actions
 
@@ -61,7 +61,7 @@ Sistema de CI/CD baseado em workflows YAML. Na Hotmart, os workflows são padron
 
 ### Base Module (Terraform)
 
-O coração do provisionamento de infraestrutura. É um módulo Terraform que recebe um arquivo YAML declarativo e cria automaticamente todos os recursos AWS necessários para uma aplicação: ECR, IAM Roles, ALB, Security Groups, KMS, Secrets Manager e configurações de monitoramento. Os times de produto não precisam escrever Terraform — apenas declaram o que precisam.
+O coração do provisionamento de infraestrutura. É um módulo Terraform que recebe um arquivo YAML declarativo e cria automaticamente todos os recursos AWS necessários para uma aplicação: ECR, IAM Roles, ALB, Security Groups, KMS, Secrets Manager e configurações de monitoramento. Os times de produto não precisam escrever Terraform: apenas declaram o que precisam.
 
 ### ArgoCD
 

@@ -14,7 +14,7 @@
 
 ---
 
-A Product Unit **Teachable** é responsável pela plataforma de ensino online da Hotmart — o ambiente onde produtores criam e gerenciam seus cursos e onde alunos acessam e consomem o conteúdo educacional.
+A Product Unit **Teachable** é responsável pela plataforma de ensino online da Hotmart: o ambiente onde produtores criam e gerenciam seus cursos e onde alunos acessam e consomem o conteúdo educacional.
 
 ---
 
@@ -43,7 +43,7 @@ Ao trabalhar com serviços desta PU, verifique se há configurações específic
 
 | Repositório | Descrição |
 |---|---|
-| — | — |
+| - | - |
 
 ---
 
@@ -53,7 +53,7 @@ Ao trabalhar com serviços desta PU, verifique se há configurações específic
 
 | Dashboard | Ferramenta | Descrição |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -63,7 +63,7 @@ Ao trabalhar com serviços desta PU, verifique se há configurações específic
 
 | Pipeline | Repositório | Trigger |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -73,7 +73,7 @@ Ao trabalhar com serviços desta PU, verifique se há configurações específic
 
 | Serviço | Descrição | Runbook |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -83,8 +83,8 @@ Ao trabalhar com serviços desta PU, verifique se há configurações específic
 
 | Papel | Contato |
 |---|---|
-| Tech Lead | — |
-| Canal no Google Chat | — |
+| Tech Lead | - |
+| Canal no Google Chat | - |
 
 ---
 

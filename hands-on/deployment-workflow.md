@@ -10,7 +10,7 @@
 
 ---
 
-Este documento descreve o fluxo completo de deploy utilizado na plataforma Hotmart. Entender esse fluxo é fundamental para operar com autonomia — seja fazendo um deploy novo, investigando uma falha ou executando um rollback.
+Este documento descreve o fluxo completo de deploy utilizado na plataforma Hotmart. Entender esse fluxo é fundamental para operar com autonomia: seja fazendo um deploy novo, investigando uma falha ou executando um rollback.
 
 ---
 
@@ -64,7 +64,7 @@ git push origin main
 
 O GitHub Actions recebe o evento de push e inicia o workflow definido em `.github/workflows/`. Os jobs são executados nos runners self-hosted que rodam dentro do próprio cluster Kubernetes via Actions Runner Controller (ARC).
 
-Cada job roda em um pod efêmero — criado no início do job e destruído ao final. Isso garante isolamento completo entre execuções.
+Cada job roda em um pod efêmero: criado no início do job e destruído ao final. Isso garante isolamento completo entre execuções.
 
 ```yaml
 # Exemplo de trigger no workflow
@@ -89,7 +89,7 @@ O Base Module cria ou atualiza automaticamente: ECR, IAM Roles, ALB, Security Gr
 
 ### 4. Infraestrutura é provisionada via Terraform
 
-O Terraform aplica as mudanças de infraestrutura de forma incremental — apenas o que mudou é atualizado. O state é armazenado remotamente no S3 com lock via DynamoDB para evitar conflitos.
+O Terraform aplica as mudanças de infraestrutura de forma incremental: apenas o que mudou é atualizado. O state é armazenado remotamente no S3 com lock via DynamoDB para evitar conflitos.
 
 ### 5. Docker image é construída e enviada ao ECR
 

@@ -44,7 +44,7 @@ ou oportunidade     e critérios        em ambiente                          / i
 ```
 
 1. **Identificação**: alguém no time identifica um problema, uma limitação ou uma oportunidade de melhoria
-2. **Definição**: o escopo da POC é definido com clareza — o que será testado, como será avaliado e qual é o critério de sucesso
+2. **Definição**: o escopo da POC é definido com clareza: o que será testado, como será avaliado e qual é o critério de sucesso
 3. **Execução**: o experimento é conduzido em ambiente isolado (geralmente dev ou sandbox), sem impacto em produção
 4. **Avaliação**: os resultados são documentados e compartilhados com o time
 5. **Decisão**: o time decide se avança com a adoção, descarta a ideia ou aprofunda a investigação
@@ -99,13 +99,13 @@ Além de contribuir diretamente com a evolução da plataforma, participar de PO
 
 **Influência na plataforma**: as decisões que saem de uma POC moldam a plataforma pelos próximos meses ou anos. Participar significa ter voz nessas decisões.
 
-**Desenvolvimento de pensamento crítico**: avaliar uma tecnologia de forma estruturada — identificando prós, contras, riscos e limitações — é uma habilidade valiosa que vai além de qualquer ferramenta específica.
+**Desenvolvimento de pensamento crítico**: avaliar uma tecnologia de forma estruturada: identificando prós, contras, riscos e limitações: é uma habilidade valiosa que vai além de qualquer ferramenta específica.
 
 ---
 
 ## Quando o engenheiro começa a participar de POCs
 
-Não existe um momento fixo. Engenheiros mais novos no time geralmente começam participando de POCs como suporte — ajudando na execução, documentando resultados, testando cenários específicos.
+Não existe um momento fixo. Engenheiros mais novos no time geralmente começam participando de POCs como suporte: ajudando na execução, documentando resultados, testando cenários específicos.
 
 Com o tempo, à medida que o engenheiro ganha maturidade na plataforma, passa a propor e liderar suas próprias POCs.
 

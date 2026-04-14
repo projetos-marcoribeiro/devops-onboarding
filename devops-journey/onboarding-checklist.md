@@ -13,7 +13,7 @@ Este checklist acompanha seu progresso ao longo do onboarding. No primeiro dia, 
 
 ## Como usar
 
-1. Abra uma Issue no repositório com o título: `Onboarding — [Seu Nome]`
+1. Abra uma Issue no repositório com o título: `Onboarding: [Seu Nome]`
 2. Cole o checklist abaixo no corpo da Issue
 3. Marque os itens conforme for completando
 4. Seu fellow e coordenador podem acompanhar o progresso pela Issue
@@ -25,7 +25,7 @@ Este checklist acompanha seu progresso ao longo do onboarding. No primeiro dia, 
 Copie e cole o conteúdo abaixo ao criar sua Issue:
 
 ```markdown
-## 📋 Onboarding Checklist — [Seu Nome]
+## 📋 Onboarding Checklist: [Seu Nome]
 
 **Fellow:** [nome do fellow]
 **Data de início:** [data]
@@ -33,9 +33,9 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 
 ---
 
-### Semana 1 — Kickoff + Training Camp (~4 dias)
+### Semana 1: Kickoff + Training Camp (~4 dias)
 
-**Dia 1 — Setup**
+**Dia 1: Setup**
 - [ ] Participar da apresentação geral do time DevOps
 - [ ] Conhecer a Product Unit (PU)
 - [ ] Abrir TODOS os tickets de acesso no [Service Desk](https://hotmart.atlassian.net/servicedesk/customer/portal/4)
@@ -61,7 +61,7 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 
 ---
 
-### Semana 2-3 — Hands-On (1-2 semanas)
+### Semana 2-3: Hands-On (1-2 semanas)
 
 - [ ] Clonar repositório handson_devops
 - [ ] Criar branch handson/{SEU_NOME}
@@ -79,7 +79,7 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 
 ---
 
-### Semana 4-5 — Operacional (1-2 semanas)
+### Semana 4-5: Operacional (1-2 semanas)
 
 - [ ] Ler Smart Contract
 - [ ] Acompanhar fila do Service Desk da PU
@@ -92,7 +92,7 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 
 ---
 
-### Mês 2-3 — Day by Day + On-Call Prep
+### Mês 2-3: Day by Day + On-Call Prep
 
 - [ ] Atuar em tickets operacionais com autonomia crescente
 - [ ] Participar de pelo menos 1 incidente como observador

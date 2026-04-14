@@ -41,7 +41,7 @@ Além da severidade, considere fazer postmortem quando:
 
 O postmortem da Hotmart segue a cultura **blameless** (sem culpa), inspirada nas práticas de SRE do Google.
 
-O objetivo do postmortem não é encontrar quem errou — é entender como o sistema (processos, ferramentas, infraestrutura, comunicação) permitiu que o problema acontecesse e como melhorá-lo.
+O objetivo do postmortem não é encontrar quem errou: é entender como o sistema (processos, ferramentas, infraestrutura, comunicação) permitiu que o problema acontecesse e como melhorá-lo.
 
 **Na prática, isso significa:**
 - Nenhuma pessoa é culpada ou punida por um incidente
@@ -49,16 +49,16 @@ O objetivo do postmortem não é encontrar quem errou — é entender como o sis
 - Qualquer engenheiro pode ter cometido o mesmo erro nas mesmas circunstâncias
 - A pergunta não é "quem fez isso?" mas "por que o sistema permitiu que isso acontecesse?"
 
-Isso não significa que erros não têm consequências — significa que as consequências são melhorias no sistema, não punição de pessoas. Uma cultura blameless encoraja transparência e aprendizado honesto.
+Isso não significa que erros não têm consequências: significa que as consequências são melhorias no sistema, não punição de pessoas. Uma cultura blameless encoraja transparência e aprendizado honesto.
 
 ---
 
 ## Objetivos do postmortem
 
-1. **Entender a causa raiz** — não apenas o sintoma imediato, mas a cadeia de causas que levou ao incidente
-2. **Identificar melhorias** — ações concretas que reduzem a probabilidade ou o impacto de incidentes similares
-3. **Evitar recorrência** — transformar o aprendizado em mudanças reais na plataforma, nos processos ou nas ferramentas
-4. **Compartilhar conhecimento** — documentar o incidente para que todo o time aprenda, não apenas quem estava de plantão
+1. **Entender a causa raiz**: não apenas o sintoma imediato, mas a cadeia de causas que levou ao incidente
+2. **Identificar melhorias**: ações concretas que reduzem a probabilidade ou o impacto de incidentes similares
+3. **Evitar recorrência**: transformar o aprendizado em mudanças reais na plataforma, nos processos ou nas ferramentas
+4. **Compartilhar conhecimento**: documentar o incidente para que todo o time aprenda, não apenas quem estava de plantão
 
 ---
 
@@ -80,14 +80,14 @@ Evidências coletadas durante a investigação: logs de erro, métricas que saí
 
 ### Ações tomadas durante o incidente
 
-O que foi feito para resolver o problema, em que ordem e com qual resultado. Isso inclui tanto as ações que funcionaram quanto as que não funcionaram — ambas têm valor de aprendizado.
+O que foi feito para resolver o problema, em que ordem e com qual resultado. Isso inclui tanto as ações que funcionaram quanto as que não funcionaram: ambas têm valor de aprendizado.
 
 ---
 
 ## Estrutura do documento de postmortem
 
 ```markdown
-## Postmortem — [Nome do Incidente] — [Data]
+## Postmortem: [Nome do Incidente]: [Data]
 
 ### Resumo
 Descrição breve do incidente, impacto e duração.
@@ -134,13 +134,13 @@ Aspectos do processo que poderiam ter sido melhores.
 
 O postmortem é registrado em um ticket Jira vinculado ao incidente original, ou em um documento interno no Confluence/Notion, dependendo do processo atual do time.
 
-Consulte o tech lead para saber onde os postmortems recentes estão documentados — ler postmortems anteriores é uma das melhores formas de aprender sobre a plataforma e sobre como o time responde a incidentes.
+Consulte o tech lead para saber onde os postmortems recentes estão documentados: ler postmortems anteriores é uma das melhores formas de aprender sobre a plataforma e sobre como o time responde a incidentes.
 
 ---
 
 ## Ações de melhoria
 
-A parte mais importante do postmortem são as ações de melhoria. Um postmortem sem ações concretas é apenas documentação — não gera mudança.
+A parte mais importante do postmortem são as ações de melhoria. Um postmortem sem ações concretas é apenas documentação: não gera mudança.
 
 Cada ação deve ter:
 - **O que:** descrição clara do que precisa ser feito

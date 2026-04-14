@@ -44,7 +44,7 @@ Repositório central de documentação do time DevOps. Contém guias, runbooks, 
 
 ---
 
-### GitHub Actions — Workflows Reutilizáveis
+### GitHub Actions: Workflows Reutilizáveis
 🔗 [https://github.com/Hotmart-Org/actions](https://github.com/Hotmart-Org/actions)
 
 Repositório com GitHub Actions reutilizáveis (reusable workflows) mantidos pelo time DevOps. Os times de produto usam esses workflows nos seus pipelines de CI/CD. Se você vai trabalhar com pipelines, este repositório é leitura obrigatória.

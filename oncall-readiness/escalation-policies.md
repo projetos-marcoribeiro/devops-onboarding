@@ -21,7 +21,7 @@ A escalation policy define quem é notificado, em que ordem e em quanto tempo qu
 
 No PagerDuty, uma escalation policy é uma sequência de níveis de notificação. Quando um alerta dispara, o PagerDuty começa pelo nível 1 e avança automaticamente para os próximos níveis se não houver resposta dentro do tempo configurado.
 
-Isso garante que incidentes críticos sempre chegam a alguém — mesmo que o on-call primário esteja dormindo profundamente, sem bateria no celular ou em uma área sem sinal.
+Isso garante que incidentes críticos sempre chegam a alguém: mesmo que o on-call primário esteja dormindo profundamente, sem bateria no celular ou em uma área sem sinal.
 
 ---
 
@@ -31,25 +31,25 @@ Isso garante que incidentes críticos sempre chegam a alguém — mesmo que o on
 Alerta dispara no PagerDuty
          │
          ▼
-Nível 1 — On-call primário
+Nível 1: On-call primário
          │  engenheiro de plantão no período atual
          │  notificado via push, SMS e ligação
          │
          │  sem acknowledge em 5 minutos
          ▼
-Nível 2 — Segundo engenheiro do time
+Nível 2: Segundo engenheiro do time
          │  outro membro do time DevOps
          │  notificado via push e SMS
          │
          │  sem acknowledge em 10 minutos
          ▼
-Nível 3 — Liderança técnica
+Nível 3: Liderança técnica
          │  tech lead ou engenheiro sênior de referência
          │  notificado via push, SMS e ligação
          │
          │  sem acknowledge em 15 minutos
          ▼
-Nível 4 — Equipe responsável pelo serviço
+Nível 4: Equipe responsável pelo serviço
          │  time de produto ou área responsável pelo serviço afetado
          │  acionado em casos de impacto crítico prolongado
 ```
@@ -72,7 +72,7 @@ Se não houver resposta ao push em alguns minutos, o PagerDuty envia um SMS. Út
 
 ### Ligação telefônica
 
-O canal mais invasivo e mais confiável. O PagerDuty liga para o número cadastrado do on-call. Difícil ignorar — e é exatamente esse o objetivo para incidentes críticos.
+O canal mais invasivo e mais confiável. O PagerDuty liga para o número cadastrado do on-call. Difícil ignorar: e é exatamente esse o objetivo para incidentes críticos.
 
 ### Escalação automática
 
@@ -134,7 +134,7 @@ O tempo entre cada nível é configurado pelo time e pode variar conforme a seve
 
 ## Quando escalar proativamente
 
-A escalação automática é uma rede de segurança — mas você não precisa esperar ela acontecer. Escale proativamente quando:
+A escalação automática é uma rede de segurança: mas você não precisa esperar ela acontecer. Escale proativamente quando:
 
 - Você investigou por 15-20 minutos sem identificar a causa raiz
 - O impacto é P1 e você precisa de mais pares de olhos
@@ -156,7 +156,7 @@ Para garantir que você vai receber as notificações de on-call:
 4. Configure o override de som para alertas críticos (toca mesmo no silencioso)
 5. Teste as notificações antes de entrar na rotação
 
-Verifique também se o seu número está correto no PagerDuty — um número desatualizado significa que a ligação de escalação não vai chegar.
+Verifique também se o seu número está correto no PagerDuty: um número desatualizado significa que a ligação de escalação não vai chegar.
 
 ---
 

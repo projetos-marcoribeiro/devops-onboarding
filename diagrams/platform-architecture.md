@@ -1,4 +1,4 @@
-# Diagrama — Arquitetura da Plataforma
+# Diagrama: Arquitetura da Plataforma
 
 Este diagrama representa a arquitetura geral da plataforma DevOps da Hotmart, mostrando como os componentes se conectam desde o código do desenvolvedor até a aplicação em produção com monitoramento ativo.
 
@@ -26,7 +26,7 @@ flowchart TD
         ARGO["ArgoCD\nDeploy contínuo\nMultiCluster · Self-heal"]
     end
 
-    subgraph RUNTIME ["Runtime — AWS EKS"]
+    subgraph RUNTIME ["Runtime: AWS EKS"]
         EKS["Clusters EKS\nKarpenter · Pod Identity\nNamespaces · Workloads"]
     end
 

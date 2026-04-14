@@ -11,7 +11,7 @@
 
 O Smart Contract é o documento que define as boas práticas, diretrizes e acordos que guiam o trabalho diário do time DevOps da Hotmart. É uma referência viva que todos os membros do time devem conhecer e seguir.
 
-🔗 [Smart Contract — Documento Oficial](https://docs.google.com/presentation/d/1SdSBnz-yxGYtGLgD18UdjWT4Pr2WCFMPlwbsW4m8p8I/edit)
+🔗 [Smart Contract: Documento Oficial](https://docs.google.com/presentation/d/1SdSBnz-yxGYtGLgD18UdjWT4Pr2WCFMPlwbsW4m8p8I/edit)
 
 ---
 
@@ -19,7 +19,7 @@ O Smart Contract é o documento que define as boas práticas, diretrizes e acord
 
 O nome "Smart Contract" é uma analogia aos contratos inteligentes da blockchain: um conjunto de regras acordadas coletivamente que se aplicam automaticamente, sem precisar de supervisão constante. No contexto do time DevOps, é o conjunto de acordos sobre como o time trabalha, se comunica e toma decisões.
 
-Não é um documento burocrático — é um guia prático que reflete a cultura e os padrões do time. Ele evolui conforme o time aprende e melhora seus processos.
+Não é um documento burocrático: é um guia prático que reflete a cultura e os padrões do time. Ele evolui conforme o time aprende e melhora seus processos.
 
 ---
 
@@ -39,8 +39,8 @@ Exemplos de diretrizes:
 Padrões técnicos que o time segue para garantir consistência, segurança e manutenibilidade da infraestrutura.
 
 Exemplos de diretrizes:
-- Toda infraestrutura é provisionada via Base Module ou Terraform — sem recursos criados manualmente no console AWS
-- Secrets nunca são hardcoded em código ou configuração — sempre via Vault ou Secrets Manager
+- Toda infraestrutura é provisionada via Base Module ou Terraform: sem recursos criados manualmente no console AWS
+- Secrets nunca são hardcoded em código ou configuração: sempre via Vault ou Secrets Manager
 - Todo recurso AWS deve ter tags de identificação (time, produto, ambiente, custo)
 - Requests e limits de CPU/memória são obrigatórios em todos os pods
 
@@ -50,7 +50,7 @@ Como o time aborda a investigação de problemas: metodologia de causa raiz, fer
 
 Exemplos de diretrizes:
 - Antes de qualquer ação corretiva, documente o sintoma observado
-- Use dados (métricas, logs, traces) para confirmar hipóteses — não aja por suposição
+- Use dados (métricas, logs, traces) para confirmar hipóteses: não aja por suposição
 - Comunique o status do incidente no canal apropriado a cada 15 minutos enquanto estiver ativo
 - Toda ação tomada durante um incidente deve ser registrada no ticket
 
@@ -74,16 +74,16 @@ Exemplos de responsabilidades dos times de produto:
 Como o time DevOps se comunica internamente e com outros times: canais de comunicação, SLAs de resposta, como escalar problemas, como solicitar suporte.
 
 Exemplos de diretrizes:
-- Solicitações ao time DevOps passam pelo Service Desk — não por mensagem direta
+- Solicitações ao time DevOps passam pelo Service Desk: não por mensagem direta
 - Incidentes críticos são comunicados no canal de incidentes, não em DM
 - Decisões técnicas relevantes são documentadas em ADRs (Architecture Decision Records)
-- Reuniões são usadas para discussões que exigem colaboração — não para passar informação que poderia ser assíncrona
+- Reuniões são usadas para discussões que exigem colaboração: não para passar informação que poderia ser assíncrona
 
 ---
 
 ## Por que todos devem conhecer o Smart Contract
 
-O Smart Contract só funciona se todos o conhecem e seguem. Um time onde metade das pessoas segue os acordos e a outra metade não é um time com processos inconsistentes — e processos inconsistentes geram incidentes, retrabalho e frustração.
+O Smart Contract só funciona se todos o conhecem e seguem. Um time onde metade das pessoas segue os acordos e a outra metade não é um time com processos inconsistentes: e processos inconsistentes geram incidentes, retrabalho e frustração.
 
 Para novos engenheiros, conhecer o Smart Contract desde o início é especialmente importante porque:
 

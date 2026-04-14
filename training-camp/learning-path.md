@@ -3,16 +3,16 @@
 ## 📑 Índice
 
 - [Como usar este documento](#como-usar-este-documento)
-- [Etapa 1 — Base Module](#etapa-1--base-module)
-- [Etapa 2 — Monitoring](#etapa-2--monitoring)
-- [Etapa 3 — Secrets](#etapa-3--secrets)
-- [Etapa 4 — Troubleshooting](#etapa-4--troubleshooting)
-- [Etapa 5 — Tópicos complementares](#etapa-5--tópicos-complementares)
+- [Etapa 1: Base Module](#etapa-1--base-module)
+- [Etapa 2: Monitoring](#etapa-2--monitoring)
+- [Etapa 3: Secrets](#etapa-3--secrets)
+- [Etapa 4: Troubleshooting](#etapa-4--troubleshooting)
+- [Etapa 5: Tópicos complementares](#etapa-5--tópicos-complementares)
 - [Dicas para o estudo](#dicas-para-o-estudo)
 
 ---
 
-Esta é a trilha de estudo recomendada para novos engenheiros DevOps durante o Training Camp. A ordem importa: cada etapa constrói sobre a anterior. Não pule etapas — mesmo que você já conheça o assunto, vale revisar no contexto da plataforma Hotmart.
+Esta é a trilha de estudo recomendada para novos engenheiros DevOps durante o Training Camp. A ordem importa: cada etapa constrói sobre a anterior. Não pule etapas: mesmo que você já conheça o assunto, vale revisar no contexto da plataforma Hotmart.
 
 ---
 
@@ -27,7 +27,7 @@ Para cada etapa:
 
 ---
 
-## Etapa 1 — Base Module
+## Etapa 1: Base Module
 
 **Por que começar aqui:** o Base Module é o ponto de entrada para entender como infraestrutura é provisionada na Hotmart. Quase tudo que você vai operar foi criado por ele. Entender o Base Module dá contexto para todas as outras etapas.
 
@@ -46,21 +46,21 @@ Para cada etapa:
 **Materiais internos:**
 
 <details>
-<summary>▶️ IAC + Base Module — Gravação</summary>
+<summary>▶️ IAC + Base Module: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
 
 </details>
 
-📊 [Slides — Base Module](https://docs.google.com/presentation/d/18XEz6UfkMBxUj09o7kuEjkhukR6BVtN7YEnEd49KtBs/edit#slide=id.g134822534b4_0_42)
+📊 [Slides: Base Module](https://docs.google.com/presentation/d/18XEz6UfkMBxUj09o7kuEjkhukR6BVtN7YEnEd49KtBs/edit#slide=id.g134822534b4_0_42)
 
 📄 [`platform-overview/base-module.md`](../platform-overview/base-module)
 
 ---
 
-## Etapa 2 — Monitoring
+## Etapa 2: Monitoring
 
-**Por que vem aqui:** depois de entender como a infraestrutura é criada, o próximo passo é entender como ela é observada. Monitoramento é a base para qualquer atividade operacional — sem ele, você opera no escuro.
+**Por que vem aqui:** depois de entender como a infraestrutura é criada, o próximo passo é entender como ela é observada. Monitoramento é a base para qualquer atividade operacional: sem ele, você opera no escuro.
 
 **O que estudar:**
 - O papel de cada ferramenta: NewRelic, Datadog, Prometheus, Grafana, Pingdom, PagerDuty, CloudWatch
@@ -78,26 +78,26 @@ Para cada etapa:
 **Materiais internos:**
 
 <details>
-<summary>▶️ Monitoring Applications — Gravação</summary>
+<summary>▶️ Monitoring Applications: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
 
 </details>
 
 <details>
-<summary>▶️ KEDA — Gravação</summary>
+<summary>▶️ KEDA: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
 
 </details>
 
-📊 [Slides — Monitoring](https://docs.google.com/presentation/d/10mv8d1JLiPlwqUc9GEqFLSgRsa6nBa_u2_ljLUkqccE/edit#slide=id.g134822534b4_0_42)
+📊 [Slides: Monitoring](https://docs.google.com/presentation/d/10mv8d1JLiPlwqUc9GEqFLSgRsa6nBa_u2_ljLUkqccE/edit#slide=id.g134822534b4_0_42)
 
 📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
 
 ---
 
-## Etapa 3 — Secrets
+## Etapa 3: Secrets
 
 **Por que vem aqui:** com infraestrutura e monitoramento entendidos, é hora de entender como dados sensíveis são gerenciados. Secrets mal gerenciados são uma das principais causas de incidentes de segurança.
 
@@ -117,31 +117,31 @@ Para cada etapa:
 **Materiais internos:**
 
 <details>
-<summary>▶️ Vault — Gravação</summary>
+<summary>▶️ Vault: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
 
 </details>
 
 <details>
-<summary>▶️ SIEM — Gravação</summary>
+<summary>▶️ SIEM: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
 
 </details>
 
 <details>
-<summary>▶️ Cloudflare — Gravação</summary>
+<summary>▶️ Cloudflare: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
 
 </details>
 
-📊 [Slides — Secrets](https://docs.google.com/presentation/d/1X_lXlyi3Fm8Qsj1aCATIUxQPu2RBrE0SQfFxxrR2HU0/edit#slide=id.ge9493f02a1_0_2)
+📊 [Slides: Secrets](https://docs.google.com/presentation/d/1X_lXlyi3Fm8Qsj1aCATIUxQPu2RBrE0SQfFxxrR2HU0/edit#slide=id.ge9493f02a1_0_2)
 
 ---
 
-## Etapa 4 — Troubleshooting
+## Etapa 4: Troubleshooting
 
 **Por que vem aqui:** com o conhecimento das três etapas anteriores, você já tem o contexto necessário para investigar problemas de forma estruturada. Troubleshooting é uma habilidade que combina conhecimento técnico com método.
 
@@ -179,19 +179,19 @@ kubectl top pods -n <namespace>
 **Materiais internos:**
 
 <details>
-<summary>▶️ Troubleshooting — Gravação</summary>
+<summary>▶️ Troubleshooting: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
 
 </details>
 
-📊 [Slides — TroubleShooting & RDS](https://docs.google.com/presentation/d/1z7VtSBIesRg3tyAE5b_38waiDlcMXI5obGdrfU71akA/edit#slide=id.g20271aefe8d_0_191)
+📊 [Slides: TroubleShooting & RDS](https://docs.google.com/presentation/d/1z7VtSBIesRg3tyAE5b_38waiDlcMXI5obGdrfU71akA/edit#slide=id.g20271aefe8d_0_191)
 
 📄 [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
 
 ---
 
-## Etapa 5 — Tópicos complementares
+## Etapa 5: Tópicos complementares
 
 Após as quatro etapas principais, explore os tópicos complementares conforme sua disponibilidade e os gaps identificados na Skill Matrix:
 
@@ -203,28 +203,28 @@ Após as quatro etapas principais, explore os tópicos complementares conforme s
 **Materiais internos:**
 
 <details>
-<summary>▶️ Criando uma app do zero (Backstage) — Gravação</summary>
+<summary>▶️ Criando uma app do zero (Backstage): Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
 
 </details>
 
 <details>
-<summary>▶️ DAS — Gravação</summary>
+<summary>▶️ DAS: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
 
 </details>
 
 <details>
-<summary>▶️ Criando um banco de dados do zero — Gravação</summary>
+<summary>▶️ Criando um banco de dados do zero: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
 
 </details>
 
 <details>
-<summary>▶️ WhatsApp Integrations — Gravação</summary>
+<summary>▶️ WhatsApp Integrations: Gravação</summary>
 
 [🎬 Abrir vídeo](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
 

@@ -19,7 +19,7 @@ O PagerDuty é a plataforma de gerenciamento de alertas e on-call utilizada na H
 
 ### Gerenciamento de alertas
 
-O PagerDuty recebe alertas de múltiplas fontes (Pingdom, NewRelic, Datadog, CloudWatch) e os consolida em um único lugar. Isso evita que o on-call precise monitorar múltiplas ferramentas simultaneamente — o PagerDuty agrega e notifica.
+O PagerDuty recebe alertas de múltiplas fontes (Pingdom, NewRelic, Datadog, CloudWatch) e os consolida em um único lugar. Isso evita que o on-call precise monitorar múltiplas ferramentas simultaneamente: o PagerDuty agrega e notifica.
 
 Alertas podem ser agrupados em incidentes para evitar flood de notificações quando múltiplos alertas relacionados disparam ao mesmo tempo.
 
@@ -62,23 +62,23 @@ Se o on-call primário não responder dentro do tempo configurado, o PagerDuty e
 A escalation policy define a cadeia de notificação para cada tipo de incidente. A estrutura típica na Hotmart segue quatro camadas:
 
 ```
-Nível 1 — On-call primário
+Nível 1: On-call primário
          │  engenheiro de plantão no momento
          │  sem resposta em 5 minutos
          ▼
-Nível 2 — Segundo engenheiro
+Nível 2: Segundo engenheiro
          │  outro membro do time DevOps
          │  sem resposta em 10 minutos
          ▼
-Nível 3 — Liderança técnica
+Nível 3: Liderança técnica
          │  tech lead ou engenheiro sênior
          │  sem resposta em 15 minutos
          ▼
-Nível 4 — Último recurso
+Nível 4: Último recurso
          │  gestão ou time de suporte crítico
 ```
 
-A escalação automática existe como rede de segurança — não como punição. Se você está de plantão e não consegue responder (problema de conectividade, emergência pessoal), o sistema garante que alguém será notificado.
+A escalação automática existe como rede de segurança: não como punição. Se você está de plantão e não consegue responder (problema de conectividade, emergência pessoal), o sistema garante que alguém será notificado.
 
 ---
 
@@ -106,7 +106,7 @@ Incidentes no PagerDuty podem ser acionados por diferentes fontes de monitoramen
 
 ### Acessando o PagerDuty
 
-O acesso ao PagerDuty é feito via SSO pelo Okta. Instale também o app mobile do PagerDuty no seu celular — é essencial para receber notificações de on-call.
+O acesso ao PagerDuty é feito via SSO pelo Okta. Instale também o app mobile do PagerDuty no seu celular: é essencial para receber notificações de on-call.
 
 ### Verificando quem está de plantão
 

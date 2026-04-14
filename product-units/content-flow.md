@@ -29,7 +29,7 @@ O Content Flow cuida da jornada do conteúdo dentro da plataforma: desde o uploa
 
 | Repositório | Descrição |
 |---|---|
-| — | — |
+| - | - |
 
 ---
 
@@ -39,7 +39,7 @@ O Content Flow cuida da jornada do conteúdo dentro da plataforma: desde o uploa
 
 | Dashboard | Ferramenta | Descrição |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 **Alertas críticos:** consulte o PagerDuty para ver os alertas configurados para os serviços desta PU.
 
@@ -51,7 +51,7 @@ O Content Flow cuida da jornada do conteúdo dentro da plataforma: desde o uploa
 
 | Pipeline | Repositório | Trigger |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -61,7 +61,7 @@ O Content Flow cuida da jornada do conteúdo dentro da plataforma: desde o uploa
 
 | Serviço | Descrição | Runbook |
 |---|---|---|
-| — | — | — |
+| - | - | - |
 
 ---
 
@@ -71,8 +71,8 @@ O Content Flow cuida da jornada do conteúdo dentro da plataforma: desde o uploa
 
 | Papel | Contato |
 |---|---|
-| Tech Lead | — |
-| Canal no Google Chat | — |
+| Tech Lead | - |
+| Canal no Google Chat | - |
 
 ---
 

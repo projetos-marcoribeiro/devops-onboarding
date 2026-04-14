@@ -66,7 +66,7 @@ AWS Organizations (conta master)
          └── club            (assinaturas)
 ```
 
-A conta `devops` funciona como hub de infraestrutura compartilhada — ferramentas como ArgoCD, runners de CI/CD e recursos de rede que são usados por múltiplos domínios podem residir aqui.
+A conta `devops` funciona como hub de infraestrutura compartilhada: ferramentas como ArgoCD, runners de CI/CD e recursos de rede que são usados por múltiplos domínios podem residir aqui.
 
 A conta `secops` centraliza ferramentas de segurança e tem visibilidade sobre todas as outras contas para fins de auditoria e compliance.
 
@@ -106,7 +106,7 @@ aws sts assume-role \
 
 - Sempre verifique em qual conta você está antes de executar comandos que modificam recursos
 - Use o perfil correto na AWS CLI para cada operação
-- Nunca use credenciais de longa duração (access key + secret key) — sempre use SSO ou roles temporárias
+- Nunca use credenciais de longa duração (access key + secret key): sempre use SSO ou roles temporárias
 - Ao criar recursos via Terraform, confirme que o provider está apontando para a conta correta
 - Em caso de dúvida sobre qual conta usar para uma tarefa, consulte o tech lead ou a documentação do domínio
 

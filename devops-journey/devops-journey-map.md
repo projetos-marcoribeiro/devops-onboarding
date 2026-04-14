@@ -171,7 +171,7 @@ O ritmo de progressão varia por pessoa, mas o caminho é o mesmo para todos. O 
 
 ## Referências
 
-📄 [`devops-journey/onboarding-checklist.md`](onboarding-checklist) — checklist de progresso com template de Issue
+📄 [`devops-journey/onboarding-checklist.md`](onboarding-checklist): checklist de progresso com template de Issue
 📄 [`devops-journey/30-60-90-days.md`](30-60-90-days)
 📄 [`devops-journey/quarterly-expectations.md`](quarterly-expectations)
 📄 [`devops-journey/poc-participation.md`](poc-participation)

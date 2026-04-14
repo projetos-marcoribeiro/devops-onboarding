@@ -22,10 +22,10 @@ O Service Desk centraliza todas as demandas externas ao time DevOps, garantindo 
 
 **Tipos de solicitação que chegam pelo Service Desk:**
 
-- **Solicitações de acesso** — pedidos de acesso a sistemas, ferramentas, contas AWS, clusters Kubernetes, etc.
-- **Suporte técnico interno** — times de produto com problemas em pipelines, deploys ou infraestrutura
-- **Problemas com infraestrutura** — indisponibilidade de serviços, erros em ambientes de staging/produção
-- **Solicitações de configuração** — novos ambientes, ajustes em pipelines, criação de recursos, mudanças de configuração
+- **Solicitações de acesso**: pedidos de acesso a sistemas, ferramentas, contas AWS, clusters Kubernetes, etc.
+- **Suporte técnico interno**: times de produto com problemas em pipelines, deploys ou infraestrutura
+- **Problemas com infraestrutura**: indisponibilidade de serviços, erros em ambientes de staging/produção
+- **Solicitações de configuração**: novos ambientes, ajustes em pipelines, criação de recursos, mudanças de configuração
 
 ---
 
@@ -61,7 +61,7 @@ Usuário é notificado automaticamente
 ### Solicitação de acesso
 
 ```
-Título: Acesso ao AWS Console — conta hotpay
+Título: Acesso ao AWS Console: conta hotpay
 Descrição: Preciso de acesso ReadOnly à conta AWS hotpay para
            acompanhar métricas de infraestrutura do produto.
            Referência: pode espelhar o acesso do usuário [colega].
@@ -73,7 +73,7 @@ Prioridade: Normal
 ### Problema em pipeline de CI/CD
 
 ```
-Título: Pipeline falhando no build da imagem Docker — repositório payments-api
+Título: Pipeline falhando no build da imagem Docker: repositório payments-api
 Descrição: Desde ontem o pipeline está falhando no step de build.
            Erro: "no space left on device" no runner.
            Link do workflow com falha: [link]

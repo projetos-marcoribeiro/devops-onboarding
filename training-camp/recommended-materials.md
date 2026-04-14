@@ -18,7 +18,7 @@ Estes materiais foram produzidos internamente pelo time DevOps da Hotmart. São 
 
 Consuma os materiais na ordem sugerida pelo [Learning Path](learning-path), não aleatoriamente. O contexto acumulado em cada etapa torna os materiais seguintes mais fáceis de absorver.
 
-> ⚠️ **Sobre os links de vídeo:** os materiais estão hospedados no Google Drive corporativo. Se algum link não funcionar, verifique se você está logado com sua conta `@hotmart.com`. Se ainda assim não abrir, procure o material na pasta compartilhada abaixo ou peça ao fellow para solicitar acesso. Se um vídeo foi removido ou movido, atualize este documento com o novo link — é uma contribuição rápida e valiosa.
+> ⚠️ **Sobre os links de vídeo:** os materiais estão hospedados no Google Drive corporativo. Se algum link não funcionar, verifique se você está logado com sua conta `@hotmart.com`. Se ainda assim não abrir, procure o material na pasta compartilhada abaixo ou peça ao fellow para solicitar acesso. Se um vídeo foi removido ou movido, atualize este documento com o novo link: é uma contribuição rápida e valiosa.
 
 ---
 
@@ -26,7 +26,7 @@ Consuma os materiais na ordem sugerida pelo [Learning Path](learning-path), não
 
 Todos os materiais de treinamento estão centralizados nesta pasta do Google Drive. Se algum link abaixo estiver desatualizado, procure aqui:
 
-📂 [Treinamento DevOps — Google Drive](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6)
+📂 [Treinamento DevOps: Google Drive](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6)
 
 ---
 
@@ -41,13 +41,13 @@ Gravação sobre Infrastructure as Code e o terraform-base-module: o que é, com
 **Quando estudar:** início do Training Camp, antes de qualquer outra coisa.
 
 <details>
-<summary>▶️ Assistir gravação — IAC + Base Module</summary>
+<summary>▶️ Assistir gravação: IAC + Base Module</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view)
 
 </details>
 
-📊 [Slides — Base Module](https://docs.google.com/presentation/d/18XEz6UfkMBxUj09o7kuEjkhukR6BVtN7YEnEd49KtBs/edit#slide=id.g134822534b4_0_42)
+📊 [Slides: Base Module](https://docs.google.com/presentation/d/18XEz6UfkMBxUj09o7kuEjkhukR6BVtN7YEnEd49KtBs/edit#slide=id.g134822534b4_0_42)
 
 📄 Documentação: [`platform-overview/base-module.md`](../platform-overview/base-module)
 
@@ -60,7 +60,7 @@ Gravação sobre os Helm Charts utilizados na plataforma. Explica a estrutura do
 **Quando estudar:** após entender o Base Module e o fluxo de deploy com ArgoCD.
 
 <details>
-<summary>▶️ Assistir gravação — Hotmart Charts</summary>
+<summary>▶️ Assistir gravação: Hotmart Charts</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1dk5x_cXQl2h98fDGhou83CRb_NtjaMWp/view)
 
@@ -79,13 +79,13 @@ Guia completo sobre a stack de observabilidade: NewRelic, Datadog, Prometheus, G
 **Quando estudar:** etapa 2 do Learning Path.
 
 <details>
-<summary>▶️ Assistir gravação — Monitoring Applications</summary>
+<summary>▶️ Assistir gravação: Monitoring Applications</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view)
 
 </details>
 
-📊 [Slides — Monitoring](https://docs.google.com/presentation/d/10mv8d1JLiPlwqUc9GEqFLSgRsa6nBa_u2_ljLUkqccE/edit#slide=id.g134822534b4_0_42)
+📊 [Slides: Monitoring](https://docs.google.com/presentation/d/10mv8d1JLiPlwqUc9GEqFLSgRsa6nBa_u2_ljLUkqccE/edit#slide=id.g134822534b4_0_42)
 
 📄 Documentação: [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)
 
@@ -98,7 +98,7 @@ Apresentação sobre o Kubernetes Event-Driven Autoscaling (KEDA). Explica como 
 **Quando estudar:** após o material de Monitoring Applications.
 
 <details>
-<summary>▶️ Assistir gravação — KEDA</summary>
+<summary>▶️ Assistir gravação: KEDA</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view)
 
@@ -117,13 +117,13 @@ Guia sobre o HashiCorp Vault: como ele é utilizado para gerenciar secrets na Ho
 **Quando estudar:** etapa 3 do Learning Path.
 
 <details>
-<summary>▶️ Assistir gravação — Vault</summary>
+<summary>▶️ Assistir gravação: Vault</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view)
 
 </details>
 
-📊 [Slides — Secrets](https://docs.google.com/presentation/d/1X_lXlyi3Fm8Qsj1aCATIUxQPu2RBrE0SQfFxxrR2HU0/edit#slide=id.ge9493f02a1_0_2)
+📊 [Slides: Secrets](https://docs.google.com/presentation/d/1X_lXlyi3Fm8Qsj1aCATIUxQPu2RBrE0SQfFxxrR2HU0/edit#slide=id.ge9493f02a1_0_2)
 
 ---
 
@@ -134,7 +134,7 @@ Apresentação sobre o sistema de gerenciamento de eventos de segurança (SIEM) 
 **Quando estudar:** após o material de Vault.
 
 <details>
-<summary>▶️ Assistir gravação — SIEM</summary>
+<summary>▶️ Assistir gravação: SIEM</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view)
 
@@ -149,7 +149,7 @@ Documentação sobre o uso do Cloudflare na plataforma: proteção DDoS, WAF, re
 **Quando estudar:** junto com os materiais de segurança ou após o estudo de networking.
 
 <details>
-<summary>▶️ Assistir gravação — Cloudflare</summary>
+<summary>▶️ Assistir gravação: Cloudflare</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view)
 
@@ -166,7 +166,7 @@ Guia passo a passo para criar uma nova aplicação utilizando o portal Backstage
 **Quando estudar:** após entender o Base Module e o fluxo de deploy.
 
 <details>
-<summary>▶️ Assistir gravação — Criando uma app do zero (Backstage)</summary>
+<summary>▶️ Assistir gravação: Criando uma app do zero (Backstage)</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view)
 
@@ -181,7 +181,7 @@ Apresentação sobre o DAS (ferramenta interna de automação). Explica como o D
 **Quando estudar:** após os materiais de infraestrutura e CI/CD.
 
 <details>
-<summary>▶️ Assistir gravação — DAS</summary>
+<summary>▶️ Assistir gravação: DAS</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view)
 
@@ -198,7 +198,7 @@ Guia completo para provisionar e configurar um banco de dados na plataforma Hotm
 **Quando estudar:** quando precisar trabalhar com aplicações que utilizam banco de dados, ou como parte do Hands-on Project.
 
 <details>
-<summary>▶️ Assistir gravação — Criando um banco de dados do zero</summary>
+<summary>▶️ Assistir gravação: Criando um banco de dados do zero</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view)
 
@@ -215,13 +215,13 @@ Guia de investigação de problemas em ambientes distribuídos. Apresenta uma me
 **Quando estudar:** etapa 4 do Learning Path. Também é uma referência útil durante incidentes reais.
 
 <details>
-<summary>▶️ Assistir gravação — Troubleshooting</summary>
+<summary>▶️ Assistir gravação: Troubleshooting</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view)
 
 </details>
 
-📊 [Slides — TroubleShooting & RDS](https://docs.google.com/presentation/d/1z7VtSBIesRg3tyAE5b_38waiDlcMXI5obGdrfU71akA/edit#slide=id.g20271aefe8d_0_191)
+📊 [Slides: TroubleShooting & RDS](https://docs.google.com/presentation/d/1z7VtSBIesRg3tyAE5b_38waiDlcMXI5obGdrfU71akA/edit#slide=id.g20271aefe8d_0_191)
 
 📄 Documentação: [`incident-management/troubleshooting-flow.md`](../incident-management/troubleshooting-flow)
 
@@ -234,7 +234,7 @@ Guia de investigação de problemas em ambientes distribuídos. Apresenta uma me
 Documentação sobre as integrações de comunicação via WhatsApp utilizadas na plataforma.
 
 <details>
-<summary>▶️ Assistir gravação — WhatsApp Integrations</summary>
+<summary>▶️ Assistir gravação: WhatsApp Integrations</summary>
 
 [🎬 Abrir vídeo no Google Drive](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view)
 
@@ -249,16 +249,16 @@ Resumo rápido de todos os materiais para consulta:
 | Material | Gravação | Slides |
 |---|---|---|
 | IAC + Base Module | [🎬 Vídeo](https://drive.google.com/file/d/1XGCX2qK7eep7TXeMzzUs2iGRc_cDhoUL/view) | [📊 Slides](https://docs.google.com/presentation/d/18XEz6UfkMBxUj09o7kuEjkhukR6BVtN7YEnEd49KtBs/edit) |
-| Hotmart Charts | [🎬 Vídeo](https://drive.google.com/file/d/1dk5x_cXQl2h98fDGhou83CRb_NtjaMWp/view) | — |
+| Hotmart Charts | [🎬 Vídeo](https://drive.google.com/file/d/1dk5x_cXQl2h98fDGhou83CRb_NtjaMWp/view) | - |
 | Monitoring Applications | [🎬 Vídeo](https://drive.google.com/file/d/1dAMDRPcs9q8BXOvqXWrGj1sfQCCdw-xN/view) | [📊 Slides](https://docs.google.com/presentation/d/10mv8d1JLiPlwqUc9GEqFLSgRsa6nBa_u2_ljLUkqccE/edit) |
-| KEDA | [🎬 Vídeo](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view) | — |
+| KEDA | [🎬 Vídeo](https://drive.google.com/file/d/1RmMQr5i-5be87p21nZypY-ye2feV0ysP/view) | - |
 | Vault | [🎬 Vídeo](https://drive.google.com/file/d/1Npv25c62Co1nFGIHpzHxoQGqkMN7dX3y/view) | [📊 Slides](https://docs.google.com/presentation/d/1X_lXlyi3Fm8Qsj1aCATIUxQPu2RBrE0SQfFxxrR2HU0/edit) |
-| SIEM | [🎬 Vídeo](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view) | — |
-| Cloudflare | [🎬 Vídeo](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view) | — |
-| Backstage | [🎬 Vídeo](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view) | — |
-| DAS | [🎬 Vídeo](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view) | — |
-| Banco de dados do zero | [🎬 Vídeo](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view) | — |
+| SIEM | [🎬 Vídeo](https://drive.google.com/file/d/1bc5vh6douFHgbZsCiqV8e0DvfI2v1ucU/view) | - |
+| Cloudflare | [🎬 Vídeo](https://drive.google.com/file/d/1X6Bx4fiUn6bXFhju8T2mQ_91kF1Ny8cw/view) | - |
+| Backstage | [🎬 Vídeo](https://drive.google.com/file/d/1nC2e-jL7QlIkZfKfYhgrXXrfGFo_ymeM/view) | - |
+| DAS | [🎬 Vídeo](https://drive.google.com/file/d/1vIqonkris-k_Q4bS_6oSW3wKCos5ZoWN/view) | - |
+| Banco de dados do zero | [🎬 Vídeo](https://drive.google.com/file/d/14akfFasiIyBji2rIbHmO41SIr3rqErVc/view) | - |
 | Troubleshooting | [🎬 Vídeo](https://drive.google.com/file/d/1-9II___dGTomKbXN-mDn2tk4GSuvAHeB/view) | [📊 Slides](https://docs.google.com/presentation/d/1z7VtSBIesRg3tyAE5b_38waiDlcMXI5obGdrfU71akA/edit) |
-| WhatsApp | [🎬 Vídeo](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view) | — |
+| WhatsApp | [🎬 Vídeo](https://drive.google.com/file/d/1V2blKlkwmmQttZQ6IcJBXHYPOx7lEmo6/view) | - |
 
-📂 [Pasta completa — Treinamento DevOps](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6)
+📂 [Pasta completa: Treinamento DevOps](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6)

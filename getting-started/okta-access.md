@@ -63,7 +63,7 @@ O tempo de aprovação varia por ferramenta e perfil de acesso. Em geral, acesso
 
 O Okta exige autenticação multifator. Na primeira vez que acessar, você será guiado para configurar um segundo fator. As opções disponíveis são:
 
-- **Okta Verify** (app mobile) — recomendado
+- **Okta Verify** (app mobile): recomendado
 - **Google Authenticator**
 - **SMS** (menos seguro, evite se possível)
 
