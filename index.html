@@ -123,7 +123,7 @@
             '<div>' +
             '<strong>Acompanhe seu progresso no onboarding</strong><br>' +
             'Registre seu avanço em uma Issue do GitHub. Seu fellow e coordenador acompanham por lá.<br>' +
-            '<a class="banner-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Abrir minha Issue</a> ' +
+            '<a class="banner-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md&labels=onboarding" target="_blank">Abrir minha Issue</a> ' +
             '<a href="#/devops-journey/onboarding-checklist" style="margin-left:10px;font-size:12px;">Ver instruções</a>' +
             '</div></div>';
           hook.afterEach(function(html) {
@@ -137,7 +137,7 @@
               var progressDiv = document.createElement('div');
               progressDiv.className = 'sidebar-progress';
               progressDiv.innerHTML = '📋 <a href="#/devops-journey/onboarding-checklist">Checklist de Progresso</a><br>' +
-                '<a class="sidebar-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md" target="_blank">Abrir minha Issue</a>';
+                '<a class="sidebar-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md&labels=onboarding" target="_blank">Abrir minha Issue</a>';
               sidebar.parentNode.insertBefore(progressDiv, sidebar);
             }
           });

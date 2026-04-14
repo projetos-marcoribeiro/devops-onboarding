@@ -12,7 +12,7 @@ assignees: ''
 **Data de início:** [data]
 **PU:** [sua Product Unit]
 
-> Após criar esta Issue: atribua a si mesmo (Assignee) e adicione seu gestor como Assignee adicional para que ele acompanhe o progresso.
+> Após criar esta Issue: 1) Atribua a si mesmo no campo **Assignees** (clique na engrenagem à direita). 2) Adicione seu gestor também como Assignee para que ele acompanhe o progresso.
 
 ---
 
