@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DevOps Onboarding</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/style.min.css">
   <style>
     .sidebar-nav li > a { font-size: 14px; }
     .onboarding-banner {
       margin-bottom: 24px;
       padding: 14px 20px;
-      background: linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%);
-      border: 1px solid #b8d8f8;
+      background: var(--onboarding-banner-bg, linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%));
+      border: 1px solid var(--onboarding-banner-border, #b8d8f8);
       border-radius: 8px;
       font-size: 14px;
-      color: #1a3a5c;
+      color: var(--text-color-base);
       display: flex;
       align-items: center;
       gap: 12px;
@@ -24,7 +24,7 @@
       flex-shrink: 0;
     }
     .onboarding-banner a {
-      color: #2563eb;
+      color: var(--theme-color, #2563eb);
       font-weight: 600;
       text-decoration: none;
     }
@@ -35,7 +35,7 @@
       display: inline-block;
       margin-top: 6px;
       padding: 6px 14px;
-      background: #2563eb;
+      background: var(--theme-color, #2563eb);
       color: #fff !important;
       border-radius: 5px;
       font-size: 13px;
@@ -43,19 +43,19 @@
       text-decoration: none !important;
     }
     .onboarding-banner .banner-btn:hover {
-      background: #1d4ed8;
+      opacity: 0.85;
     }
     .sidebar-progress {
       padding: 12px 15px;
       margin: 10px 0;
-      background: linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%);
+      background: var(--onboarding-banner-bg, linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%));
       border-radius: 8px;
       font-size: 12px;
       text-align: center;
-      border: 1px solid #b8d8f8;
+      border: 1px solid var(--onboarding-banner-border, #b8d8f8);
     }
     .sidebar-progress a {
-      color: #2563eb;
+      color: var(--theme-color, #2563eb);
       text-decoration: none;
       font-weight: 600;
     }
@@ -66,7 +66,7 @@
       display: inline-block;
       margin-top: 6px;
       padding: 4px 10px;
-      background: #2563eb;
+      background: var(--theme-color, #2563eb);
       color: #fff !important;
       border-radius: 4px;
       font-size: 11px;
@@ -74,7 +74,7 @@
       text-decoration: none !important;
     }
     .sidebar-progress .sidebar-btn:hover {
-      background: #1d4ed8;
+      opacity: 0.85;
     }
     a[href*="servicedesk"][target="_blank"] {
       display: inline-block;
@@ -89,6 +89,22 @@
     }
     a[href*="servicedesk"][target="_blank"]:hover {
       background: #0747A6;
+    }
+
+    /* Dark mode overrides */
+    :root {
+      --onboarding-banner-bg: linear-gradient(135deg, #e8f4fd 0%, #f0f7ff 100%);
+      --onboarding-banner-border: #b8d8f8;
+    }
+    [data-theme="dark"] {
+      --onboarding-banner-bg: linear-gradient(135deg, #1a2332 0%, #1e293b 100%);
+      --onboarding-banner-border: #334155;
+    }
+    [data-theme="dark"] a[href*="servicedesk"][target="_blank"] {
+      background: #1d4ed8;
+    }
+    [data-theme="dark"] a[href*="servicedesk"][target="_blank"]:hover {
+      background: #2563eb;
     }
   </style>
 </head>
@@ -109,10 +125,46 @@
         depth: 3
       },
       externalLinkTarget: '_blank',
+      darklightTheme: {
+        defaultTheme: 'light',
+        siteFont: 'Source Sans Pro, Helvetica Neue, Arial, sans-serif',
+        dark: {
+          accent: '#3b82f6',
+          toogleBackground: '#1a1a2e',
+          background: '#0f172a',
+          textColor: '#e2e8f0',
+          codeTextColor: '#e2e8f0',
+          codeBackgroundColor: '#1e293b',
+          borderColor: '#334155',
+          blockQuoteColor: '#94a3b8',
+          highlightColor: '#1e40af',
+          sidebarSublink: '#94a3b8',
+          codeTypeColor: '#e2e8f0',
+          coverBackground: 'linear-gradient(to left bottom, #0f172a, #1e293b)',
+          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/icons/sun.svg)'
+        },
+        light: {
+          accent: '#2563eb',
+          toogleBackground: '#fff',
+          background: '#fff',
+          textColor: '#1e293b',
+          codeTextColor: '#525252',
+          codeBackgroundColor: '#f5f5f5',
+          borderColor: '#e2e8f0',
+          blockQuoteColor: '#64748b',
+          highlightColor: '#2563eb',
+          sidebarSublink: '#64748b',
+          codeTypeColor: '#1e293b',
+          coverBackground: 'linear-gradient(to left bottom, #fff, #f8fafc)',
+          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/icons/moon.svg)'
+        }
+      },
       plugins: [
         function(hook) {
           hook.doneEach(function() {
             if (window.mermaid) {
+              var theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default';
+              mermaid.initialize({ startOnLoad: false, theme: theme });
               mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
             }
           });
@@ -147,6 +199,7 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/index.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>mermaid.initialize({ startOnLoad: false, theme: 'default' });</script>
 </body>
