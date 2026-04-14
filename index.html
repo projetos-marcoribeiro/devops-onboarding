@@ -91,28 +91,24 @@
       background: #0747A6;
     }
 
-    /* Dark mode toggle button */
+    /* Dark mode toggle in sidebar */
+    .app-name-link { display: inline; }
+    .sidebar > h1 { display: flex; align-items: center; gap: 8px; }
     .dark-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 40px;
-      height: 40px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
       border: 1px solid #ddd;
       background: #fff;
       cursor: pointer;
-      font-size: 20px;
-      display: flex;
+      font-size: 15px;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      z-index: 999;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      flex-shrink: 0;
       transition: background 0.3s, border-color 0.3s;
     }
     .dark-toggle:hover { background: #f0f0f0; }
-
-    /* Dark mode styles */
     html[data-theme="dark"] body { background: #1a1a2e; color: #e0e0e0; }
     html[data-theme="dark"] .sidebar { background: #16213e; color: #e0e0e0; border-right-color: #2a2a4a; }
     html[data-theme="dark"] .sidebar-nav a { color: #c0c0c0; }
@@ -146,28 +142,23 @@
 </head>
 <body>
   <div id="app"></div>
-  <button class="dark-toggle" onclick="toggleDark()" title="Alternar tema claro/escuro">🌙</button>
   <script>
     function toggleDark() {
       var html = document.documentElement;
       var btn = document.querySelector('.dark-toggle');
       if (html.getAttribute('data-theme') === 'dark') {
         html.removeAttribute('data-theme');
-        btn.textContent = '🌙';
+        if (btn) btn.textContent = '🌙';
         localStorage.setItem('theme', 'light');
       } else {
         html.setAttribute('data-theme', 'dark');
-        btn.textContent = '☀️';
+        if (btn) btn.textContent = '☀️';
         localStorage.setItem('theme', 'dark');
       }
     }
     // Restore saved preference
     if (localStorage.getItem('theme') === 'dark') {
       document.documentElement.setAttribute('data-theme', 'dark');
-      document.addEventListener('DOMContentLoaded', function() {
-        var btn = document.querySelector('.dark-toggle');
-        if (btn) btn.textContent = '☀️';
-      });
     }
   </script>
   <script>
@@ -208,6 +199,17 @@
         },
         function(hook) {
           hook.ready(function() {
+            // Inject dark mode toggle next to sidebar title
+            var appName = document.querySelector('.app-name');
+            if (appName) {
+              var btn = document.createElement('button');
+              btn.className = 'dark-toggle';
+              btn.title = 'Alternar tema claro/escuro';
+              btn.textContent = localStorage.getItem('theme') === 'dark' ? '☀️' : '🌙';
+              btn.onclick = function() { toggleDark(); };
+              appName.parentNode.insertBefore(btn, appName.nextSibling);
+            }
+            // Sidebar progress widget
             var sidebar = document.querySelector('.sidebar-nav');
             if (sidebar) {
               var progressDiv = document.createElement('div');
