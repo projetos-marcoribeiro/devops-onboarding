@@ -200,25 +200,31 @@
           });
         },
         function(hook) {
-          hook.ready(function() {
-            // Inject dark mode toggle next to sidebar title
-            var appName = document.querySelector('.app-name-link') || document.querySelector('.app-name');
-            if (appName) {
-              var btn = document.createElement('button');
-              btn.className = 'dark-toggle';
-              btn.title = 'Alternar tema claro/escuro';
-              btn.textContent = localStorage.getItem('theme') === 'dark' ? '☀️' : '🌙';
-              btn.onclick = function() { toggleDark(); };
-              appName.insertAdjacentElement('afterend', btn);
+          var toggleInjected = false;
+          hook.doneEach(function() {
+            // Inject dark mode toggle next to sidebar title (once)
+            if (!toggleInjected) {
+              var appName = document.querySelector('.app-name-link');
+              if (appName) {
+                var btn = document.createElement('button');
+                btn.className = 'dark-toggle';
+                btn.title = 'Alternar tema claro/escuro';
+                btn.textContent = localStorage.getItem('theme') === 'dark' ? '☀️' : '🌙';
+                btn.onclick = function() { toggleDark(); };
+                appName.insertAdjacentElement('afterend', btn);
+                toggleInjected = true;
+              }
             }
-            // Sidebar progress widget
-            var sidebar = document.querySelector('.sidebar-nav');
-            if (sidebar) {
-              var progressDiv = document.createElement('div');
-              progressDiv.className = 'sidebar-progress';
-              progressDiv.innerHTML = '📋 <a href="#/devops-journey/onboarding-checklist">Checklist de Progresso</a><br>' +
-                '<a class="sidebar-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md&labels=onboarding" target="_blank">Abrir minha Issue</a>';
-              sidebar.parentNode.insertBefore(progressDiv, sidebar);
+            // Sidebar progress widget (once)
+            if (!document.querySelector('.sidebar-progress')) {
+              var sidebar = document.querySelector('.sidebar-nav');
+              if (sidebar) {
+                var progressDiv = document.createElement('div');
+                progressDiv.className = 'sidebar-progress';
+                progressDiv.innerHTML = '📋 <a href="#/devops-journey/onboarding-checklist">Checklist de Progresso</a><br>' +
+                  '<a class="sidebar-btn" href="https://github.com/projetos-marcoribeiro/devops-onboarding/issues/new?template=onboarding-checklist.md&labels=onboarding" target="_blank">Abrir minha Issue</a>';
+                sidebar.parentNode.insertBefore(progressDiv, sidebar);
+              }
             }
           });
         }
