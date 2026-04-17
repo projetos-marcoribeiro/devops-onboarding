@@ -88,7 +88,7 @@ Instale as ferramentas obrigatórias enquanto aguarda os acessos serem aprovados
 |---|---|---|
 | kubectl | Interagir com clusters Kubernetes | [Instalação](https://kubernetes.io/docs/tasks/tools/) |
 | AWS CLI | Interagir com serviços AWS | [Instalação](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) |
-| hotctl | CLI interna da Hotmart para EKS e SSO | [Repositório](https://github.com/Hotmart-Org/hotctl) |
+| hotctl | CLI interna da Hotmart para EKS e SSO (binário) | [Repositório](https://github.com/Hotmart-Org/hotctl) |
 | Rancher Desktop | Docker local sem Docker Desktop | [Guia](https://github.com/Hotmart-Org/devops-docs/blob/master/docs/tools/rancher-desktop/rancher-desktop.md) |
 
 📄 [Guia completo de ferramentas](required-tools)

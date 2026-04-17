@@ -40,11 +40,11 @@ EKS Clusters (Kubernetes)
     │  pods rodando a aplicação
     │  Karpenter gerenciando nodes automaticamente
     ▼
-Cloudflare → ALB → Ingress Controller → Pods
+ALB → Ingress Controller → Pods
     │  tráfego externo roteado até a aplicação
     ▼
 Observability Stack
-       NewRelic / Prometheus / Grafana / PagerDuty
+       NewRelic / Prometheus / Grafana / JiraOps
        Datadog (Teachable) · Sentry · Kubecost
 ```
 
@@ -72,9 +72,11 @@ O ArgoCD está sendo implementado como o novo modelo de deploy contínuo via Git
 
 Os clusters Kubernetes gerenciados pela AWS (Elastic Kubernetes Service) onde as aplicações rodam. A Hotmart opera múltiplos clusters organizados por domínio, ambiente e criticidade. O Karpenter gerencia o provisionamento automático de nodes conforme a demanda.
 
-### Cloudflare / ALB / Ingress
+### Networking / ALB / Ingress
 
-O tráfego externo passa pelo Cloudflare (proteção DDoS, WAF, CDN), depois pelo Application Load Balancer da AWS, que roteia para o Ingress Controller dentro do cluster, que por sua vez direciona para os pods corretos. O External DNS e o Route53 gerenciam automaticamente os registros DNS.
+O tráfego externo passa pelo Application Load Balancer da AWS, que roteia para o Ingress Controller dentro do cluster, que por sua vez direciona para os pods corretos. O External DNS e o Route53 gerenciam automaticamente os registros DNS.
+
+> ⚠️ O Cloudflare foi utilizado anteriormente como camada de proteção DDoS, WAF e CDN, mas está sendo removido da plataforma. Algumas contas ainda possuem configurações legadas do Cloudflare em processo de remoção.
 
 ### Observability Stack
 

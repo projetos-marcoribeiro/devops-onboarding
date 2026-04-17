@@ -11,7 +11,7 @@
 
 ---
 
-O `hotctl` é a CLI interna desenvolvida pelo time DevOps da Hotmart. Ela abstrai operações comuns da plataforma que, sem ela, exigiriam múltiplos comandos de diferentes ferramentas ou conhecimento detalhado da estrutura interna da infraestrutura.
+O `hotctl` é a CLI interna desenvolvida pelo time DevOps da Hotmart. É distribuído como um binário e abstrai operações comuns da plataforma que, sem ele, exigiriam múltiplos comandos de diferentes ferramentas ou conhecimento detalhado da estrutura interna da infraestrutura.
 
 🔗 [Repositório oficial do hotctl](https://github.com/Hotmart-Org/hotctl)
 
@@ -27,7 +27,7 @@ O hotctl encapsula esse conhecimento e expõe uma interface simples e consistent
 
 ## Instalação
 
-As instruções de instalação estão no repositório oficial. Como o hotctl é distribuído internamente, siga as instruções do repositório para obter a versão mais recente:
+As instruções de instalação estão no repositório oficial. O hotctl é distribuído como um binário: siga as instruções do repositório para baixar a versão mais recente para o seu sistema operacional.
 
 🔗 [https://github.com/Hotmart-Org/hotctl](https://github.com/Hotmart-Org/hotctl)
 
@@ -100,9 +100,9 @@ A instalação e configuração do hotctl é uma das primeiras tarefas do onboar
 
 **Checklist de setup do hotctl:**
 
-- [ ] Repositório clonado ou binário baixado conforme instruções do repositório
+- [ ] Binário baixado conforme instruções do repositório
 - [ ] `hotctl version` executando sem erro
-- [ ] `hotctl configure` executado com sucesso
+- [ ] SSO configurado com `hotctl sso init`
 - [ ] `hotctl cluster list` mostrando os clusters disponíveis
 - [ ] `hotctl cluster use <cluster-name>` configurando o kubectl corretamente
 - [ ] `kubectl get nodes` funcionando após configurar o cluster

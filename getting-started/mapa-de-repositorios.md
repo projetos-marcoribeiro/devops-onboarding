@@ -31,7 +31,7 @@ Estes são os repos que você vai usar desde o primeiro dia.
 
 ## Repositórios de infraestrutura (IAC)
 
-Cada conta AWS ou domínio tem seu próprio repositório de infraestrutura como código. Os mais relevantes:
+Cada conta AWS tem seu próprio repositório de infraestrutura como código, seguindo o padrão `<nome-da-conta>-iac`. Os mais relevantes:
 
 | Repositório | Escopo |
 |---|---|
@@ -55,8 +55,9 @@ Cada conta AWS ou domínio tem seu próprio repositório de infraestrutura como 
 |---|---|
 | [docker-images](https://github.com/Hotmart-Org/docker-images) | Imagens Docker base mantidas pelo time DevOps |
 | [hotmart-charts](https://github.com/Hotmart-Org/hotmart-charts) | Helm charts internos da Hotmart (incluindo ApplicationSet para ArgoCD) |
-| [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac) | Infraestrutura do PagerDuty como código (legado, em migração para JiraOps) |
+| [pyhot](https://github.com/Hotmart-Org/pyhot) | Biblioteca Python interna usada pelo módulo de monitoramento |
 | [monitoring](https://github.com/Hotmart-Org/monitoring) | Módulo de monitoramento integrado ao base-module (NewRelic, JiraOps, Pingdom) |
+| [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac) | Infraestrutura do PagerDuty como código (legado, em migração para JiraOps) |
 | [dynamic-agent](https://github.com/Hotmart-Org/dynamic-agent) | Agente dinâmico para automações internas |
 
 ---
@@ -92,8 +93,9 @@ Módulos Terraform reutilizáveis para recursos AWS específicos:
 ## Como navegar
 
 - Use a busca do GitHub na organização para encontrar repos específicos
-- Os repos de IAC seguem o padrão `<domínio>-iac`
+- Os repos de IAC seguem o padrão `<nome-da-conta>-iac` (ex: `devops-iac`, `buildstaging-iac`, `auth-iac`)
 - Os módulos Terraform seguem o padrão `terraform-base-module-*` ou `terraform-modules-aws-*`
+- Módulos sempre possuem `module` no nome do repositório
 - PRs nos repos de IAC e helm-iac são o principal mecanismo de mudança na plataforma
 - Ler PRs recentes é uma das melhores formas de entender como o time trabalha
 
@@ -108,7 +110,7 @@ Módulos Terraform reutilizáveis para recursos AWS específicos:
 | Service Desk | [hotmart.atlassian.net/servicedesk](https://hotmart.atlassian.net/servicedesk) | Solicitações de acesso e tickets de suporte |
 | Hotmart AI | [chat.hotmart.ai](https://chat.hotmart.ai) | Assistente de IA interno (prefira ao ChatGPT para dados corporativos) |
 | TeamGuide | [login.teamguide.app](https://login.teamguide.app/) | Acompanhamento de desenvolvimento, mentorias e PDI |
-| PagerDuty | [hotmart.pagerduty.com](https://hotmart.pagerduty.com/) | Alertas e on-call (legado, em migração para JiraOps) |
+| Jira Service Management | [hotmart.atlassian.net](https://hotmart.atlassian.net) | Alertas, incidentes e on-call via JiraOps |
 | Skill Matrix | [Google Sheets](https://docs.google.com/spreadsheets/d/15WV6mGLRjC6IKTDdeiatntHq4YVk9A-Cnu5cNvQBiYg/edit) | Mapeamento de conhecimento técnico do time |
 | Smart Contract | [Google Slides](https://docs.google.com/presentation/d/1SdSBnz-yxGYtGLgD18UdjWT4Pr2WCFMPlwbsW4m8p8I/edit) | Diretrizes e acordos do time DevOps |
 | Treinamentos | [Google Drive](https://drive.google.com/drive/folders/1EbEAxfw6X6FBl-ARgiEbTWEOaiItUn_6) | Pasta com gravações de treinamentos internos |

@@ -67,7 +67,7 @@ aws configure
 
 ## hotctl
 
-O `hotctl` é a CLI interna da Hotmart para interagir com a plataforma DevOps. Ele abstrai operações comuns que, sem ele, exigiriam múltiplos comandos de diferentes ferramentas.
+O `hotctl` é a CLI interna da Hotmart para interagir com a plataforma DevOps. É distribuído como um binário e abstrai operações comuns que, sem ele, exigiriam múltiplos comandos de diferentes ferramentas.
 
 Com ele você consegue:
 - Autenticar e configurar acesso aos clusters EKS da Hotmart
