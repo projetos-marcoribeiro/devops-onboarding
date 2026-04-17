@@ -156,5 +156,5 @@ Os runbooks estão disponíveis na documentação interna do time DevOps. Se voc
 ## Referências
 
 📄 [`incident-management/incident-process.md`](incident-process)
-📄 [`incident-management/pagerduty-oncall.md`](pagerduty-oncall)
+📄 [`incident-management/alertas-oncall.md`](alertas-oncall)
 📄 [`platform-overview/observability-stack.md`](../platform-overview/observability-stack)

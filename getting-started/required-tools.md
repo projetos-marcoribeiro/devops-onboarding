@@ -75,7 +75,7 @@ Com ele você consegue:
 - Interagir com serviços e recursos gerenciados pelo time de Platform Engineering
 
 **Instalação:**
-Consulte o repositório interno de documentação DevOps para as instruções atualizadas de instalação do `hotctl`, pois ele é distribuído internamente.
+Consulte o repositório oficial para as instruções de download do binário:
 
 📄 [DevOps Docs: GitHub](https://github.com/Hotmart-Org/devops-docs)
 
