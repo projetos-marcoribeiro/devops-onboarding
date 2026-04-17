@@ -73,7 +73,7 @@ Para cada etapa:
 **Atividades práticas:**
 - Acesse o Grafana e explore os dashboards existentes de uma aplicação real
 - Abra o NewRelic e navegue pelos traces de uma aplicação em produção
-- Verifique como um alerta está configurado no PagerDuty
+- Verifique como um alerta está configurado no JiraOps
 - Pergunte ao mentor: "qual dashboard você usa primeiro quando recebe um alerta?"
 
 **Materiais internos:**

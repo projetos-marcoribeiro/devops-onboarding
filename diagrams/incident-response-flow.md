@@ -31,7 +31,7 @@ flowchart TD
 
     B1 & B2 & B3 & B4 -->|"alerta roteado"| C
 
-    C["📟 PagerDuty\nCria incidente\nNotifica on-call"]
+    C["📟 JiraOps\nCria incidente\nNotifica on-call"]
 
     C -->|"push · SMS · ligação"| D
 
@@ -96,7 +96,7 @@ flowchart TD
 | Etapa | Ferramentas utilizadas |
 |---|---|
 | Detecção | Pingdom, NewRelic, Datadog (Teachable), Prometheus, CloudWatch, Statping, Sentry |
-| Notificação | PagerDuty (push, SMS, ligação) |
+| Notificação | JiraOps (push, SMS, ligação) |
 | Investigação: Aplicação | NewRelic (APM, traces, logs) |
 | Investigação: Infraestrutura | Prometheus/Grafana, Datadog (Teachable), CloudWatch, kubectl |
 | Investigação: Deploy | ArgoCD, GitHub Actions |
@@ -110,7 +110,7 @@ flowchart TD
 | Etapa | Objetivo |
 |---|---|
 | Monitoramento detecta | Ferramentas identificam automaticamente condições anormais: queda de uptime, aumento de erro, latência elevada, recursos esgotados |
-| PagerDuty cria incidente | Consolida os alertas e notifica o engenheiro de plantão via push, SMS ou ligação conforme a escalation policy |
+| JiraOps cria incidente | Consolida os alertas e notifica o engenheiro de plantão via push, SMS ou ligação conforme a escalation policy |
 | On-call faz acknowledge | Sinaliza que alguém está ciente do problema e para a escalação automática |
 | Triagem | Confirma se o problema é real, avalia o impacto e define a severidade (P1-P4) |
 | Investigação | Coleta evidências usando as ferramentas de observabilidade para identificar a causa raiz |

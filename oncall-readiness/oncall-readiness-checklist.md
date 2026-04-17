@@ -95,8 +95,8 @@ Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas ne
 ### Alertas
 
 - [ ] Entendo de onde cada tipo de alerta vem (Pingdom, NewRelic, Datadog/Teachable, Prometheus, CloudWatch)
-- [ ] Sei fazer acknowledge de um alerta no PagerDuty
-- [ ] Sei resolver um incidente no PagerDuty após a resolução
+- [ ] Sei fazer acknowledge de um alerta no JiraOps
+- [ ] Sei resolver um incidente no JiraOps após a resolução
 
 ---
 
@@ -194,7 +194,7 @@ kubectl get ingress -n <namespace>
 - [ ] Conheço o fluxo completo de resposta a incidentes do time
 - [ ] Sei quando e como escalar para outros membros do time
 - [ ] Sei comunicar o status de um incidente no canal correto
-- [ ] Conheço a política de escalação no PagerDuty
+- [ ] Conheço a política de escalação no JiraOps
 - [ ] Li pelo menos 3 postmortems recentes do time
 
 ---

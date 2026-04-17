@@ -1,5 +1,7 @@
 # Networking e Ingress
 
+> ⚠️ **Nota:** O Cloudflare está sendo removido da plataforma. Algumas contas ainda possuem configurações legadas em processo de migração. As informações sobre Cloudflare neste documento são mantidas como referência durante a transição.
+
 ## 📑 Índice
 
 - [Fluxo de tráfego](#fluxo-de-tráfego)

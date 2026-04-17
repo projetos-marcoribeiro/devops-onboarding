@@ -54,7 +54,7 @@ Copie e cole o conteúdo abaixo ao criar sua Issue:
 - [ ] Assistir: KEDA
 - [ ] Assistir: Vault
 - [ ] Assistir: SIEM
-- [ ] Assistir: Cloudflare
+- [ ] Assistir: Cloudflare (legado, em remoção da plataforma)
 - [ ] Assistir: Troubleshooting
 - [ ] Ler: Platform Architecture
 - [ ] Ler: EKS Clusters

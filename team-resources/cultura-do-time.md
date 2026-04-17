@@ -123,11 +123,11 @@ A escala de plantão é gerenciada via JiraOps (Jira Service Management) e defin
 
 ### Feriados
 
-Feriados não são cobertos automaticamente pela escalation policy (limitação da ferramenta). O plantão em feriados é lançado manualmente via Override no PagerDuty.
+Feriados não são cobertos automaticamente pela escalation policy (limitação da ferramenta). O plantão em feriados é lançado manualmente via Override no JiraOps.
 
 ### Troca de plantão
 
-Para trocar o plantão, use a funcionalidade de Override no PagerDuty: `People > On-Call Schedules > Schedule an override`.
+Para trocar o plantão, use a funcionalidade de Override no JiraOps: `People > On-Call Schedules > Schedule an override`.
 
 ### Durante o onboarding
 

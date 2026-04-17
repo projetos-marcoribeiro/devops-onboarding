@@ -30,7 +30,7 @@ O objetivo é investigar com método, não com pânico.
 ## Fluxo de investigação
 
 ```
-Alerta recebido no PagerDuty
+Alerta recebido no JiraOps
          │
          ▼
 Fazer acknowledge imediatamente
@@ -73,7 +73,7 @@ Confirmar resolução e comunicar
 
 ## Passo 1: Acknowledge e leitura do alerta
 
-Faça o acknowledge no PagerDuty assim que receber a notificação. Isso para a escalação automática e sinaliza que você está ciente.
+Faça o acknowledge no JiraOps assim que receber a notificação. Isso para a escalação automática e sinaliza que você está ciente.
 
 Antes de abrir qualquer ferramenta, leia o alerta com atenção:
 - Qual serviço está afetado?

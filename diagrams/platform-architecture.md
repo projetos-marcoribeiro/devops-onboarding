@@ -31,7 +31,7 @@ flowchart TD
     end
 
     subgraph NETWORK ["Rede e Tráfego"]
-        CF["Cloudflare\nDDoS · WAF · CDN"]
+        CF["Cloudflare (legado)\nDDoS · WAF · CDN"]
         ALB["AWS ALB\nLoad Balancer"]
         ING["Ingress Controller\nRoteamento interno"]
     end
@@ -41,7 +41,7 @@ flowchart TD
         DD["Datadog\nInfraestrutura (Teachable)"]
         PROM["Prometheus\nMétricas"]
         GRAF["Grafana\nDashboards"]
-        PD["PagerDuty\nAlertas · On-call"]
+        PD["JiraOps\nAlertas · On-call"]
     end
 
     DEV -->|"push / PR"| GH
@@ -89,14 +89,14 @@ flowchart TD
 | Base Module | Módulo Terraform que provisiona automaticamente toda a infraestrutura AWS necessária para uma aplicação a partir de um YAML declarativo |
 | ArgoCD | Implementa o modelo GitOps: monitora repositórios de configuração e sincroniza o estado dos clusters com o estado declarado no Git |
 | EKS | Clusters Kubernetes gerenciados pela AWS onde os workloads rodam. Karpenter gerencia o provisionamento automático de nodes |
-| Cloudflare | Primeira camada de proteção: DDoS, WAF, CDN e terminação TLS para tráfego externo |
-| ALB | Application Load Balancer da AWS que recebe o tráfego do Cloudflare e distribui para os pods |
+| Cloudflare (legado) | Primeira camada de proteção: DDoS, WAF, CDN e terminação TLS para tráfego externo |
+| ALB | Application Load Balancer da AWS que recebe o tráfego do Cloudflare (legado) e distribui para os pods |
 | Ingress Controller | Gerencia o roteamento interno do cluster com base nos recursos Ingress do Kubernetes |
 | NewRelic | APM e observabilidade de aplicação: traces distribuídos, taxa de erro, latência e performance |
 | Datadog | Monitoramento de infraestrutura: nodes, containers, uso de recursos e rede *(exclusivo Teachable; em remoção da plataforma principal)* |
 | Prometheus | Coleta métricas internas do cluster e das aplicações para alertas e dashboards |
 | Grafana | Visualização de métricas em dashboards operacionais |
-| PagerDuty | Recebe alertas de todas as ferramentas de monitoramento e gerencia notificações e rotação de on-call |
+| JiraOps | Recebe alertas de todas as ferramentas de monitoramento e gerencia notificações e rotação de on-call |
 
 ---
 

@@ -5,10 +5,10 @@
 - [O que é uma escalation policy](#o-que-é-uma-escalation-policy)
 - [Sequência de escalação](#sequência-de-escalação)
 - [Canais de notificação](#canais-de-notificação)
-- [Como o PagerDuty automatiza o processo](#como-o-pagerduty-automatiza-o-processo)
+- [Como o JiraOps automatiza o processo](#como-o-pagerduty-automatiza-o-processo)
 - [Responsabilidades em cada nível](#responsabilidades-em-cada-nível)
 - [Quando escalar proativamente](#quando-escalar-proativamente)
-- [Configurando suas notificações no PagerDuty](#configurando-suas-notificações-no-pagerduty)
+- [Configurando suas notificações no JiraOps](#configurando-suas-notificações-no-pagerduty)
 - [Visualizando a escalation policy](#visualizando-a-escalation-policy)
 
 ---
@@ -19,7 +19,7 @@ A escalation policy define quem é notificado, em que ordem e em quanto tempo qu
 
 ## O que é uma escalation policy
 
-No PagerDuty, uma escalation policy é uma sequência de níveis de notificação. Quando um alerta dispara, o PagerDuty começa pelo nível 1 e avança automaticamente para os próximos níveis se não houver resposta dentro do tempo configurado.
+No JiraOps, uma escalation policy é uma sequência de níveis de notificação. Quando um alerta dispara, o JiraOps começa pelo nível 1 e avança automaticamente para os próximos níveis se não houver resposta dentro do tempo configurado.
 
 Isso garante que incidentes críticos sempre chegam a alguém: mesmo que o on-call primário esteja dormindo profundamente, sem bateria no celular ou em uma área sem sinal.
 
@@ -28,7 +28,7 @@ Isso garante que incidentes críticos sempre chegam a alguém: mesmo que o on-ca
 ## Sequência de escalação
 
 ```
-Alerta dispara no PagerDuty
+Alerta dispara no JiraOps
          │
          ▼
 Nível 1: On-call primário
@@ -58,32 +58,32 @@ Nível 4: Equipe responsável pelo serviço
 
 ## Canais de notificação
 
-O PagerDuty utiliza múltiplos canais para garantir que a notificação chegue, em ordem crescente de urgência:
+O JiraOps utiliza múltiplos canais para garantir que a notificação chegue, em ordem crescente de urgência:
 
 ### Push notification (app mobile)
 
-Primeira tentativa. O app do PagerDuty envia uma notificação push para o celular do on-call. É silenciosa o suficiente para não acordar em alertas de baixa prioridade, mas configurável para soar alto em P1/P2.
+Primeira tentativa. O app do JiraOps envia uma notificação push para o celular do on-call. É silenciosa o suficiente para não acordar em alertas de baixa prioridade, mas configurável para soar alto em P1/P2.
 
-**Configuração recomendada:** ative o modo de "override" de som para alertas críticos no app do PagerDuty, para que a notificação toque mesmo com o celular no silencioso.
+**Configuração recomendada:** ative o modo de "override" de som para alertas críticos no app do JiraOps, para que a notificação toque mesmo com o celular no silencioso.
 
 ### SMS
 
-Se não houver resposta ao push em alguns minutos, o PagerDuty envia um SMS. Útil quando o app não está instalado ou quando há problema de conectividade.
+Se não houver resposta ao push em alguns minutos, o JiraOps envia um SMS. Útil quando o app não está instalado ou quando há problema de conectividade.
 
 ### Ligação telefônica
 
-O canal mais invasivo e mais confiável. O PagerDuty liga para o número cadastrado do on-call. Difícil ignorar: e é exatamente esse o objetivo para incidentes críticos.
+O canal mais invasivo e mais confiável. O JiraOps liga para o número cadastrado do on-call. Difícil ignorar: e é exatamente esse o objetivo para incidentes críticos.
 
 ### Escalação automática
 
-Se nenhum dos canais acima resultar em acknowledge dentro do tempo configurado, o PagerDuty avança automaticamente para o próximo nível da escalation policy, sem necessidade de intervenção manual.
+Se nenhum dos canais acima resultar em acknowledge dentro do tempo configurado, o JiraOps avança automaticamente para o próximo nível da escalation policy, sem necessidade de intervenção manual.
 
 ---
 
-## Como o PagerDuty automatiza o processo
+## Como o JiraOps automatiza o processo
 
 ```
-Alerta criado no PagerDuty
+Alerta criado no JiraOps
          │
          ▼
 Nível 1 notificado (push + SMS + ligação)
@@ -146,17 +146,17 @@ A escalação automática é uma rede de segurança: mas você não precisa espe
 
 ---
 
-## Configurando suas notificações no PagerDuty
+## Configurando suas notificações no JiraOps
 
 Para garantir que você vai receber as notificações de on-call:
 
-1. Instale o app PagerDuty no celular
+1. Instale o app JiraOps no celular
 2. Configure seu número de telefone no perfil
 3. Ative as notificações de alta prioridade no app
 4. Configure o override de som para alertas críticos (toca mesmo no silencioso)
 5. Teste as notificações antes de entrar na rotação
 
-Verifique também se o seu número está correto no PagerDuty: um número desatualizado significa que a ligação de escalação não vai chegar.
+Verifique também se o seu número está correto no JiraOps: um número desatualizado significa que a ligação de escalação não vai chegar.
 
 ---
 
@@ -165,7 +165,7 @@ Verifique também se o seu número está correto no PagerDuty: um número desatu
 Para ver a escalation policy configurada para o time DevOps:
 
 ```
-PagerDuty → Configurations → Escalation Policies → DevOps
+JiraOps → Configurations → Escalation Policies → DevOps
 ```
 
 Familiarize-se com a política antes de entrar na rotação. Saber quem está no nível 2 e 3 é importante para saber quem acionar quando precisar de ajuda.

@@ -13,7 +13,7 @@
 
 ---
 
-Os alertas que chegam ao PagerDuty vêm de múltiplas ferramentas de monitoramento, cada uma cobrindo uma camada diferente da plataforma. Entender de onde cada alerta vem e o que ele significa é fundamental para responder a incidentes com eficiência.
+Os alertas que chegam ao JiraOps vêm de múltiplas ferramentas de monitoramento, cada uma cobrindo uma camada diferente da plataforma. Entender de onde cada alerta vem e o que ele significa é fundamental para responder a incidentes com eficiência.
 
 ---
 
@@ -31,7 +31,7 @@ Plataforma Hotmart
          └── CloudWatch ───────► serviços AWS nativos
                    │
                    ▼
-              PagerDuty
+              JiraOps
          (consolida e notifica o on-call)
 ```
 
@@ -51,7 +51,7 @@ O Pingdom verifica a disponibilidade dos endpoints públicos da Hotmart a partir
 - Tempo de resposta acima do threshold configurado
 - Conteúdo da resposta diferente do esperado
 
-**Por que é importante:** o Pingdom detecta problemas do ponto de vista do usuário final. Um serviço pode estar "funcionando" internamente mas inacessível externamente por problema de DNS, Cloudflare ou ALB: o Pingdom captura isso.
+**Por que é importante:** o Pingdom detecta problemas do ponto de vista do usuário final. Um serviço pode estar "funcionando" internamente mas inacessível externamente por problema de DNS ou ALB: o Pingdom captura isso.
 
 ---
 
@@ -145,7 +145,7 @@ O CloudWatch coleta métricas dos serviços AWS gerenciados. É a fonte de alert
 
 Muitos alertas possuem runbooks associados que descrevem o passo a passo de investigação e as ações corretivas mais comuns para aquele tipo de problema.
 
-Quando um alerta chega no PagerDuty, verifique se há um runbook associado antes de começar a investigar do zero. O runbook pode economizar minutos preciosos durante um incidente.
+Quando um alerta chega no JiraOps, verifique se há um runbook associado antes de começar a investigar do zero. O runbook pode economizar minutos preciosos durante um incidente.
 
 Os runbooks estão disponíveis na documentação interna do time DevOps. Se você resolver um incidente e não encontrar um runbook para ele, considere criar um: é uma contribuição valiosa para o time.
 

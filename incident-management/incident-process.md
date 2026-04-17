@@ -25,7 +25,7 @@ Ferramentas de monitoramento detectam o problema
 (Pingdom, NewRelic, Datadog/Teachable, Prometheus, CloudWatch)
          │
          ▼
-PagerDuty cria o incidente e notifica o on-call
+JiraOps cria o incidente e notifica o on-call
          │
          ▼
 On-call recebe a notificação (app, SMS, ligação)
@@ -59,9 +59,9 @@ O incidente começa quando uma ferramenta de monitoramento detecta uma condiçã
 
 A detecção pode ser automática (alerta disparado por ferramenta) ou manual (usuário reporta problema, engenheiro identifica durante trabalho operacional). Desenvolvedores também reportam problemas via Google Chat nos grupos das PUs, muitas vezes antes de um alerta formal ser disparado. Nesses casos, o DevOps avalia a situação e, se necessário, abre o incidente formalmente.
 
-### 2. Notificação via PagerDuty
+### 2. Notificação via JiraOps
 
-O alerta é roteado para o PagerDuty, que cria um incidente e notifica o engenheiro de plantão (on-call) conforme a política de escalação configurada. A notificação chega via app mobile, SMS ou ligação telefônica, dependendo da urgência e do tempo sem resposta.
+O alerta é roteado para o JiraOps, que cria um incidente e notifica o engenheiro de plantão (on-call) conforme a política de escalação configurada. A notificação chega via app mobile, SMS ou ligação telefônica, dependendo da urgência e do tempo sem resposta.
 
 ### 3. Triagem
 
@@ -88,7 +88,7 @@ A resolução é confirmada quando as métricas voltam ao normal e o serviço es
 
 ### 6. Encerramento
 
-O incidente é encerrado no PagerDuty e o ticket é atualizado com:
+O incidente é encerrado no JiraOps e o ticket é atualizado com:
 - Timeline completa das ações tomadas
 - Causa raiz identificada (ou hipótese mais provável)
 - Ação corretiva aplicada

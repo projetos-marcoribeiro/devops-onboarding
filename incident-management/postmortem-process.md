@@ -101,7 +101,7 @@ Descrição breve do incidente, impacto e duração.
 ### Timeline
 | Horário | Evento |
 |---------|--------|
-| 14:32   | Alerta disparado no PagerDuty |
+| 14:32   | Alerta disparado no JiraOps |
 | 14:35   | On-call fez acknowledge |
 | 14:40   | Investigação iniciada |
 | 14:55   | Causa raiz identificada |

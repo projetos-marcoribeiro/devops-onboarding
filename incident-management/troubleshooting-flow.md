@@ -26,7 +26,7 @@ Este documento descreve o processo de investigação durante um incidente. Ter u
 Alerta recebido
          │
          ▼
-Fazer acknowledge no PagerDuty
+Fazer acknowledge no JiraOps
          │  sinaliza que você está ciente
          ▼
 Verificar dashboards de observabilidade
@@ -59,7 +59,7 @@ Executar ação corretiva
 
 ### 1. Acknowledge e contexto inicial
 
-Antes de qualquer coisa, faça o acknowledge no PagerDuty e leia o alerta com atenção:
+Antes de qualquer coisa, faça o acknowledge no JiraOps e leia o alerta com atenção:
 - Qual serviço está afetado?
 - Qual métrica disparou o alerta?
 - Desde quando o alerta está ativo?
@@ -245,7 +245,7 @@ Runbooks são documentos passo a passo para resolver problemas recorrentes. Eles
 **Onde encontrar runbooks:**
 - Documentação interna do time DevOps no TechDeck
 - Repositório [devops-docs](https://github.com/Hotmart-Org/devops-docs)
-- Seção de runbooks no PagerDuty (vinculados aos alertas)
+- Seção de runbooks no JiraOps (vinculados aos alertas)
 
 **Quando criar um runbook:**
 Se você resolveu um incidente e não encontrou um runbook para ele, crie um. O formato é simples:

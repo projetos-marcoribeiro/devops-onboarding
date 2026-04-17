@@ -43,9 +43,9 @@ flowchart TD
 
     I --> J["🚀 Deploy no EKS\nNovos pods criados\nHealth checks executados\nRolling update sem downtime"]
 
-    J --> K["✅ Aplicação disponível\nIngress → ALB → Cloudflare\nUsuários acessam normalmente"]
+    J --> K["✅ Aplicação disponível\nIngress → ALB → Cloudflare (legado)\nUsuários acessam normalmente"]
 
-    K --> L["📊 Observabilidade ativa\nNewRelic · Prometheus · Grafana\nSentry · Kubecost · PagerDuty\nDatadog (Teachable)"]
+    K --> L["📊 Observabilidade ativa\nNewRelic · Prometheus · Grafana\nSentry · Kubecost · JiraOps\nDatadog (Teachable)"]
 
     style A fill:#4A90D9,color:#fff,stroke:#2c6fad
     style B fill:#24292E,color:#fff,stroke:#000
@@ -77,8 +77,8 @@ flowchart TD
 | Atualiza argocd-values | O pipeline faz um commit no repositório de configuração (devops-helm-iac) atualizando o tag da imagem no arquivo de values |
 | ArgoCD detecta mudança | O ArgoCD monitora o repositório de configuração e detecta a mudança automaticamente via polling ou webhook |
 | Deploy no EKS | O ArgoCD aplica as mudanças no cluster. O Kubernetes executa um rolling update: novos pods sobem, health checks passam, pods antigos são removidos |
-| Aplicação disponível | O tráfego é roteado para os novos pods via Ingress → ALB → Cloudflare. Zero downtime para o usuário final |
-| Observabilidade ativa | Métricas, logs e traces são coletados automaticamente. Qualquer anomalia gera alerta no PagerDuty. Datadog é utilizado apenas para Teachable |
+| Aplicação disponível | O tráfego é roteado para os novos pods via Ingress → ALB → Cloudflare (legado). Zero downtime para o usuário final |
+| Observabilidade ativa | Métricas, logs e traces são coletados automaticamente. Qualquer anomalia gera alerta no JiraOps. Datadog é utilizado apenas para Teachable |
 
 ---
 
