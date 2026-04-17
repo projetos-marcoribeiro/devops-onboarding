@@ -50,7 +50,7 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 ### Observabilidade da plataforma
 
 - Operação da stack de observabilidade (NewRelic, Prometheus, Grafana, Sentry, Kubecost; Datadog apenas para Teachable)
-- Configuração de alertas e integração com PagerDuty
+- Configuração de alertas e integração com JiraOps
 - Dashboards operacionais para o time DevOps e para os times de produto
 - Definição de padrões de SLO e SLA
 
@@ -96,7 +96,7 @@ Reduzir a carga cognitiva dos times de produto ao abstrair a complexidade de inf
 | ArgoCD | GitOps e deploy contínuo (em implementação) | Via Okta |
 | Grafana | Dashboards de observabilidade | Via Okta |
 | Backstage | Portal de developer experience | Via Okta |
-| PagerDuty | Alertas e on-call | Via Okta |
+| JiraOps | Alertas e on-call | Via Jira Service Management |
 
 ---
 

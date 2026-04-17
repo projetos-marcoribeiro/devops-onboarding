@@ -114,7 +114,7 @@ Com esse YAML, o base-module cria automaticamente toda a infraestrutura necessá
 | Security Groups | Regras de rede para o ALB e os pods |
 | Route53 Record | Registro DNS apontando para o ALB |
 | ACM Certificate | Certificado TLS para o domínio da aplicação |
-| Monitoring Config | Integração com NewRelic e alertas no PagerDuty |
+| Monitoring Config | Integração com NewRelic e alertas via JiraOps |
 
 ---
 

@@ -147,7 +147,7 @@ AgentCore Runtime + Amazon Bedrock
          │
          ▼
 Observability Stack
-       NewRelic / Prometheus / Grafana / PagerDuty
+       NewRelic / Prometheus / Grafana / JiraOps
        Datadog (Teachable) · Sentry · Kubecost
 ```
 

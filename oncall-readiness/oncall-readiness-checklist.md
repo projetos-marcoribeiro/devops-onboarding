@@ -45,7 +45,7 @@ Antes de qualquer coisa, confirme que você tem acesso a todas as ferramentas ne
 - [ ] Consigo explicar o fluxo completo de uma requisição do usuário até o pod
 - [ ] Entendo como as contas AWS estão organizadas e para que serve cada uma
 - [ ] Sei identificar qual conta e qual cluster é responsável por um serviço específico
-- [ ] Conheço os principais componentes: Cloudflare, ALB, Ingress, EKS, ArgoCD
+- [ ] Conheço os principais componentes: ALB, Ingress, EKS, ArgoCD
 
 ### Fluxo de deploy
 

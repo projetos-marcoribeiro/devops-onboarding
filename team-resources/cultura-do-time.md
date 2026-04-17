@@ -119,7 +119,7 @@ O plantão de on-call ocorre nos finais de semana e é atribuído a engenheiros 
 - Nos finais de semana (08:00-18:00): o plantonista recebe os alertas
 - Nos finais de semana (18:00-08:00): alertas são escalados para o gestor
 
-A escala de plantão é gerenciada no [PagerDuty](https://hotmart.pagerduty.com/) e definida como código no repositório [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac).
+A escala de plantão é gerenciada via JiraOps (Jira Service Management) e definida como código no repositório [pagerduty-iac](https://github.com/Hotmart-Org/pagerduty-iac) (legado, em migração).
 
 ### Feriados
 

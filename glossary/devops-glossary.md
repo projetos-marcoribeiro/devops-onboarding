@@ -270,11 +270,11 @@ Componente do ecossistema Prometheus responsável por gerenciar alertas: dedupli
 
 ---
 
-### Cloudflare
+### Cloudflare ⚠️ Em remoção
 
-Plataforma de segurança, CDN e controle de tráfego. Atua como a primeira camada de proteção para todo o tráfego externo da Hotmart antes de chegar à infraestrutura AWS.
+Plataforma de segurança, CDN e controle de tráfego que foi utilizada como a primeira camada de proteção para o tráfego externo da Hotmart.
 
-**Contexto na Hotmart:** todo tráfego externo passa pelo Cloudflare antes de chegar ao ALB. Fornece proteção DDoS, WAF, rate limiting, CDN para assets estáticos e terminação TLS para domínios públicos.
+**Contexto na Hotmart:** o Cloudflare está sendo removido da plataforma. Algumas contas ainda possuem configurações legadas em processo de migração. Se você encontrar referências ao Cloudflare em código ou configuração, trata-se de configuração legada.
 
 ---
 

@@ -115,7 +115,7 @@ Exemplos de tópicos avaliados:
 - Secrets management (Vault, Secrets Manager)
 - IAM least privilege
 - Segurança em containers e Kubernetes (RBAC, Pod Security)
-- Cloudflare (WAF, DDoS protection)
+- Cloudflare (WAF, DDoS protection) ⚠️ em remoção
 - SIEM e auditoria
 
 ---

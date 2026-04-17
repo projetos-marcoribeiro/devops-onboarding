@@ -131,7 +131,7 @@ O Pingdom monitora a disponibilidade das aplicações a partir de múltiplas reg
 **Casos de uso:**
 - Detectar indisponibilidade antes que usuários reportem
 - Medir tempo de resposta de endpoints críticos a partir de diferentes regiões
-- Alertas de uptime integrados ao PagerDuty
+- Alertas de uptime integrados ao JiraOps (via Grafana)
 
 ---
 
@@ -167,7 +167,7 @@ Base-module detecta monitoring: enabled: true
          ├── Configura injeção do agente NewRelic
          ├── Cria ServiceMonitor para o Prometheus
          ├── Cria dashboard padrão no Grafana
-         ├── Configura alertas básicos no PagerDuty
+         ├── Configura alertas básicos via JiraOps
          └── Configura check no Pingdom (se ingress habilitado)
 ```
 
